@@ -1,0 +1,9 @@
+# Never commit credentials or account data
+*.env
+.env*
+telegram.env
+secrets*
+*account*.json
+positions*.json
+*.key
+*.pem

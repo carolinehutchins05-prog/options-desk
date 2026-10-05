@@ -1,0 +1,7 @@
+title: Options Desk
+description: Daily call and put candidates, screened against a fixed set of liquidity and trend gates.
+theme: jekyll-theme-primer
+show_downloads: false
+exclude:
+  - README.md
+  - .gitignore
