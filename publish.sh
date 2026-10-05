@@ -17,6 +17,23 @@ if grep -qIE '487766214|434964649|607733078|bot[0-9]{8,}|TELEGRAM_[A-Z_]*=|AAE[A
   exit 2
 fi
 
+# --- Mechanical redaction. Runs regardless of what the task prompt did. ---
+CLEAN=$(mktemp)
+# Drop whole sections that are about HER book, not about candidates.
+awk '
+  /^#{2,3}[[:space:]]*(Slots?|Holdings|Holdings Flow|Earnings Gap Alert|Insider Activity|Congressional|Corporate Insiders|Portfolio|My Positions|Book)([[:space:]]|$)/ { skip=1; next }
+  /^#{1,3}[[:space:]]/ { skip=0 }
+  skip { next }
+  { print }
+' "$BODY" \
+| grep -vIiE '(open contracts|slots? (available|remaining|used)|new this week|of (my|her) book|% of book|percent of book|already (held|hold)|currently hold|my position|she (holds|owns))' \
+> "$CLEAN"
+
+if ! grep -qIE '[[:alnum:]]' "$CLEAN"; then
+  echo "REFUSED: body was empty after redaction. Nothing published." >&2; rm -f "$CLEAN"; exit 3
+fi
+BODY="$CLEAN"
+
 OUT="archive/${DATE}-${KIND}.md"
 { printf -- '---\nlayout: default\ntitle: "%s, %s"\n---\n\n' "$LABEL" "$DATE"; cat "$BODY"; } > "$OUT"
 
@@ -43,4 +60,5 @@ git -c user.email=carolinehutchins05@gmail.com -c user.name="Caroline Hutchins" 
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
 git push -q origin main
+rm -f "${CLEAN:-}" 2>/dev/null || true
 echo "published: https://carolinehutchins05-prog.github.io/options-desk/ (page: archive/${DATE}-${KIND}.html)"
