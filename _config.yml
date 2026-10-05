@@ -1,7 +1,8 @@
 title: Options Desk
-description: Daily call and put candidates, screened against a fixed set of liquidity and trend gates.
-theme: jekyll-theme-primer
-show_downloads: false
+tagline: A systematic screen for single leg options, and the research behind its rules
+description: Daily call and put screening against fixed liquidity, volatility and trend gates. Methodology, research notes, and a public record of every rule change and why it was made.
+url: https://carolinehutchins05-prog.github.io
+baseurl: /options-desk
 exclude:
   - README.md
   - .gitignore
