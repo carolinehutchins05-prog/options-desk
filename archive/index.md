@@ -5,4 +5,4 @@ title: Archive
 
 # Archive
 
-Nothing archived yet.
+- [Live Verdict, 2026-10-05](2026-10-05-verdict.html)
