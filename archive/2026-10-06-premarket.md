@@ -1,10 +1,7 @@
 ---
 layout: default
-title: Options Desk
+title: "Premarket Plan, 2026-10-06"
 ---
-
-[Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
-
 
 # Premarket Calls and Puts, October 6, 2026
 > Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
@@ -23,6 +20,3 @@ title: Options Desk
 
 ---
 No new setup is posted for today. The next update is the 10:00 AM confirmation run.
-
----
-*Not investment advice. A personal research log. No position or account data is published here.*
