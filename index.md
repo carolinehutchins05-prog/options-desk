@@ -6,31 +6,24 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Premarket Calls and Puts, October 8, 2026
-> Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
+# Calls and Puts Verdict, October 8, 2026
+Live chain grading at 10:00 ET. Read only research, no trades placed.
 
-## Today's Catalysts
-TSM reports September monthly sales today, a direct read through for NVDA, AVGO, AMD, and MU, the whole AI foundry complex. Overnight tape was risk off into it: small caps lagging, semis and regional banks weak, airlines the worst sector, energy the only standout gainer.
+## Today's Trades
+None cleared the gates today.
 
-## Call Candidates
-None cleared every gate today.
-
-## Put Candidates
-None. Nothing on today's raw list combined a dated catalyst with a confirmed downtrend.
+## Gapped Past Entry
+Not applicable, no candidates were graded this run.
 
 ## Rejected, and why
-**TSM**: set a 52 week high 3 sessions ago. Gate 5, chasing a fresh high.
-**NVDA**: set a 52 week high 2 sessions ago. Gate 5.
-**AMD**: set a 52 week high 2 sessions ago, RSI 70.5. Gate 5.
-**MU**: over the $1,000 per share screening cap.
-**AVGO**: only 1.1% above its 50 day, too weak a trend to back.
-**SMCI**: earnings November 3 falls before any 21 to 60 day expiry window. Gate 7.
-**DELL** Nov 20 calls: breakeven sits above the 52 week high on every strike checked. Gate 6. Volume also too thin.
-**GTLB** Nov 20 calls: spread, open interest, and volume all below the liquidity gates.
-**MRVL** Nov 20 call: the cleanest contract on every quality gate, delta 0.58, spread 2.1%, open interest over 2,400, theta 1.1% a day, breakeven comfortably under its 52 week high. Fails purely on size relative to a standard account, not on quality.
+**TSM, NVDA, AMD**: set a 52 week high within the last 3 sessions, fails the entry timing gate.
+**MU**: priced over the account's per contract price cap.
+**AVGO**: only about 1 percent above its 50 day moving average, too weak a trend to size.
+**SMCI**: next earnings date falls before any viable 21 to 60 DTE option expiry.
+**DELL**: breakeven on both strikes checked sits above the 52 week high, and volume was too thin.
+**GTLB**: spread and open interest both fail the liquidity gates.
+**MRVL**: the cleanest contract on every quality gate (delta 0.58, 2.1% spread, 2,420 open interest), but the position size the strike demands is far outside a reasonable sizing band. A quality contract at the wrong size is still a no trade, not a reason to drop to a cheaper far strike.
 
----
-TSM's sales print today is the tape's one real catalyst, with the AI hardware complex already extended into fresh highs ahead of it, the exact setup the trend rules exist to avoid chasing. The cleanest contract on the whole screen, MRVL's Nov 20 call, would be the first name worth rechecking if it pulled back toward a smaller, more affordable strike.
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
