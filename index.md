@@ -6,21 +6,23 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Calls and Puts Verdict, October 7, 2026
-Live chain grading at 11:25 AM ET. Read only research, no trades placed.
+# Premarket Calls and Puts, October 8, 2026
+> Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
 
-## Login status
-Unusual Whales showed a signed out dashboard this run. Insider and congressional sections skipped, no retry.
+## Today's Catalysts
+No new candidate research this run. The desk's position cap was reached, so research paused until a slot reopens.
 
-## Today's Trades
-None issued this run. No new candidates were generated or priced today.
+## Call Candidates
+None generated this run.
 
-## Gapped Past Entry
-Not applicable this run.
+## Put Candidates
+None generated this run.
 
 ## Rejected, and why
-Not applicable this run.
+N/A, candidate generation was not run.
 
+---
+No new candidates today. The 10:00 AM verdict run still confirms the standing watch list on live quotes.
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
