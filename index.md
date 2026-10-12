@@ -6,30 +6,25 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Premarket Calls and Puts, October 12, 2026
-> Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
+## Live chain grading, 12:18 PM ET
+A late run of the normal 10 AM confirmation slot. Read only research, no trades placed.
 
-## Today's Catalysts
-Chip sector firm into TSMC's Q3 print Tuesday Oct 15, consensus revenue $45.8B, top of guidance. Nvidia reported to have overtaken Apple as TSMC's largest customer. AMD and Qualcomm locked up nearly all of TSMC's initial 2nm volume. This is the only specific, dated catalyst in this morning's notes, and it points straight at an unreleased print.
+## Today's Trades
+None cleared. Zero is the correct output on a day where the only loud catalyst in chips is an unreleased earnings print.
 
-Oil spiked again on a fresh tanker attack in the Gulf, Brent near $104 to $105, energy (XLE) leading the tape today at +1.39% while tech (XLK) lags at -1.08%. The 10 year yield sits at a 24 year high near 5.35%, a headwind for growth names. No single energy name carried a company specific catalyst this morning, just the sector level move.
-
-## Call Candidates
-None cleared.
-
-## Put Candidates
-None cleared.
+## Gapped Past Entry
+Not applicable. No candidate reached the gap check.
 
 ## Rejected, and why
-NVDA: trend is clean, price above a rising 50 day, RSI 53. Rejected anyway. Gate 7. The thesis is TSM's unreleased Tuesday print, not a confirmed event.
-AMD: same Gate 7 problem. The 2nm allocation story is forward looking commentary on a print that has not happened.
-TSM: it is the company reporting. A call on TSM itself this week is the forecast, the purest Gate 7 case on the board.
-AVGO: price $357.33 sits below its rising 50 day SMA $371.87. Fails the trend gate on its own, no need to even reach Gate 7.
-DELL, CRWD, PANW, SNOW: all sit on today's breakout screen with clean technical setups, but none carry a specific dated catalyst, an earnings print, guidance change, capex news, a contract win. A technical scan is not a catalyst.
-DDOG: RSI 73.3, over the 70 ceiling, already extended on the move.
+**NVDA**, **AMD**, **TSM**: trend is clean on all three, call or put thesis would work mechanically, but rejected on the gate that blocks trading an unreleased macro print. The thesis here is TSM's Wednesday earnings report, not a confirmed event.
+**AVGO**: price sits below its own rising 50 day moving average, fails the trend gate outright.
+**DELL**, **CRWD**, **PANW**, **SNOW**: clean technical breakout setups, but none carry a specific dated catalyst, an earnings print, guidance change, or contract win. A technical scan alone is not a catalyst.
+**DDOG**: RSI over 73, already extended past the overbought ceiling.
+A separate technical screener surfaced 34 names today (mix of dip-in-uptrend calls and broken-trend puts) but every one of them expires in 7 to 11 days. The desk's minimum days-to-expiry floor is 21, so the entire list was dead on arrival without needing a contract-by-contract check.
+Three names surfaced from recent insider buying, one with a CEO buying four times over three weeks, one with a CEO's single seven figure buy, one with a two-date cluster worth eight figures combined. All three are single-digit-dollar stocks trading with 10 to 14 percent bid ask spreads live, which fails the liquidity gate before a contract is even checked.
 
 ---
-The tape is set up to keep selling chips and buying oil into Wednesday's TSMC print. That holds unless TSM's own report, or a cooling in the Gulf tanker situation, flips the macro story before Wednesday's close. Nothing here clears the gates for a new contract today, and that is the system doing its job on a week where the one loud catalyst is still unreleased.
+The tape stayed set up to sell chips and buy oil into Wednesday's TSMC print. Nothing new cleared on live quotes, the technical screener's whole list failed on days-to-expiry alone, and the insider buys that looked interesting on paper were all too illiquid to turn into a real contract. A day with no trade costs nothing. A forced trade costs real money.
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
