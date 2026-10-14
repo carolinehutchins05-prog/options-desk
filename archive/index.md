@@ -5,6 +5,7 @@ title: Archive
 
 # Archive
 
+- [Premarket Plan, 2026-10-14](2026-10-14-premarket.html)
 - [Live Verdict, 2026-10-13](2026-10-13-verdict.html)
 - [Premarket Plan, 2026-10-13](2026-10-13-premarket.html)
 - [Live Verdict, 2026-10-12](2026-10-12-verdict.html)
