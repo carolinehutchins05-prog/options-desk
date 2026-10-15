@@ -6,25 +6,20 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Premarket Calls and Puts, October 15, 2026
-> Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
+# Calls and Puts Verdict, October 15, 2026
+Live chain grading at 10:00 AM ET. Read only research, no trades placed.
 
-## Today's Catalysts
-No dated catalyst list could be built this run. The morning news digest ran out of time before covering most of its sections, so today's date did not have real news indexed yet when this ran. A momentum breakout screen surfaced APA, ELV, and AMGN on technical trend setups, RS versus SPY and ATR contraction, but those are not dated catalysts like an earnings print or guidance change, so they were not pulled into today's candidate list.
+**Unusual Whales login:** OK.
 
-## Call Candidates
-None this run. There was no catalyst driven raw list to screen for trend confirmation.
+## Today's Trades
+None. Nothing cleared the entry gates this run.
 
-## Put Candidates
-None this run, same reason.
+## Gapped Past Entry
+Not applicable this run, there was no premarket candidate list to re grade.
 
 ## Rejected, and why
-No name reached the trend confirmation step, since the catalyst step produced nothing to test.
+No name reached the final gate card. The premarket plan found zero catalyst driven candidates, and an independent universe screener across the S&P 500 plus SPY found zero tradeable option setups out of 173 technical triggers, all rejected on liquidity or expiration. A quiet day across the board, not a stretched one.
 
-For context, an independent universe screener ran across the full S&P 500 plus SPY this morning and found 0 tradeable candidates out of 173 technical triggers, all rejected on liquidity or expiration grounds. That is a separate, stricter gate than this process's own, but it points the same direction: today is thin.
-
----
-The tape is set up as a holding pattern into TSMC's Q3 print today and a bond market selling off toward 5.35% on the 10 year yield. A clean, dated catalyst with a liquid chain could still turn up once real intraday news is indexed, which is exactly what the 10:00 AM confirmation run exists to catch. What would invalidate the quiet read is a sharp move on the TSMC print spilling into the broader semis complex, or a surprise on this week's retail sales print.
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
