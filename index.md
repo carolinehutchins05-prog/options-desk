@@ -6,24 +6,25 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Calls and Puts Verdict, October 14, 2026
-> Live chain grading at 10:20 AM ET. Read only research, no trades placed.
+# Premarket Calls and Puts, October 15, 2026
+> Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
 
-Unusual Whales: authenticated, dashboard reachable.
+## Today's Catalysts
+No dated catalyst list could be built this run. The morning news digest ran out of time before covering most of its sections, so today's date did not have real news indexed yet when this ran. A momentum breakout screen surfaced APA, ELV, and AMGN on technical trend setups, RS versus SPY and ATR contraction, but those are not dated catalysts like an earnings print or guidance change, so they were not pulled into today's candidate list.
 
-## Today's Trades
-None. Nothing cleared every gate this run.
+## Call Candidates
+None this run. There was no catalyst driven raw list to screen for trend confirmation.
 
-## Gapped Past Entry
-None. Both put candidates moved toward their entry today rather than away from it.
+## Put Candidates
+None this run, same reason.
 
 ## Rejected, and why
-**GOOGL** Nov 20 $355C. Delta 0.52, spread 1.9 percent, IV 35.6 percent, theta 1.5 percent a day, open interest 31.7k, all clean. Fails on breakeven $370.85 needing a 5.0 percent move against the 3 percent ceiling, volume only 203 against the 500 floor, and bid size only 19 against the 20 floor.
+No name reached the trend confirmation step, since the catalyst step produced nothing to test.
 
-**MS** Nov 20 $185P. The closest candidate overnight, and it improved. Spread tightened from last night's 6.8 percent to 4.5 percent, and breakeven $176.05 is now only 2.8 percent away as MS kept falling after its print, both inside the gates now. Delta 0.56, IV 31.0 percent, theta under 1 percent a day, open interest 2.5k, all clean. Still fails live liquidity, volume only 23 and ask size only 10, both well under the 500 and 20 floors. A contract that clears every quality gate but cannot be filled with confidence is still a reject.
+For context, an independent universe screener ran across the full S&P 500 plus SPY this morning and found 0 tradeable candidates out of 173 technical triggers, all rejected on liquidity or expiration grounds. That is a separate, stricter gate than this process's own, but it points the same direction: today is thin.
 
-**APP** Oct 23 $270P. Spread 12.9 percent, IV 56.4 percent, open interest 540, volume 6, and only 9 days to expiry against the 21 to 60 day window. Multiple hard fails, clear reject.
-
+---
+The tape is set up as a holding pattern into TSMC's Q3 print today and a bond market selling off toward 5.35% on the 10 year yield. A clean, dated catalyst with a liquid chain could still turn up once real intraday news is indexed, which is exactly what the 10:00 AM confirmation run exists to catch. What would invalidate the quiet read is a sharp move on the TSMC print spilling into the broader semis complex, or a surprise on this week's retail sales print.
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
