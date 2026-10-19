@@ -6,26 +6,29 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Premarket Calls and Puts, October 19, 2026
-> Provisional plan on last nights closing chains. The 10:00 AM run confirms on live quotes.
+# Calls and Puts Verdict, October 19, 2026
+> Live chain grading at 10:00 AM ET. Read only research, no trades placed.
 
-## Todays Catalysts
-Semis just had their worst stretch since 2008, down 8 straight sessions into Friday, SOXX ==16 percent== and AMD ==19 percent== off highs on growing AI spending financing doubts. **Broadcom** led Fridays slide specifically after CEO Hock Tan warned ==capital shortages== could become AI's next binding constraint. Premarket today shows a dip buy bounce, Nasdaq 100 futures ==+1.16 percent==, as the Black Monday chatter faded. **CrowdStrike** posted a record ==$333M net new ARR== last quarter, +51 percent YoY, and raised its FY27 ARR growth outlook to ==~34 percent==. Oil pulled back overnight, Brent ==−1.9 percent==, after a volatile weekend of reported strikes on Russian oil infrastructure.
+## Today's Trades
+None cleared.
 
-## Call Candidates
-None cleared this run. **CrowdStrike** carried the best dated catalyst in the file, the record ARR print, but the stock sits below its rising 50 day ($227 vs $233) with RSI 39. A call below a falling or flat 50 day is the single mistake flagged repeatedly in the rulebook, so it is rejected on trend, not on the news.
-
-## Put Candidates
-**Broadcom** Nov 20 ==$350 put==, provisional, closing marks. Stock closed Friday at $328.75, 50 day SMA $365.73, RSI 35, supertrend direction down (trail $370.72). Delta ==−0.53== (nearest the money among the strikes checked), IV 55 percent, spread 3.1 percent of mark, open interest 12,254, volume 1,095, bid size 133 and ask size 20. Mark $27.58, breakeven $322.42, needs a ==1.9 percent== drop from Friday's close. Theta 1.17 percent of mark per day. Earnings not until December 9, clear of the November 20 expiry. Catalyst is the CEOs capital constraint warning from Friday, confirmed by the downtrend and the RSI still having room before oversold.
+## Gapped Past Entry
+**Broadcom** (AVGO) $350 put, the premarket candidate. Friday close was $328.75 with a breakeven of $322.42, needing a 1.9 percent drop. Live price is $336.66, up 2.4 percent from Friday on the broad semis bounce. The stock moved the wrong way entirely. Dead for today.
 
 ## Rejected, and why
-**AMD**, caught in the same semis selloff, down 19 percent off highs, but no company specific negative news, just sector derating. Doesn't clear the dated catalyst bar on its own.
-**NVDA**, catalyst is today's bullish oversold bounce, but the stock is still below its 50 day ($214 vs $223), RSI 38. A call candidate failing the trend gate even with a bullish catalyst is rejected, not stretched.
-**APA**, Tier 1 breakout screen name, uptrend confirmed (price above a rising 50 day), RSI 70 at the edge of the range, but no company specific catalyst and today's energy sector call is bearish on falling oil. Signal is muddled, passed on it.
-**TRGP**, same breakout screen, uptrend technically intact, but technical setup alone is not a catalyst and nothing company specific was found.
+No other screener name from this morning's run cleared. All 11 tickers from the 8:30 scan (GOOGL, GOOG, QCOM calls, FSLR, NFLX, F, BAC, VRT, JPM, CVNA, MCD puts) carry an October 23 expiry, 7 DTE, which fails the 21 to 60 day gate outright before trend or liquidity is even checked.
 
----
-The tape is set up for a mean reversion bounce in the names that got hit hardest last week, led by semis, with Brent crude easing taking a little inflation pressure off the broader risk tone. This would invalidate fast if any hyperscaler commentary this week reinforces the AI financing worry ahead of Wednesdays Meta print, or if the Persian Gulf or Ukraine oil infrastructure situation reescalates and sends oil back up.
+## Sector Options
+A second pass starting from the morning's sector call, graded on the same day round trip standard. All 5 sector calls (Tech/Semis, Discretionary, Small Caps bullish; Energy, Staples bearish) held directionally on the live tape, but neither side produced a trade.
+
+**Call side rejected:** the sector ETFs themselves, XLK and SMH, are still below their own 50 day SMA despite leading today's bounce. This is a counter trend rally inside a longer downtrend, not a resumed uptrend. Of the individual names (AMD, QCOM, GOOGL, NVDA), only AMD cleanly clears the 50 day test.
+
+**Put side rejected:** Energy and Staples (XLE, XLP, XOM, CVX, KO) are all still well above their own 50 day despite today's pullback. The bearish sector call is a one day wobble inside an uptrend, not a confirmed downtrend. Only MCD, an idiosyncratic single name unrelated to either sector thesis, clears on trend.
+
+Contracts priced on the names that did clear trend (AMD $545C, GOOGL $345C, QCOM $175C, MCD $240P, all Nov 20 expiry) all failed on liquidity: spreads of 5 to 6 percent of mark, volume of 10 to 78 contracts against the 500 minimum, and AMD's strike carrying zero open interest. MCD also carries an earnings print on 11/4, before the 11/20 expiry.
+
+No sector options trade clears today.
+
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
