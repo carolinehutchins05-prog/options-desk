@@ -6,35 +6,26 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Premarket Calls and Puts, October 20, 2026
-> Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
+# Calls and Puts Verdict, October 20, 2026
+> Live chain grading at 10:47 AM ET. Read only research, no trades placed.
 
-## Today's Catalysts
-Premarket reporters, all this morning:
-- RTX beat big, $2.26 actual vs $1.78 estimate, up about 27 percent.
-- NOC beat, $7.89 vs $7.19.
-- GE beat on EPS, $2.25 vs $2.01, but the stock gapped down hard, read as a guidance miss.
-- HAS beat sharply, $2.90 vs $1.85, stock up on it.
-- GM beat, $3.70 vs $3.61, but also gapped down hard.
-- SYF beat, $2.68 vs $2.42.
+## Gapped Past Entry
+**HAS.** Premarket note had it at $100.49. Now $104.44, up 3.93% since the note and 6.04% since yesterday's close. RSI sits at 70, the top edge of the trend window, extending into a fresh high the same morning as its earnings beat. A chase, not an entry.
 
-## Call Candidates
-HAS. Price $100.49 premarket, above a rising 50 day SMA of $92.46, RSI 69.9, supertrend up (trail $90.77). Clean trend confirm. Provisional contract, Nov 20 $95 call, delta 0.66, premium $6.25 closing mark, breakeven $101.25. Last night's marks show a 53 percent spread (bid $4.60, ask $7.90) and only 1 contract of volume. Not tradeable on these marks, needs a live reprice once today's gap is priced in.
-
-## Put Candidates
-GE. Gapped down about 3.9 percent premarket to $299 despite the EPS beat, guidance read as the problem. Price below a falling 50 day SMA of $329.26, RSI 44, supertrend down (trail $324.75). Provisional contract, Nov 20 $310 put, delta 0.45, premium $12.48 closing mark, breakeven $297.52. Spread 12.4 percent on last night's marks, volume only 189.
-
-GM. Gapped down about 7.7 percent premarket to $76.39 despite the EPS beat. Price below a falling 50 day SMA of $84.25, RSI 50, supertrend down (trail $86.30). Provisional contract, Nov 20 $82.5 put, delta 0.46, premium $3.33 closing mark, breakeven $79.17. Spread 19.5 percent on last night's marks, volume only 26.
-
-Both GE and GM greeks above were computed on yesterday's closing price, before this morning's gap. They will reprice meaningfully once the market opens.
+**GM.** Premarket note had it at $76.39. Now $78.69, up 3.01% against the put thesis, right at the edge of the dead zone. The stock beat on EPS and bounced hard off its premarket low. Below the falling 50 day SMA still, but the live tape no longer agrees with the premarket read.
 
 ## Rejected, and why
-- RTX, NOC both beat on earnings but sit below their 50 day SMA. Call blocked by trend, no exceptions.
-- SYF, KEY mixed signal. Both beat, both sit a touch under their 50 day, but neither gapped meaningfully either direction. No clean trend to trade.
-- MLI missed on EPS and gapped down, but the Nov 20 put chain has only 473 open interest, under the liquidity floor, and a 45 percent spread. Chain too thin to trade regardless of the setup.
+**GE put.** Trend confirmed, below a falling 50 day SMA of $329.26, RSI 44, holding most of its premarket loss (now $302.41, down 2.85% on the day). The contract chain is the problem: at the $300 strike, open interest sits at 1,381 but only 47 contracts traded today and the spread runs 8.7%. The two strikes nearer the money are effectively untraded (0 to 1 contract of volume). A single stock earnings reaction has no clean sector ETF substitute.
+
+**UNH Nov 20 $420 call.** UNH is up 2.76% today to $418.12, 8.0% above its own 50 day SMA, part of a broad Healthcare rally. The $420 strike cleared spread (2.5%), open interest (3,169), IV (28.9%), delta (0.511), and theta (1.79% a day), and missed only on today's volume, 409 against the 500 floor. The closest any contract came to a full pass today.
+
+**No new candidates from screener research.** The daily screen script found zero tradeable setups again this morning.
+
+## Sector Trend Screen
+Every sector except Energy traded green today. Call side leaders (Healthcare, Consumer Staples, Consumer Discretionary) all confirmed their uptrend: LLY +4.66%, UNH +2.76%, ISRG +0.46%, COST +0.26%, HD +1.73%, all above their 50 day SMA. Put side candidates mostly failed: GE was the only name below its 50 day SMA that was also down on the day (−2.85%). GM, CAT, DE, C, and SLB are all below their 50 day SMA but traded up today, bouncing against their own downtrend rather than confirming it.
 
 ---
-The tape is set up as an earnings reaction day, not a macro day. Four of six premarket reporters beat estimates, but two of them, GE and GM, gapped down hard anyway, which usually means the print was fine and the guidance wasn't. That split, beat the number but miss the outlook, is where today's real moves are. The setup would be invalidated by a broad reversal at the open that erases the premarket gaps in GE and GM, which would say the market is fading the initial reaction rather than confirming it. The 10 AM run reprices HAS, GE, and GM live and issues the real verdict.
+A broad beat heavy earnings morning pushed the tape green across the board, and that same strength is what killed today's option setups. The rotation underneath, Healthcare and Energy leading with previously beaten down Utilities and Real Estate catching a bid too, is the kind of session where almost every sector moves together, which makes a clean pairs trade hard to find. A session where Technology or Industrials turn red while Healthcare holds its gain would be the first real split worth trading.
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
