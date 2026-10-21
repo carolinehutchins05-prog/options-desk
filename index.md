@@ -6,34 +6,41 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Premarket Calls and Puts, October 21, 2026
-> Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
+# Calls and Puts Verdict, October 21, 2026
+> Live chain grading at 10:18 AM ET. Read only research, no trades placed.
 
-## Today's Catalysts
-Heavy earnings morning. **ELV**, **T**, **TMO**, **DHR**, **WAB**, **LAD** all beat EPS before the open. Tonight's slate is the marquee one: **META**, **TSLA**, **TXN**, **IBM**, **LRCX** all report after the close.
+## Login Status
+Unusual Whales authenticated, insider and congressional pages reachable. The option flow feed showed data two days stale under the free tier, consistent with past runs.
 
-**NFLX** is down ==5.9%== in reaction to this week's earnings print, now trading well under its 50 day. **T** beat ($0.65 vs $0.60) but sold off hard, down ==5.1%==, a guidance disappointment overshadowing the headline number. **ABT** also beat and sold off, down ==3.2%==. **DHR** beat ($2.11 vs $1.92) and is up ==2.1%==, the one clean reward among today's reporters.
+## Today's Trades
+None cleared. Zero is the correct output on a day with no candidate that both confirms trend and clears every contract gate.
 
-## Call Candidates
-None cleared.
-
-**DHR** passed trend confirmation: price above a rising 50 day SMA, RSI 55.8, no fresh 52 week high in the last 3 sessions. But no strike on the Nov 20 chain cleared contract quality. The best delta match, the ==$230C== (delta 0.51, cost roughly ==$925== per contract), had OI 1,012 but volume only 4 and a ==22.7%== spread against the 5% limit. Every near money strike failed the same way.
-
-## Put Candidates
-None cleared.
-
-**NFLX**, **T**, and **ABT** all passed trend confirmation (price below a declining 50 day, RSI in the 30 to 55 band). None had a tradeable contract on the Nov 20 chain.
-- **NFLX** ==$67.5P==, delta 0.54, cost roughly ==$282== per contract, OI 15,479, but volume only 126 against the 500 minimum.
-- **T** ==$22P==, cost roughly ==$51== per contract, OI 11,808 and volume 1,200, both clean, but a ==15.7%== spread against the 5% limit.
-- **ABT** ==$100P==, delta 0.51, cost roughly ==$340== per contract, OI 1,190, but volume 82 and an ==11.8%== spread both failed.
+## Gapped Past Entry
+None. Nothing had cleared the gates to begin with, so there is nothing to have gapped past.
 
 ## Rejected, and why
-- **ELV**: RSI 72.5, above the call ceiling, while falling on its own earnings beat. No trend lines up on either side.
-- **LAD**: beat EPS but sits below its 50 day. Fails the call trend rule outright.
-- **WAB**, **CSX**, **NTRS**: today's move too small to call any of these a tradeable catalyst.
+Re graded on live quotes 45+ minutes after the open:
+| Contract | Spread | Volume | Gate failed |
+|---|---|---|---|
+| **DHR** $230C | 8.9% | 4 | spread (limit 5%), volume (limit 500) |
+| **NFLX** $67.5P | 4.7% pass | 126 | volume only, spread cleared this time |
+| **T** $22P | 8.7% | 1,203 pass | spread only, volume cleared |
+| **ABT** $100P | 10.2% | 82 | spread, volume |
+
+From insider sourcing, both rejected on trend before contracts were even priced:
+| Ticker | Signal | Price vs 50 day | Gate failed |
+|---|---|---|---|
+| **APLD** | President $5.66M plus CEO and Chairman $1.01M, same day, strongest insider cluster on the page | $20.07 vs $25.78 (down 22%) | trend, RSI 32.5, call thesis rejected despite the insider conviction |
+| **DX** | Co CEO $106K buy | $11.07 vs $12.07 (down 8.3%) | trend, call thesis rejected |
+
+Today's options screen on live chains found 90 technical triggers and 0 tradeable candidates, the same strict liquidity filter as every run.
+
+### Corporate
+- **APLD** (Applied Digital, $5.46B market cap): President Zhang bought $5.66M and CEO and Chairman Cummins bought $1.01M, both filed 10/16, both real C suite. The strongest signal on the page by a wide margin, but the stock is 22% below its 50 day. Watching for a reclaim, not a buy yet.
+- **DX** (Dynex Capital, $2.7B market cap): Co CEO Popenoe bought $106K common plus $50K preferred, CFO Sartori bought $10.7K. Real titles, modest size, also below trend.
 
 ---
-The tape is set up for a volatile close as mega cap and chip earnings land tonight, with chips broadly firm into the print and mega cap tech a touch soft. Four names cleared the trend screen today on real catalysts but every one died on a thin options chain rather than on the thesis. That would invalidate itself only if spreads tighten and volume picks up once the broader earnings reaction settles, which the 10 AM run should re check on live quotes.
+Zero candidates today across both the ticker screen and the sector pass. The insider cluster on APLD is worth a second look if it reclaims its 50 day on real volume.
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
