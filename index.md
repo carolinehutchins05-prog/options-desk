@@ -6,41 +6,34 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Calls and Puts Verdict, October 21, 2026
-> Live chain grading at 10:18 AM ET. Read only research, no trades placed.
+# Premarket Calls and Puts, October 22, 2026
+> Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
 
-## Login Status
-Unusual Whales authenticated, insider and congressional pages reachable. The option flow feed showed data two days stale under the free tier, consistent with past runs.
+## Today's Catalysts
+Overnight tape turned risk off on an AI capex sustainability debate. **Meta** raised its 2026 capex plan after beating revenue, **Tesla** cut capex guidance, and **Lam Research** dropped on weak guidance, all reported last night. Separately, fear that Chinese memory maker ==CXMT== is closing the technology gap has pressured **Micron** and the whole memory complex for over a week, down ==17% in October==. Energy is the lone green sector after the Treasury issued a 60 day license on Iranian oil, easing supply fears.
 
-## Today's Trades
-None cleared. Zero is the correct output on a day with no candidate that both confirms trend and clears every contract gate.
+## Call Candidates
+None. **APA** had a clean setup, above a rising 50 day, RSI 69.8, but printed a fresh 52 week high yesterday, 10/21, inside the 3 session chase window. **LNG** cleared trend and liquidity but reports earnings October 29, before every expiry that clears the 21 day minimum. No call survives.
 
-## Gapped Past Entry
-None. Nothing had cleared the gates to begin with, so there is nothing to have gapped past.
+## Put Candidates
+None cleared all gates, though two cleared trend, liquidity, and earnings timing before failing on size.
+
+**Micron (MU)**, closing price ==$913.67==, premarket already ==$883.75==. Below its 50 day SMA of $985, RSI 40.4, clear of earnings until December 16. Nearest the money November 20 ==$910 put==, provisional, closing marks: delta 0.45, open interest 1,888, spread 3.0%, implied volatility 50.5%, break even $861.27, contract cost ==$4,873==. Too large for a normal sizing band on a modest account, no trade.
+
+**Broadcom (AVGO)**, closing price ==$337.80==. Below its 50 day SMA of $360.54, RSI 41.0, clear of earnings until December 9. Nearest the money November 20 ==$340 put==, provisional, closing marks: delta 0.49, open interest 13,831, spread 2.5%, implied volatility 40.3%, break even $323.95, contract cost ==$1,605==. Also too large for a normal sizing band, no trade.
 
 ## Rejected, and why
-Re graded on live quotes 45+ minutes after the open:
-| Contract | Spread | Volume | Gate failed |
-|---|---|---|---|
-| **DHR** $230C | 8.9% | 4 | spread (limit 5%), volume (limit 500) |
-| **NFLX** $67.5P | 4.7% pass | 126 | volume only, spread cleared this time |
-| **T** $22P | 8.7% | 1,203 pass | spread only, volume cleared |
-| **ABT** $100P | 10.2% | 82 | spread, volume |
-
-From insider sourcing, both rejected on trend before contracts were even priced:
-| Ticker | Signal | Price vs 50 day | Gate failed |
-|---|---|---|---|
-| **APLD** | President $5.66M plus CEO and Chairman $1.01M, same day, strongest insider cluster on the page | $20.07 vs $25.78 (down 22%) | trend, RSI 32.5, call thesis rejected despite the insider conviction |
-| **DX** | Co CEO $106K buy | $11.07 vs $12.07 (down 8.3%) | trend, call thesis rejected |
-
-Today's options screen on live chains found 90 technical triggers and 0 tradeable candidates, the same strict liquidity filter as every run.
-
-### Corporate
-- **APLD** (Applied Digital, $5.46B market cap): President Zhang bought $5.66M and CEO and Chairman Cummins bought $1.01M, both filed 10/16, both real C suite. The strongest signal on the page by a wide margin, but the stock is 22% below its 50 day. Watching for a reclaim, not a buy yet.
-- **DX** (Dynex Capital, $2.7B market cap): Co CEO Popenoe bought $106K common plus $50K preferred, CFO Sartori bought $10.7K. Real titles, modest size, also below trend.
+- **APA**: 52 week high printed yesterday, inside the gate 5 chase window.
+- **LNG**: earnings October 29 falls before every qualifying expiry, gate 7.
+- **MU**: cleared trend and liquidity, failed size.
+- **AVGO**: cleared trend and liquidity, failed size.
+- **TSLA**: cut capex guidance and fell hard premarket, but closed above its 50 day. Direction does not match the trend.
+- **LRCX**: dropped on weak guidance, RSI 31.8, right at the oversold line, and gapped down another 9% premarket. Chasing the gap.
+- **VLO**: reports earnings today. Gate 7, rejected before any trend check.
+- **AMD**: barely above its 50 day with RSI 45.1, right at the floor of the range, while falling over 4% premarket on the same capex fears. Mixed signal, no clean setup either direction.
 
 ---
-Zero candidates today across both the ticker screen and the sector pass. The insider cluster on APLD is worth a second look if it reclaims its 50 day on real volume.
+The tape is set up for a continuation of the AI capex and memory chip selloff into the open, with energy the one pocket of strength. What breaks this: a credible note arguing the China memory fear is overdone, or strong AI demand commentary from today's megacap earnings slate.
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
