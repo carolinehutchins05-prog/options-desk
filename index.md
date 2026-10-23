@@ -6,35 +6,91 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Premarket Calls and Puts, October 23, 2026
-> Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
+# Calls and Puts Verdict, October 23, 2026
+> Live chain grading at 10:10 AM ET. Read only research, no trades placed.
 
-## Today's Catalysts
-Risk off tape, **SPY** -0.46% on the day, only **Energy** (XLE +1.74%), **Real Estate** and **Technology** green. Earnings tape before the bell: **American Express (AXP)** beat ($4.68 vs $4.49), **SLB** beat ($0.64 vs $0.62), **First Citizens BancShares (FCNCA)** big beat, **Booz Allen Hamilton (BAH)** beat ($1.76 vs $1.47) but gapped down, **Gentex (GNTX)** missed ($0.47 vs $0.50) and printed a fresh 52 week low, **MarketAxess (MKTX)** missed ($1.86 vs $1.95). Breakout screener flagged **HPQ, VRSN, NWSA, ABNB** on trend plus relative strength.
-
-## Call Candidates
+## Today's Trades
 None cleared every gate today.
 
-**HPQ** was the cleanest trend in the raw list, price $33.49 sits 6.6% above a rising 50 day SMA ($31.43), RSI 62, supertrend up, earnings not until Nov 24, clear of a Nov 20 expiry. But the contract itself failed. Nov 20 $33C, delta 0.57, IV 47.5% (over the 40% target), spread 7.0% of mark (over the 5% cap), only 9 contracts traded today against the 500 minimum, breakeven $35.01 needs a 4.5% move. The $33.50 and $34 strikes were worse on every measure. No strike on this chain is tradeable today.
+## Research, Trend Re Grade
+Direction and RSI re grade on today's live screener setups, calls need price above a rising 50 day SMA with RSI 45 to 70, puts need price below the 50 day with RSI 30 to 55.
 
-## Put Candidates
-None cleared every gate today.
+Passed both: **PLTR** (call, RSI 54), **MSFT** (call, RSI 51), **ORCL**, **AVGO**, **NFLX**, **INTC**, **F**, **BA**, **WDC**, **STX**, **CVNA**, **GEV**, **GM**, **C**, **GLW**, **T** (all puts, RSI 30 to 41).
 
-**GNTX** missed and gapped -6.9% to a fresh 52 week low of $19.98 set this morning. That is the definition of a flush, not a bounce, so it was passed over rather than chased.
+Failed on RSI under 30, flush territory rather than a confirmed bounce: **AMAT** (25), **VRT** (28), **CMG** (27), **LRCX** (24), **BAC** (28).
+
+**Insider sourced candidate:** a cluster of 4 different insiders bought **RAPP** (Rapport Therapeutics) October 21 and 22, including a CFO, values $100K to $249K each. Decisively rejected on trend: price $26.43 sits 33% below its 50 day SMA of $39.48, RSI 31, a steep multiple week downtrend, not a dip in an uptrend.
 
 ## Rejected, and why
-- **AXP**, beat, but closed below its 50 day SMA. One day earnings reaction, no confirmed direction either way.
-- **SLB**, beat and up 2.6% on the day, but still trading below its 50 day. The call direction does not match the trend yet.
-- **BAH**, beat on paper but gapped down 2.9%, a bearish reaction to a beat headline. Conflicting signal, no clean entry.
-- **MKTX**, missed but the stock was basically flat. No downtrend confirmed, RSI 65 is too high for a put.
-- **GNTX**, missed and printed a fresh 52 week low today. Rejected for chasing the exact bottom of a flush.
-- **VRSN**, a clean technical breakout setup, but it missed Q3 EPS last night ($2.35 vs $2.42 estimate). Today's reaction is only -0.7%, too muted to say the stock has absorbed the miss.
-- **NWSA**, trend confirmed, price above a rising 50 day, RSI 68, supertrend up, but it reports Nov 4, inside a Nov 20 expiry window. Earnings not clear of expiry.
-- **ABNB**, sitting right at its 50 day (only 0.3% above) after a 1.8% drop in today's weakest sector, Consumer Discretionary. Also reports Nov 5, before a Nov 20 expiry.
-- **HPQ**, see Call Candidates above, the only clean trend of the group but every near the money strike failed on IV, spread, and volume.
+| Name | Side | Reason |
+|---|---|---|
+| RAPP | Call (insider sourced) | Price 33% below the 50 day, RSI 31, steep downtrend despite the insider cluster |
+| AMAT | Put | RSI 25, under the 30 floor, flush not a bounce |
+| VRT | Put | RSI 28, under the 30 floor |
+| CMG | Put | RSI 27, under the 30 floor |
+| LRCX | Put | RSI 24, under the 30 floor |
+| BAC | Put | RSI 28, under the 30 floor |
 
 ---
-A broad risk off session with earnings season doing the real work under the hood. Several names that beat on paper sold off anyway, a sign the market is grading guidance and details, not headlines, and that is exactly the environment where a hasty call gets punished. Nothing on today's raw list cleared the full gate stack, so the right move is to wait for the 10 AM live confirmation rather than force a pick onto a thin chain. What would change this: a real volume pickup and spread tightening on HPQ as the session matures, or VRSN holding its ground into the afternoon, which would start to confirm the market has shrugged off the miss.
+
+# Sector Options, October 23, 2026
+> Live chain grading at 10:18 AM ET. Read only research, no trades placed.
+
+## Sector Call, Verified Live
+| Sector | Call | Morning tape | Live now |
+|---|---|---|---|
+| **XLE** (Energy) | Up, medium conviction | +1.70% | +1.78% |
+| **JETS** (Airlines/Transports) | Down, high conviction | -2.84% | -4.18% |
+| **XLI** (Industrials) | Down, high conviction | -2.01% | -2.17% |
+| **XBI** (Biotech) | Down, medium conviction | -1.60% | -2.33% |
+| **XLY** (Consumer Discretionary) | Down, medium conviction | -1.40% | -1.70% |
+
+Every call from this morning holds up on the live tape, three of five have gotten stronger rather than fading.
+
+## Trend Screen
+| Call side | Price | vs 50 day |
+|---|---|---|
+| **XLE** | $68.77 | +7.2%, pass |
+| **XOM** | $181.61 | +9.9%, pass |
+| **CVX** | $230.79 | +10.1%, pass |
+| **COP** | $151.02 | +13.1%, pass |
+| **OXY** | $63.80 | +6.9%, pass |
+| **SLB** | $51.02 | -2.7%, rejected |
+
+SLB beat on earnings this morning and is up sharply, but it is still trading below its own 50 day, a one session pop inside a longer downtrend.
+
+| Put side | Price | vs 50 day |
+|---|---|---|
+| **JETS** | $25.65 | -9.5%, pass |
+| **XLI** | $163.12 | -5.5%, pass |
+| **CAT** | $682.62 | -15.0%, pass |
+| **UAL** | $96.44 | -12.1%, pass |
+| **BA** | $184.53 | -8.6%, pass |
+| **GE** | $283.53 | -12.8%, pass |
+| **DAL** | $75.41 | -7.2%, pass |
+
+Every call candidate is confirmed above its own 50 day and every put candidate is confirmed below. This is a clean, broad divergence rather than a mixed signal.
+
+## Contracts Priced, Nov 20 Expiry, Nearest the Money
+Graded at the same day round trip standard: spread 3% of mark or less, open interest 1,000 or more, volume today 500 or more, IV under 40%, delta 0.45 to 0.65, theta under 5% of mark per day.
+
+| Contract | Mark | Spread | OI | Volume today | IV | Delta |
+|---|---|---|---|---|---|---|
+| XOM $180C | $6.95 | 4.3% | 10,528 | 225 | 28.8% | 0.58 |
+| CVX $230C | $8.15 | 3.7% | 20,133 | 225 | 28.8% | 0.55 |
+| COP $150C | $6.55 | 4.6% | 13,604 | 74 | 34.6% | 0.56 |
+| XLE $69C | $2.22 | 5.4% | 5,229 | 57 | 28.9% | 0.52 |
+| CAT $680P | $34.80 | 6.3% | 305 | 33 | 49.3% | 0.45 |
+| DAL $75P | $2.76 | 21.4% | 3,306 | 20 | 37.3% | 0.44 |
+| BA $185P | $7.78 | 7.1% | 4,922 | 34 | 38.2% | 0.48 |
+| GE $285P | $11.35 | 10.6% | 122 | 10 | 35.1% | 0.49 |
+| XLI $163P | $3.63 | 26.2% | 654 | 3 | 22.0% | 0.46 |
+| JETS $26P | $1.17 | 23.2% | 755 | 0 | 36.2% | 0.52 |
+
+Nothing cleared. Every contract failed on today's volume, under 500 and several in single digits or flat zero, and most failed on spread as well, even the sector ETFs that normally carry the deepest chains. Delta, IV and theta were fine across the board, this was purely a liquidity failure, not a trend or Greeks problem.
+
+---
+The rotation itself is real. Energy is confirmed above its 50 day while airlines, industrials and biotech are confirmed below, and several of these moves got stronger, not weaker, through the morning. But not one contract in either direction cleared today's liquidity bar, not even the sector ETFs that usually carry the deepest chains on the board. This reads like a sector story the stock tape has already priced while the options market has not shown up in size behind it yet. What would flip this: the same divergence still intact tomorrow with real volume behind it, or oil giving back today's gain and removing the one piece of evidence the whole call rests on.
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
