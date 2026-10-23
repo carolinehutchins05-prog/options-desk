@@ -6,67 +6,35 @@ title: Options Desk
 [Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)
 
 
-# Live Verdict, October 22, 2026
-> Live chain grading at 10:35 ET. Read only research, no trades placed.
+# Premarket Calls and Puts, October 23, 2026
+> Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
 
-## Sector Call, Verified Live
+## Today's Catalysts
+Risk off tape, **SPY** ==-0.46%== on the day, only **Energy** (XLE ==+1.74%==), **Real Estate** and **Technology** green. Earnings tape before the bell: **American Express (AXP)** beat ($4.68 vs $4.49), **SLB** beat ($0.64 vs $0.62), **First Citizens BancShares (FCNCA)** big beat, **Booz Allen Hamilton (BAH)** beat ($1.76 vs $1.47) but gapped down, **Gentex (GNTX)** missed ($0.47 vs $0.50) and printed a fresh 52 week low, **MarketAxess (MKTX)** missed ($1.86 vs $1.95). Breakout screener flagged **HPQ, VRSN, NWSA, ABNB** on trend plus relative strength.
 
-| Sector | Call | Overnight | Live now | Holding? |
-|---|---|---|---|---|
-| **SMH** (Semiconductors) | Bearish, high conviction | −3.4% | −4.92% | Yes, stronger |
-| **XLK** (Technology) | Bearish, high conviction | −2.3% | −2.94% | Yes, stronger |
-| **GLD** (Gold) | Bearish, medium | −1.3% | −1.86% | Yes, stronger |
-| **SPY** (S&P 500) | Bearish, medium | −1.1% | −1.17% | Yes |
-| **XLE** (Energy) | Bullish, medium | +1.2% | −2.17% | No, reversed |
-| **KRE** (Regional Banks) | Bearish, low to medium | −1.2% | +1.77% | No, reversed |
-| **XBI** (Biotech) | Bearish, medium | −1.5% | −0.13% | No, still flat |
+## Call Candidates
+None cleared every gate today.
 
-Two of seven calls flipped outright. Energy was the morning's lone bright spot and is now the day's second worst sector, rolling over from yesterday's 52 week high. Regional banks reversed the other way, from a bearish call to a gain. The tech and semiconductor bearish calls held and got stronger into midday.
+**HPQ** was the cleanest trend in the raw list, price ==$33.49== sits ==6.6%== above a rising 50 day SMA (==$31.43==), RSI 62, supertrend up, earnings not until Nov 24, clear of a Nov 20 expiry. But the contract itself failed. Nov 20 ==$33C==, delta 0.57, IV ==47.5%== (over the 40% target), spread ==7.0%== of mark (over the 5% cap), only 9 contracts traded today against the 500 minimum, breakeven ==$35.01== needs a ==4.5%== move. The ==$33.50== and ==$34== strikes were worse on every measure. No strike on this chain is tradeable today.
 
-Driver: the AI capex sustainability debate from Meta's raised 2026 guide, Tesla's capex cut, and Lam Research's weak guidance, compounded by Chinese memory maker CXMT pressuring the memory complex.
+## Put Candidates
+None cleared every gate today.
 
-## Trend Screen
-
-Every call candidate failed. XOM and XLE both still sit above their 50 day but both printed a 52 week high inside the last three sessions and both are now down on the day, directly against the bullish call. Energy made its high and is rolling over, not continuing.
-
-Every put candidate passed. The complex remains below its 50 day, more so than premarket: MU −10.9%, AVGO −10.2%, SMH −8.4%, AMD −5.4%, TSM −4.6%, NVDA −4.1%, XLK −3.6%, QQQ −2.5%.
-
-## PUT: QQQ Nov 20 $710, $1,831
-
-A setup. Trend and today's tape agree, and the chain is the cleanest on the board.
-
-| Gate | Value |
-|---|---|
-| Spread | $0.09, 0.49% |
-| Open interest | 15,636 |
-| Volume today | 2,724 |
-| IV | 24.1% |
-| Delta | −0.472 |
-| Theta | 1.60% of mark per day |
-
-QQQ trades at $708.90, down 2.25% on the day and 2.46% below its 50 day of $726.75. The $710 strike sits almost exactly at the money, the nearest the chain offers, and carries by far the tightest spread and deepest liquidity of any name screened today. Breakeven of $691.69 is only 2.4% away, comfortably inside the 3% gate.
-
-Entry: limit at the mid, $18.30, stepping up in nickels to a hard cap of $18.50. Stop: QQQ reclaims $726.75, the 50 day. Target: +50% on the contract, implying QQQ near $695 to $698. Exit: same day to a few days, no drift toward expiry.
-
-## PUT: NVDA Nov 20 $215, rejected despite a clean setup
-
-Carried from the premarket note as a setup on trend, but two live gates fail it. Implied volatility sits at 42.3%, above the 40% ceiling. Nvidia reports November 17, three days before this expiry, a binary print inside the window. NVDA at $213.92 is 4.1% below its 50 day with the deepest liquidity screened today, OI 30,877, spread 1.43%. Rejected on IV and the earnings print, not on direction.
+**GNTX** missed and gapped ==-6.9%== to a fresh 52 week low of ==$19.98== set this morning. That is the definition of a flush, not a bounce, so it was passed over rather than chased.
 
 ## Rejected, and why
+- **AXP**, beat, but closed below its 50 day SMA. One day earnings reaction, no confirmed direction either way.
+- **SLB**, beat and up 2.6% on the day, but still trading below its 50 day. The call direction does not match the trend yet.
+- **BAH**, beat on paper but gapped down 2.9%, a bearish reaction to a beat headline. Conflicting signal, no clean entry.
+- **MKTX**, missed but the stock was basically flat. No downtrend confirmed, RSI 65 is too high for a put.
+- **GNTX**, missed and printed a fresh 52 week low today. Rejected for chasing the exact bottom of a flush.
+- **VRSN**, a clean technical breakout setup, but it missed Q3 EPS last night (==$2.35== vs ==$2.42== estimate). Today's reaction is only ==-0.7%==, too muted to say the stock has absorbed the miss.
+- **NWSA**, trend confirmed, price above a rising 50 day, RSI 68, supertrend up, but it reports Nov 4, inside a Nov 20 expiry window. Earnings not clear of expiry.
+- **ABNB**, sitting right at its 50 day (only 0.3% above) after a 1.8% drop in today's weakest sector, Consumer Discretionary. Also reports Nov 5, before a Nov 20 expiry.
+- **HPQ**, see Call Candidates above, the only clean trend of the group but every near the money strike failed on IV, spread, and volume.
 
-| Contract | Spread | OI | Volume | IV | Failed on |
-|---|---|---|---|---|---|
-| NVDA Nov 20 $215P | 1.43% | 30,877 | 2,486 | 42.3% | IV ceiling and earnings Nov 17 |
-| XLK Nov 20 $185P | 33.3% | 4,442 | 43 | 30.6% | spread, nobody trading it |
-| SMH Nov 20 $535P | 9.1% | 3,001 | 1,268 | 39.0% | spread, delta only −0.35 |
-| AVGO Nov 20 $325P | 5.8% | 229 | 183 | 41.0% | dead strike |
-| TSM Nov 20 $415P | 5.4% | 140 | 49 | 33.1% | dead strike |
-| AMD Nov 20 $525P | 4.5% | 175 | 229 | 61.4% | IV and dead strike |
-| XLE call | | | | | 52 week high yesterday, now reversing |
-| XOM call | | | | | 52 week high two sessions ago, now reversing |
-
-The pattern holds from premarket. Nov 20 single name chains outside QQQ and NVDA stay structurally dead at 29 days out. NVDA itself clears every liquidity gate and still gets rejected on IV and an earnings print, the sharper lesson: a perfect chain is not a free pass around the other gates.
-
+---
+A broad risk off session with earnings season doing the real work under the hood. Several names that beat on paper sold off anyway, a sign the market is grading guidance and details, not headlines, and that is exactly the environment where a hasty call gets punished. Nothing on today's raw list cleared the full gate stack, so the right move is to wait for the 10 AM live confirmation rather than force a pick onto a thin chain. What would change this: a real volume pickup and spread tightening on HPQ as the session matures, or VRSN holding its ground into the afternoon, which would start to confirm the market has shrugged off the miss.
 
 ---
 *Not investment advice. A personal research log. No position or account data is published here.*
