@@ -39,20 +39,41 @@ BODY="$CLEAN"
 OUT="archive/${DATE}-${KIND}.md"
 { printf -- '---\nlayout: default\ntitle: "%s, %s"\n---\n\n' "$LABEL" "$DATE"; cat "$BODY"; } > "$OUT"
 
-# index.md shows the newest file in full.
+# index.md: hero, key gates, then the newest run in full.
 NEWEST=$(ls -1 archive/*-*.md 2>/dev/null | grep -vE 'archive/index' | sort | tail -1)
-{ printf -- '---\nlayout: default\ntitle: Options Desk\n---\n\n[Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)\n\n'
+nb=$(basename "$NEWEST" .md); nd=${nb%-*}; nk=${nb##*-}
+[ "$nk" = premarket ] && nl="Premarket Plan" || nl="Live Verdict"
+{ printf -- '---\nlayout: default\ntitle: Options Desk\n---\n\n'
+  cat <<'HERO'
+<section class="hero">
+<p class="eyebrow">Daily options research</p>
+<h1 class="hero-title">Single leg calls and puts, screened against fixed gates.</h1>
+<p class="hero-sub">Every morning the desk screens for liquid, trend aligned contracts and publishes what passed, what failed, and why. Most days nothing clears, and that is the correct answer.</p>
+<div class="hero-actions"><a class="btn primary" href="archive/">Daily log</a><a class="btn" href="methodology">Methodology</a><a class="btn" href="research/">Research</a></div>
+</section>
+
+<div class="kpi">
+<div><span class="n">13</span><span class="l">gates every candidate must clear</span></div>
+<div><span class="n">0.50 to 0.65</span><span class="l">target delta, nearest the money</span></div>
+<div><span class="n">3%</span><span class="l">max spread, same day round trip</span></div>
+<div><span class="n">1,000</span><span class="l">minimum open interest</span></div>
+</div>
+HERO
+  printf -- '<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">%s, %s</span></div>\n\n<div class="report" markdown="1">\n' "$nl" "$nd"
   tail -n +5 "$NEWEST"
-  printf -- '\n*Not investment advice. A personal research log. No position or account data is published here.*\n'
+  printf -- '\n</div>\n\n<p class="meta" style="margin-top:36px">Not investment advice. A personal research log. No position or account data is published here.</p>\n'
 } > index.md
 
-# Rebuild the archive list, newest first.
-{ printf -- '---\nlayout: default\ntitle: Archive\n---\n\n# Archive\n\n'
-  ls -1 archive/*-*.md | grep -vE 'archive/index' | sort -r | while read -r f; do
-    b=$(basename "$f" .md); d=${b%-*}; k=${b##*-}
-    [ "$k" = premarket ] && n="Premarket Plan" || n="Live Verdict"
-    printf -- '- [%s, %s](%s.html)\n' "$n" "$d" "$b"
+# Rebuild the archive list, newest first, one row per day.
+{ printf -- '---\nlayout: default\ntitle: Daily log\n---\n\n<p class="eyebrow">Daily log</p>\n\n# Every run, newest first\n\n<div class="runlist">\n'
+  ls -1 archive/*-*.md | grep -vE 'archive/index' | sed -E 's#archive/([0-9-]{10})-.*#\1#' | sort -ur | while read -r d; do
+    nice=$(date -j -f "%Y-%m-%d" "$d" "+%a, %b %d" 2>/dev/null || echo "$d")
+    printf -- '<div class="runrow"><span class="d">%s</span>' "$nice"
+    [ -f "archive/${d}-premarket.md" ] && printf -- '<a href="%s-premarket.html">Premarket Plan</a>' "$d"
+    [ -f "archive/${d}-verdict.md" ] && printf -- '<a href="%s-verdict.html">Live Verdict</a>' "$d"
+    printf -- '</div>\n'
   done
+  printf -- '</div>\n'
 } > archive/index.md
 
 git add -A
