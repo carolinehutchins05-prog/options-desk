@@ -28,6 +28,7 @@ awk '
 ' "$BODY" \
 | grep -vIiE '(open contracts|slots? (available|remaining|used)|new this week|of (my|her) book|% of book|percent of book|already (held|hold)|currently hold|my position|she (holds|owns))' \
 | perl -pe 's/==([^=\n]+)==/$1/g' \
+| python3 "$(dirname "$0")/clean_for_web.py" \
 > "$CLEAN"
 
 if ! grep -qIE '[[:alnum:]]' "$CLEAN"; then
@@ -42,7 +43,7 @@ OUT="archive/${DATE}-${KIND}.md"
 NEWEST=$(ls -1 archive/*-*.md 2>/dev/null | grep -vE 'archive/index' | sort | tail -1)
 { printf -- '---\nlayout: default\ntitle: Options Desk\n---\n\n[Archive](archive/) · [How this works](https://github.com/carolinehutchins05-prog/options-desk#readme)\n\n'
   tail -n +5 "$NEWEST"
-  printf -- '\n---\n*Not investment advice. A personal research log. No position or account data is published here.*\n'
+  printf -- '\n*Not investment advice. A personal research log. No position or account data is published here.*\n'
 } > index.md
 
 # Rebuild the archive list, newest first.

@@ -92,5 +92,4 @@ Nothing cleared. Every contract failed on today's volume, under 500 and several 
 ---
 The rotation itself is real. Energy is confirmed above its 50 day while airlines, industrials and biotech are confirmed below, and several of these moves got stronger, not weaker, through the morning. But not one contract in either direction cleared today's liquidity bar, not even the sector ETFs that usually carry the deepest chains on the board. This reads like a sector story the stock tape has already priced while the options market has not shown up in size behind it yet. What would flip this: the same divergence still intact tomorrow with real volume behind it, or oil giving back today's gain and removing the one piece of evidence the whole call rests on.
 
----
 *Not investment advice. A personal research log. No position or account data is published here.*
