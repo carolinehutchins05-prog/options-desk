@@ -181,3 +181,6 @@ main>.hero,main>.kpi,main>.latest-head{max-width:none}
   background:var(--accent-soft);color:var(--accent)}
 .runrow a:hover{background:var(--accent);color:var(--bg)}
 @media (max-width:560px){.rcard{padding:14px 15px 6px}.rcard li .k{display:block;margin:0 0 4px}.hero{padding-top:14px}}
+main>.report,main>.runlist{max-width:none}
+.hero-title{max-width:24ch}
+.report .r-sub p{display:inline;margin:0}
