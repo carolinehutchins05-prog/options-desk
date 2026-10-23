@@ -4,18 +4,12 @@ title: Options Desk
 ---
 
 <section class="hero">
-<p class="eyebrow">Daily options research</p>
-<h1 class="hero-title">Single leg calls and puts, screened against fixed gates.</h1>
-<p class="hero-sub">Every morning the desk screens for liquid, trend aligned contracts and publishes what passed, what failed, and why. Most days nothing clears, and that is the correct answer.</p>
-<div class="hero-actions"><a class="btn primary" href="archive/">Daily log</a><a class="btn" href="methodology">Methodology</a><a class="btn" href="research/">Research</a></div>
+<p class="eyebrow">Daily research</p>
+<h1 class="hero-title">Calls and puts, held to a standard.</h1>
+<p class="hero-sub">Each morning the desk screens for liquid, trend aligned single leg contracts, then publishes what passed, what failed, and why. Most days nothing clears, and that is the right answer.</p>
+<p class="hero-links"><a href="archive/">The daily log</a><span>&middot;</span><a href="methodology">Methodology</a><span>&middot;</span><a href="research/">Research</a></p>
+<p class="rules">Thirteen gates &nbsp;&middot;&nbsp; Delta 0.50 to 0.65 &nbsp;&middot;&nbsp; Spread under 3% &nbsp;&middot;&nbsp; Open interest over 1,000</p>
 </section>
-
-<div class="kpi">
-<div><span class="n">13</span><span class="l">gates every candidate must clear</span></div>
-<div><span class="n">0.50 to 0.65</span><span class="l">target delta, nearest the money</span></div>
-<div><span class="n">3%</span><span class="l">max spread, same day round trip</span></div>
-<div><span class="n">1,000</span><span class="l">minimum open interest</span></div>
-</div>
 <div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Live Verdict, 2026-10-23</span></div>
 
 <div class="report" markdown="1">
@@ -79,5 +73,3 @@ title: Options Desk
 - Flips if the same split holds tomorrow with real volume, or oil gives back today's gain.
 
 </div>
-
-<p class="meta" style="margin-top:36px">Not investment advice. A personal research log. No position or account data is published here.</p>
