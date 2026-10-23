@@ -7,7 +7,7 @@
 <meta name="description" content="{{ page.description | default: site.description }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
@@ -27,7 +27,7 @@
   </div>
 </header>
 <main id="main" class="wrap">
-  {{ content }}
+  {% if page.url contains '/archive/20' %}<div class="report">{{ content }}</div>{% else %}{{ content }}{% endif %}
 </main>
 <footer class="site">
   <div class="wrap">
@@ -35,5 +35,38 @@
     <p class="meta">Source on <a href="https://github.com/carolinehutchins05-prog/options-desk">GitHub</a>. Built and maintained by Caroline Hutchins.</p>
   </div>
 </footer>
+<script>
+(function(){
+  var roots=document.querySelectorAll('.report'); if(!roots.length) return;
+  function decorate(h){
+    var txt=h.textContent, i=txt.indexOf(': '), left=txt, right='';
+    if(i>0){ left=txt.slice(0,i); right=txt.slice(i+2); }
+    var html=left.replace(/\b(CALL|PUT)\b/g,function(m){return '<span class="side '+m.toLowerCase()+'">'+m+'</span>';});
+    h.innerHTML='<span class="ht">'+html+'</span>';
+    if(right){
+      var cls=/reject|dead|no trade|fail|dropped/i.test(right)?'fail':(/clear|pass|trade/i.test(right)?'pass':'');
+      var s=document.createElement('span'); s.className='pill '+cls; s.textContent=right; h.appendChild(s);
+    }
+  }
+  roots.forEach(function(root){
+    var kids=Array.prototype.slice.call(root.children), cur=null, frag=document.createDocumentFragment();
+    kids.forEach(function(el){
+      var t=el.tagName;
+      if(t==='H1'){ el.classList.add('r-title'); frag.appendChild(el); cur=null; return; }
+      if(t==='BLOCKQUOTE' && !cur){ el.classList.add('r-sub'); frag.appendChild(el); return; }
+      if(t==='H2'){ cur=document.createElement('section'); cur.className='rcard'; frag.appendChild(cur); decorate(el); cur.appendChild(el); return; }
+      (cur||frag).appendChild(el);
+    });
+    root.appendChild(frag);
+    root.querySelectorAll('.rcard li').forEach(function(li){
+      var n=li.firstChild;
+      if(n && n.nodeType===3){
+        var m=n.nodeValue.match(/^([A-Za-z][A-Za-z ]{1,24}):\s+/);
+        if(m){ var k=document.createElement('span'); k.className='k'; k.textContent=m[1]; n.nodeValue=n.nodeValue.slice(m[0].length); li.insertBefore(k,n); }
+      }
+    });
+  });
+})();
+</script>
 </body>
 </html>
