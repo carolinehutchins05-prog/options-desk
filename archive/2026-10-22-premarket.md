@@ -7,7 +7,7 @@ title: "Premarket Plan, 2026-10-22"
 > Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
 
 ## Today's Catalysts
-Overnight tape turned risk off on an AI capex sustainability debate. **Meta** raised its 2026 capex plan after beating revenue, **Tesla** cut capex guidance, and **Lam Research** dropped on weak guidance, all reported last night. Separately, fear that Chinese memory maker ==CXMT== is closing the technology gap has pressured **Micron** and the whole memory complex for over a week, down ==17% in October==. Energy is the lone green sector after the Treasury issued a 60 day license on Iranian oil, easing supply fears.
+Overnight tape turned risk off on an AI capex sustainability debate. **Meta** raised its 2026 capex plan after beating revenue, **Tesla** cut capex guidance, and **Lam Research** dropped on weak guidance, all reported last night. Separately, fear that Chinese memory maker CXMT is closing the technology gap has pressured **Micron** and the whole memory complex for over a week, down 17% in October. Energy is the lone green sector after the Treasury issued a 60 day license on Iranian oil, easing supply fears.
 
 ## Call Candidates
 None. **APA** had a clean setup, above a rising 50 day, RSI 69.8, but printed a fresh 52 week high yesterday, 10/21, inside the 3 session chase window. **LNG** cleared trend and liquidity but reports earnings October 29, before every expiry that clears the 21 day minimum. No call survives.
@@ -15,9 +15,9 @@ None. **APA** had a clean setup, above a rising 50 day, RSI 69.8, but printed a 
 ## Put Candidates
 None cleared all gates, though two cleared trend, liquidity, and earnings timing before failing on size.
 
-**Micron (MU)**, closing price ==$913.67==, premarket already ==$883.75==. Below its 50 day SMA of $985, RSI 40.4, clear of earnings until December 16. Nearest the money November 20 ==$910 put==, provisional, closing marks: delta 0.45, open interest 1,888, spread 3.0%, implied volatility 50.5%, break even $861.27, contract cost ==$4,873==. Too large for a normal sizing band on a modest account, no trade.
+**Micron (MU)**, closing price $913.67, premarket already $883.75. Below its 50 day SMA of $985, RSI 40.4, clear of earnings until December 16. Nearest the money November 20 $910 put, provisional, closing marks: delta 0.45, open interest 1,888, spread 3.0%, implied volatility 50.5%, break even $861.27, contract cost $4,873. Too large for a normal sizing band on a modest account, no trade.
 
-**Broadcom (AVGO)**, closing price ==$337.80==. Below its 50 day SMA of $360.54, RSI 41.0, clear of earnings until December 9. Nearest the money November 20 ==$340 put==, provisional, closing marks: delta 0.49, open interest 13,831, spread 2.5%, implied volatility 40.3%, break even $323.95, contract cost ==$1,605==. Also too large for a normal sizing band, no trade.
+**Broadcom (AVGO)**, closing price $337.80. Below its 50 day SMA of $360.54, RSI 41.0, clear of earnings until December 9. Nearest the money November 20 $340 put, provisional, closing marks: delta 0.49, open interest 13,831, spread 2.5%, implied volatility 40.3%, break even $323.95, contract cost $1,605. Also too large for a normal sizing band, no trade.
 
 ## Rejected, and why
 - **APA**: 52 week high printed yesterday, inside the gate 5 chase window.
