@@ -7,13 +7,13 @@ title: "Premarket Plan, 2026-10-16"
 > Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
 
 ## Today's Catalysts
-**TRV** beat big this morning, ==$9.18== actual vs ==$7.35== estimate.
-**TFC** missed this morning, ==$1.16== actual vs ==$1.20== estimate.
-**SCHW** beat yesterday morning, ==$1.69== vs ==$1.66== estimate.
-**AA** beat big yesterday afternoon, ==$1.82== vs ==$1.52== estimate.
-**TSM** beat yesterday morning, ==$4.60== vs ==$4.45== estimate.
-**APA** printed a fresh 52 week high two sessions ago as energy led today's tape, up ==1.35%==.
-Sector read today: Energy, Financials, and Consumer Staples lead. Technology is the lone sector in the red, down ==1.05%==.
+**TRV** beat big this morning, $9.18 actual vs $7.35 estimate.
+**TFC** missed this morning, $1.16 actual vs $1.20 estimate.
+**SCHW** beat yesterday morning, $1.69 vs $1.66 estimate.
+**AA** beat big yesterday afternoon, $1.82 vs $1.52 estimate.
+**TSM** beat yesterday morning, $4.60 vs $4.45 estimate.
+**APA** printed a fresh 52 week high two sessions ago as energy led today's tape, up 1.35%.
+Sector read today: Energy, Financials, and Consumer Staples lead. Technology is the lone sector in the red, down 1.05%.
 
 ## Call Candidates
 None cleared every gate.
