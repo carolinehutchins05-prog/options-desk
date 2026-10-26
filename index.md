@@ -10,66 +10,36 @@ title: Options Desk
 <p class="hero-links"><a href="archive/">The daily log</a><span>&middot;</span><a href="methodology">Methodology</a><span>&middot;</span><a href="research/">Research</a></p>
 <p class="rules">Thirteen gates &nbsp;&middot;&nbsp; Delta 0.50 to 0.65 &nbsp;&middot;&nbsp; Spread under 3% &nbsp;&middot;&nbsp; Open interest over 1,000</p>
 </section>
-<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Live Verdict, 2026-10-23</span></div>
+<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Premarket Plan, 2026-10-26</span></div>
 
 <div class="report" markdown="1">
 
-# Calls and Puts Verdict, October 23, 2026
-> Live chain grading at 10:10 AM ET. Read only research, no trades placed.
+# Premarket Calls and Puts, October 26, 2026
 
-## Trend Re Grade
-- Calls need price above a rising 50 day with RSI 45 to 70. Puts need price below it with RSI 30 to 55.
-- Passed: **PLTR** call (RSI 54), **MSFT** call (RSI 51).
-- Puts passed: ORCL, AVGO, NFLX, INTC, F, BA, WDC, STX, CVNA, GEV, GM, C, GLW, T.
-- Failed on RSI under 30, a flush and not a bounce: AMAT 25, VRT 28, CMG 27, LRCX 24, BAC 28.
+## Today's Catalysts
+Friday was a risk off close, down about 0.5 to 1.2 percent across the Dow, S&P 500 and Nasdaq. The driver was oil. Brent crude spiked to its highest close since April on Houthi attacks against Saudi targets and reports the US and Israel could be weighing strikes on Iran.
 
-## RAPP CALL: Rejected
-- Why: 4 insiders bought Oct 21 and 22, including a CFO, $100K to $249K each.
-- Trend: $26.43 is 33% below its 50 day, RSI 31. A steep downtrend, not a dip.
+Over the weekend crude eased about 2% as Qatari mediators visited Tehran. That pullback is the one real market wide catalyst today, and it points at energy.
 
-# Sector Options, October 23, 2026
-> Live chain grading at 10:18 AM ET. Read only research, no trades placed.
+## XOM, Rejected
+Why: energy sector pullback catalyst, Brent easing off its highs.
+Trend: below its recent highs, tracking the sector down.
+Verdict: rejected. XOM reports earnings Friday 10/30 AM, inside any 21 to 60 day hold window.
 
-## Sector Call, Confirmed Live
-- **XLE** (Energy) up, medium conviction. Morning 1.70%, live 1.78%.
-- **JETS** (Airlines) down, high. Morning 2.84%, live 4.18%.
-- **XLI** (Industrials) down, high. Morning 2.01%, live 2.17%.
-- **XBI** (Biotech) down, medium. Morning 1.60%, live 2.33%.
-- **XLY** (Consumer Discretionary) down, medium. Morning 1.40%, live 1.70%.
-- All five calls hold. Three got stronger.
+## CVX, Rejected
+Why: same energy sector pullback catalyst.
+Verdict: rejected. CVX also reports Friday 10/30 AM.
 
-## Trend Screen
-- Calls above their 50 day: XLE up 7.2%, XOM 9.9%, CVX 10.1%, COP 13.1%, OXY 6.9%.
-- SLB rejected, 2.7% below its 50 day. A one session earnings pop inside a downtrend.
-- Puts below their 50 day: JETS 9.5%, XLI 5.5%, CAT 15.0%, UAL 12.1%, BA 8.6%, GE 12.8%, DAL 7.2%.
+## OXY, Rejected
+Why: same energy sector pullback catalyst.
+Verdict: rejected. OXY reports Monday 11/9 PM, still inside the hold window.
 
-## Liquidity Check, Nov 20 Expiry
-- Bar for a same day round trip: spread 3% or less, open interest 1,000 or more, volume today 500 or more.
-- Delta, IV and theta passed everywhere. The failure is liquidity.
+## Other Names Rejected
+HOOD, GOOGL, LNG and GD all report earnings this week. VZ reports this morning, CDNS reports tonight. Every one of these would hold through an unreleased print on any 21 to 60 day contract, so none were priced.
 
-## XOM $180 CALL: Dead on Spread
-- Spread 4.3%, open interest 10,528, volume 225, volume to OI 0.02.
+## Dropped for spread
+None reached contract pricing today.
 
-## CVX $230 CALL: Dead on Spread
-- Spread 3.7%, open interest 20,133, volume 225, volume to OI 0.01.
-
-## COP $150 CALL: Dead on Spread
-- Spread 4.6%, open interest 13,604, volume 74, volume to OI 0.01.
-
-## XLE $69 CALL: Dead on Spread
-- Spread 5.4%, open interest 5,229, volume 57, volume to OI 0.01.
-
-## Put side: Dead on Spread and Volume
-- CAT $680: spread 6.3%, OI 305, volume 33.
-- DAL $75: spread 21.4%, OI 3,306, volume 20.
-- BA $185: spread 7.1%, OI 4,922, volume 34.
-- GE $285: spread 10.6%, OI 122, volume 10.
-- XLI $163: spread 26.2%, OI 654, volume 3.
-- JETS $26: spread 23.2%, OI 755, volume 0.
-
-## Read
-- The rotation is real: energy above its 50 day, airlines, industrials and biotech below.
-- Options volume has not followed the stock tape yet.
-- Flips if the same split holds tomorrow with real volume, or oil gives back today's gain.
+No candidate cleared every gate today. Zero is a valid outcome. The 10 AM run rechecks on live quotes.
 
 </div>
