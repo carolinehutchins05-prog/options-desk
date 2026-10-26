@@ -11,6 +11,11 @@ description: Measurements and case studies behind the screen's rules.
 <p class="lede">Each note is the work behind one gate. They are written in the order they were learned, which is not the order they would appear in a textbook.</p>
 
 <div class="cards">
+  <a class="card" href="{{ '/research/backtest' | relative_url }}">
+    <span class="tag">October 2026</span>
+    <h3>The screen against the S&amp;P 500</h3>
+    <p>503 stocks, ten years, the index as the benchmark. The trend gate matched the index, the puts lost money, and the cost of the spread decided whether calls broke even.</p>
+  </a>
   <a class="card" href="{{ '/research/spread-is-the-edge' | relative_url }}">
     <span class="tag">August 2026</span>
     <h3>Leverage is priced. Spread is not.</h3>

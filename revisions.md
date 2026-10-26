@@ -45,9 +45,17 @@ Reviewing them produced four new gates, all about **whether to trade at all** ra
 3. Never hold an unreleased macroeconomic release
 4. A hedge is not a hedge until it is verified, not merely asserted
 
-Alongside them, pacing limits: at most two new positions a week, one a day, six open at once.
+Alongside them, pacing limits: at most two new positions a week, one a day, six open at once. (The pacing limits were retired on 23 October 2026, see the change log.)
 
 **What changed:** the first four gates on the list are about contract quality. These four are about restraint, and they are the ones that would have prevented the week. Most losing stretches are not a series of bad analyses. They are a series of reasonable analyses taken too close together, in the same direction, into strength.
+
+## A backtest that found no edge
+
+In October 2026 I backtested the mechanical screen on 503 S&P 500 stocks over ten years, using the index as the benchmark. Stocks passing the call trend gate returned **+1.02% over 21 days against +1.03% for the S&P 500**. Stocks passing the put gate went up **more** than the average stock. After realistic costs the modeled calls broke even and the modeled puts lost about 6% a trade. The contract level numbers are modeled, because no free source has historical option chains, and the page says so.
+
+The cost of getting in and out decided the result: calls break even at a quoted spread near 3.6% of the mark, and the old gate allowed 5%.
+
+**What changed:** the spread gate is now 3% for every hold, the trend gate is a filter and not an edge, and every candidate needs a named catalyst. The full method and its limits are in the [research note](research/backtest.html).
 
 ## A finding that only half worked
 
@@ -68,6 +76,9 @@ Reporting it as a working scanner would have been a misrepresentation by omissio
 <table>
 <thead><tr><th>Date</th><th>Change</th><th>Trigger</th></tr></thead>
 <tbody>
+<tr><td>Oct 2026</td><td>Spread gate tightened to 3% of mark for every hold, was 5% for a multi day hold</td><td>A backtest put modeled calls at break even near a 3.6% spread</td></tr>
+<tr><td>Oct 2026</td><td>Trend alone is no longer an edge: every candidate needs a named, dated catalyst, puts most of all</td><td>Backtest: stocks passing the call trend gate matched the S&amp;P 500, and the put gate pointed the wrong way</td></tr>
+<tr><td>Oct 2026</td><td>Pacing limits retired: two new positions a week, one a day, six open</td><td>Research now always publishes the full list and a cap no longer decides what is reported</td></tr>
 <tr><td>Aug 2026</td><td>Quote option sensitivity per 1% of underlying move, never per $1</td><td>Per dollar figures flatter expensive underlyings for no economic reason</td></tr>
 <tr><td>Aug 2026</td><td>Express theta as a percentage of premium, never in dollars</td><td>Dollar theta is not comparable across contracts at different prices</td></tr>
 <tr><td>Aug 2026</td><td>Added bid size and ask size gate, 20 minimum each</td><td>A contract with the tightest spread on the board had a one lot bid</td></tr>

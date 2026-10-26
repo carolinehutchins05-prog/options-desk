@@ -21,6 +21,8 @@ This exists because of two specific errors. A call was once surfaced on a name t
 
 Both lose for the same reason: the option was asked to overcome the underlying's own drift before it could make money.
 
+**What the evidence says (October 2026).** A [backtest on 503 S&P 500 stocks](research/backtest.html) found that stocks passing this gate returned about the same as the index, and that stocks passing the put side went up more than average. The gate stays as a filter against fighting the tape, but it is not an edge. A candidate needs a named, dated catalyst as the reason to trade, and a put needs one most of all.
+
 ## Contract gates
 
 <div class="scroll" markdown="0">
@@ -29,7 +31,7 @@ Both lose for the same reason: the option was asked to overcome the underlying's
 <tbody>
 <tr><td><strong>Delta</strong></td><td>0.50 to 0.65</td><td>Cheap far strikes that need an 8% to 24% move. See <a href="research/strike-selection.html">strike selection</a>.</td></tr>
 <tr><td><strong>Break even</strong></td><td>within 3% of spot</td><td>Contracts whose arithmetic requires an outlier, not a normal move.</td></tr>
-<tr><td><strong>Spread</strong></td><td>5% of mark or less</td><td>The only cost that is not compensated by anything. See <a href="research/spread-is-the-edge.html">spread is the edge</a>.</td></tr>
+<tr><td><strong>Spread</strong></td><td>3% of mark or less, for every hold</td><td>The only cost that is not compensated by anything. The backtest put calls at break even near a 3.6% spread. See <a href="research/spread-is-the-edge.html">spread is the edge</a> and the <a href="research/backtest.html">backtest</a>.</td></tr>
 <tr><td><strong>Implied volatility</strong></td><td>under 40%, over 70 rejected outright</td><td>Paying a volatility premium that decays whether or not the thesis works.</td></tr>
 <tr><td><strong>Theta</strong></td><td>under 5% of mark per day</td><td>Positions where the clock beats the thesis. Expressed as a percentage of premium, never in dollars, because dollars are meaningless across different contract prices.</td></tr>
 <tr><td><strong>Open interest</strong></td><td>1,000 or more</td><td>Chains nobody trades.</td></tr>
@@ -44,15 +46,13 @@ Both lose for the same reason: the option was asked to overcome the underlying's
 </table>
 </div>
 
-## Pacing
+## Exit
 
 Separate from whether any individual trade is good.
 
-- At most **two new positions per week**, at most **one per day**
-- At most **six open contracts** at once
 - Exit at **+50% on the contract, or five days, whichever comes first**
 
-Pacing limits exist because the failure mode is not holding a loser. It is opening a seventh position because the first six are uncomfortable. The weekly cap is a hard gate in the automation, not a guideline: when it is reached, the screen reports no ideas rather than producing a list that cannot be acted on.
+Pacing limits (two new positions a week, one a day, six open at once) were retired on 23 October 2026. Research now always publishes the full list, and a cap no longer decides what gets reported.
 
 <div class="note">
 <span class="h">The expected output</span>
