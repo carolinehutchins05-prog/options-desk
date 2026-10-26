@@ -40,7 +40,7 @@ There is no free leverage to be found by shopping across underlyings. The market
 
 If leverage is priced identically everywhere, then differences in realised outcome have to come from somewhere that is **not** priced. Transaction cost is the obvious candidate, and on a round trip the bid ask spread is paid twice.
 
-That is why spread sits at the top of the gate list and why the threshold is tight: **5% of mark or less**, and nearer 2% for anything held a day or two. A 10% spread means a position starts 10% down and has to make that back before the thesis contributes anything. No amount of being right about direction compensates for it, because nothing pays you for crossing a wide market.
+That is why spread sits at the top of the gate list and why the threshold is tight: **5% of mark or less** when this was written, and **3% for every hold** since the October backtest, nearer 2% for anything held a day or two. A 10% spread means a position starts 10% down and has to make that back before the thesis contributes anything. No amount of being right about direction compensates for it, because nothing pays you for crossing a wide market.
 
 ## A related correction
 
