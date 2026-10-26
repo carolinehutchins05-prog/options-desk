@@ -29,6 +29,7 @@ awk '
 | grep -vIiE '(open contracts|slots? (available|remaining|used)|new this week|of (my|her) book|% of book|percent of book|already (held|hold)|currently hold|my position|she (holds|owns))' \
 | perl -pe 's/==([^=\n]+)==/$1/g' \
 | python3 "$(dirname "$0")/clean_for_web.py" \
+| python3 "$(dirname "$0")/options_card.py" "$DATE" \
 > "$CLEAN"
 
 if ! grep -qIE '[[:alnum:]]' "$CLEAN"; then

@@ -58,6 +58,16 @@ The Options Desk
       (cur||frag).appendChild(el);
     });
     root.appendChild(frag);
+    root.querySelectorAll('.rcard').forEach(function(c,i){
+      var oc=c.querySelector(':scope > .oc'), h=c.querySelector('h2'); if(!oc||!h) return;
+      c.classList.add('has-oc'); oc.id='oc'+i; h.appendChild(oc);
+      var b=document.createElement('button'); b.type='button'; b.className='oc-btn';
+      b.setAttribute('aria-expanded','false'); b.setAttribute('aria-controls',oc.id); b.textContent='View more';
+      h.insertBefore(b,oc);
+      function set(o){ c.classList.toggle('open',o); b.setAttribute('aria-expanded',o); b.textContent=o?'Hide':'View more'; }
+      b.addEventListener('click',function(e){ e.stopPropagation(); set(!c.classList.contains('open')); });
+      document.addEventListener('keydown',function(e){ if(e.key==='Escape') set(false); });
+    });
     root.querySelectorAll('.rcard li').forEach(function(li){
       var n=li.firstChild;
       if(n && n.nodeType===3){

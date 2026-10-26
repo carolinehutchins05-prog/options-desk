@@ -10,3 +10,4 @@ exclude:
   - publish_week.sh
   - build_week.py
   - data
+  - options_card.py
