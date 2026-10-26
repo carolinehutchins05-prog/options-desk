@@ -7,3 +7,6 @@ exclude:
   - README.md
   - .gitignore
   - publish.sh
+  - publish_week.sh
+  - build_week.py
+  - data

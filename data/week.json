@@ -1,0 +1,189 @@
+{
+  "week_label": "October 26 to 30, 2026",
+  "summary": "Rates are the story this week. The Fed raised rates a quarter point in September and is expected to hold on Wednesday while keeping the door open to another hike in December. That decision lands hours before Microsoft and Alphabet report, and Thursday brings the first read on third quarter growth, September inflation, and Amazon's earnings. Friday is quiet on US data.",
+  "stats": [
+    {"label": "Fed funds target", "value": "3.75 to 4.00%", "sub": "Hold expected Wednesday"},
+    {"label": "Hike odds", "value": "9% Oct, 80%+ Dec", "sub": "Futures pricing, varies by source"},
+    {"label": "Q3 GDP consensus", "value": "3.0%", "sub": "Prior 2.2%, GDPNow 3.5%"},
+    {"label": "Sep core PCE, year over year", "value": "3.1%", "sub": "Prior 3.0%"}
+  ],
+  "headline": {
+    "kicker": "Biggest day of the week",
+    "title": "Wednesday Oct 28: the Fed at 2:00 PM ET, then Microsoft and Alphabet after the close",
+    "body": "The Fed sets the tone before two megacaps report. Microsoft, Alphabet and Amazon together make up about 15% of the S&P 500 and all three report within two days, so the rate decision and the AI spending story will move the whole index, not just three stocks."
+  },
+  "spotlight": [
+    {"ticker": "MSFT", "name": "Microsoft", "when": "Wed Oct 28, after the close", "eps": "4.72", "rev": "$90.6B", "watch": "Azure growth against its guide of about 45%, and whether AI spending is paying off."},
+    {"ticker": "GOOGL", "name": "Alphabet", "when": "Wed Oct 28, after the close, call 4:30 PM ET", "eps": "2.99", "rev": "$127.9B", "watch": "Cloud growth, search resilience, and the capital spending outlook."},
+    {"ticker": "AMZN", "name": "Amazon", "when": "Thu Oct 29, after the close", "eps": "1.97", "rev": "about $202B", "watch": "AWS growth and AI capacity spending. Meta fell sharply after reporting on Oct 21, so the bar for AI spenders is high."}
+  ],
+  "days": [
+    {
+      "key": "mon", "label": "Monday", "short": "Mon", "date": "Oct 26",
+      "macro": [
+        {"time": "All day", "name": "No major US data", "imp": "low", "cons": "", "prior": "",
+         "note": "A quiet start. Traders are positioning ahead of Wednesday's Fed decision.",
+         "react": "Low volume drift is typical before a Fed week. Moves today are more likely to come from earnings than from macro."},
+        {"time": "Global", "name": "China Fifth Plenum begins, US Treasury buyback", "imp": "low", "cons": "", "prior": "",
+         "note": "The plenum runs Oct 26 to 29. The Treasury buys back 20 to 30 year debt, which supports long end liquidity.",
+         "react": "Markets are not expecting big stimulus from the plenum. Only unusually strong growth language would move China linked names."}
+      ],
+      "am": [
+        {"t": "VZ", "n": "Verizon", "eps": "1.27", "actual": "1.31"}
+      ],
+      "pm": [
+        {"t": "CDNS", "n": "Cadence", "eps": "1.96"},
+        {"t": "WELL", "n": "Welltower", "eps": "0.90"},
+        {"t": "NUE", "n": "Nucor", "eps": "5.80"}
+      ]
+    },
+    {
+      "key": "tue", "label": "Tuesday", "short": "Tue", "date": "Oct 27",
+      "macro": [
+        {"time": "8:30 AM", "name": "Durable goods orders (Sep)", "imp": "med", "cons": "Not found", "prior": "About flat in Aug",
+         "note": "Watch core capital goods (non defense, ex aircraft), which rose 1.6% in August. It is a read on business and AI equipment spending.",
+         "react": "Boeing orders swing the headline, so look past it. A strong core number backs the growth story but adds to the case for another hike. A weak one revives slowdown worries."},
+        {"time": "10:00 AM", "name": "Richmond Fed and Dallas Fed surveys (Oct)", "imp": "low", "cons": "", "prior": "Richmond: minus 2",
+         "note": "Regional factory surveys. Dallas follows at 10:30 AM.",
+         "react": "Small movers unless they diverge sharply from the national picture."},
+        {"time": "Weekly", "name": "ADP weekly employment", "imp": "low", "cons": "", "prior": "18,500 four week average",
+         "note": "A rolling look at private hiring that points to a solid October payrolls report.",
+         "react": "A drop toward single digits would be the first crack in the labor story. Otherwise it is background."}
+      ],
+      "am": [
+        {"t": "UPS", "n": "UPS", "eps": "1.63"},
+        {"t": "BA", "n": "Boeing", "eps": "(0.20)"},
+        {"t": "KO", "n": "Coca Cola", "eps": "0.88"},
+        {"t": "SHW", "n": "Sherwin Williams", "eps": "3.68"},
+        {"t": "SPGI", "n": "S&P Global", "eps": "4.42"},
+        {"t": "HCA", "n": "HCA Healthcare", "eps": "6.65"},
+        {"t": "FCX", "n": "Freeport McMoRan", "eps": "0.82"},
+        {"t": "HLT", "n": "Hilton", "eps": "2.36"},
+        {"t": "NVS", "n": "Novartis", "eps": "2.24"},
+        {"t": "PYPL", "n": "PayPal", "eps": "1.31"},
+        {"t": "GLW", "n": "Corning", "eps": "0.88"},
+        {"t": "RCL", "n": "Royal Caribbean", "eps": "6.38"},
+        {"t": "SOFI", "n": "SoFi", "eps": "0.17"}
+      ],
+      "pm": [
+        {"t": "V", "n": "Visa", "eps": "3.44"},
+        {"t": "NXPI", "n": "NXP Semiconductors", "eps": "4.05"},
+        {"t": "HOOD", "n": "Robinhood", "eps": "0.56"},
+        {"t": "STX", "n": "Seagate", "eps": "7.36"},
+        {"t": "ENPH", "n": "Enphase", "eps": "0.44"}
+      ]
+    },
+    {
+      "key": "wed", "label": "Wednesday", "short": "Wed", "date": "Oct 28",
+      "macro": [
+        {"time": "2:00 PM", "name": "FOMC rate decision, then Chair Warsh press conference", "imp": "high", "cons": "Hold at 3.75 to 4.00%", "prior": "25 bp hike in Sep, unanimous",
+         "note": "94 of 100 economists in a Reuters poll expect a hold. Futures put the chance of a hike this week near 9 to 10%. Watch the vote split: Hammack, Logan and Kashkari voted for a hike in July and could dissent again. Midterm elections are Nov 3.",
+         "react": "A hold is already priced, so the reaction comes from tone and the vote. Hawkish (hike dissents, a clear December signal): yields and the dollar rise, tech and small caps lag, banks and energy hold up. Dovish tilt: relief rally in growth stocks. A surprise hike would hit stocks hard. The decision comes before Microsoft and Alphabet report, so it sets how their results are received."},
+        {"time": "8:30 AM", "name": "Trade balance and wholesale inventories (Sep)", "imp": "low", "cons": "", "prior": "",
+         "note": "Trade and inventories are the swing factors in Thursday's GDP estimate.",
+         "react": "A big change in the trade gap moves GDP forecasts a few tenths, which can shift Thursday's expectations."},
+        {"time": "Global", "name": "Bank of Canada, RBNZ, UK Autumn Budget", "imp": "med", "cons": "BoC hike to 2.50% (about 80% priced), RBNZ hike to 3.00%", "prior": "BoC at 2.25%",
+         "note": "Central banks abroad are tightening too. The UK budget is expected to leave about 15 billion pounds of headroom.",
+         "react": "More hikes abroad reinforce the global tightening theme. A surprise hold from either bank would soften the dollar and give the Fed some cover."}
+      ],
+      "am": [
+        {"t": "GEV", "n": "GE Vernova", "eps": "4.02"},
+        {"t": "BSX", "n": "Boston Scientific", "eps": "0.73"},
+        {"t": "ADP", "n": "ADP", "eps": "2.77"},
+        {"t": "AON", "n": "Aon", "eps": "3.31"},
+        {"t": "APH", "n": "Amphenol", "eps": "0.73"},
+        {"t": "UBS", "n": "UBS", "eps": "0.95"},
+        {"t": "GSK", "n": "GSK", "eps": "1.40"},
+        {"t": "VRT", "n": "Vertiv", "eps": "1.82"},
+        {"t": "TEL", "n": "TE Connectivity", "eps": "3.07"}
+      ],
+      "pm": [
+        {"t": "MSFT", "n": "Microsoft", "eps": "4.72", "star": true},
+        {"t": "GOOGL", "n": "Alphabet", "eps": "2.99", "star": true},
+        {"t": "NOW", "n": "ServiceNow", "eps": "0.93"},
+        {"t": "KLAC", "n": "KLA", "eps": "1.18"},
+        {"t": "TMUS", "n": "T Mobile", "eps": "2.90"},
+        {"t": "CMG", "n": "Chipotle", "eps": "0.29"},
+        {"t": "EBAY", "n": "eBay", "eps": "1.35"},
+        {"t": "F", "n": "Ford", "eps": "0.40"},
+        {"t": "FTNT", "n": "Fortinet", "eps": "0.84"},
+        {"t": "EQIX", "n": "Equinix", "eps": "9.28"},
+        {"t": "FDX", "n": "FedEx", "eps": "3.35"},
+        {"t": "ORLY", "n": "O'Reilly", "eps": "0.93"}
+      ]
+    },
+    {
+      "key": "thu", "label": "Thursday", "short": "Thu", "date": "Oct 29",
+      "macro": [
+        {"time": "8:30 AM", "name": "Q3 GDP, advance estimate", "imp": "high", "cons": "3.0% annualized", "prior": "2.2% in Q2",
+         "note": "The Atlanta Fed GDPNow tracker sits at 3.5%, led by a jump in business equipment spending. Trade and inventories are the swing factors.",
+         "react": "Strong growth with sticky inflation is not good news in a hiking cycle: a number at or above 3.5% pushes yields up and weighs on rate sensitive stocks. A print near 2.5% eases hike fears but a much weaker one revives recession talk."},
+        {"time": "8:30 AM", "name": "Personal income and outlays, Sep PCE", "imp": "high", "cons": "Headline +0.5% m/m, 3.6% y/y. Core +0.3% m/m, 3.1% y/y", "prior": "Headline +0.3%, 3.4% y/y. Core +0.2%, 3.0% y/y",
+         "note": "The Fed's preferred inflation gauge. It comes after the Fed decision, but it drives December hike odds. The Cleveland Fed nowcast matches consensus at 3.1% core and 3.6% headline.",
+         "react": "Core at 0.4% or more would all but lock a December hike: yields up, tech and small caps down. Core at 0.2% would be a relief rally. An in line print should be muted because it is largely priced."},
+        {"time": "8:30 AM", "name": "Initial jobless claims", "imp": "med", "cons": "", "prior": "194,000",
+         "note": "The four week average is 197,800. Claims below 200,000 point to a tight labor market.",
+         "react": "Another low reading supports the hawkish case. A jump above 220,000 would be the first real sign of labor cracks and would help bonds."},
+        {"time": "Global", "name": "ECB decision, Tokyo CPI", "imp": "med", "cons": "ECB hold", "prior": "",
+         "note": "The ECB is not expected to hike given French bond market stress. The focus is on French spreads. Tokyo CPI could firm up a December hike at the Bank of Japan.",
+         "react": "A wider French spread would hit European banks and the euro. A hot Tokyo print supports the yen."}
+      ],
+      "am": [
+        {"t": "LLY", "n": "Eli Lilly", "eps": "6.41"},
+        {"t": "MRK", "n": "Merck", "eps": "2.10"},
+        {"t": "MA", "n": "Mastercard", "eps": "5.16"},
+        {"t": "BMY", "n": "Bristol Myers", "eps": "1.26"},
+        {"t": "CAT", "n": "Caterpillar", "eps": "7.05"},
+        {"t": "LIN", "n": "Linde", "eps": "4.52"},
+        {"t": "MO", "n": "Altria", "eps": "1.51"},
+        {"t": "SHEL", "n": "Shell", "eps": "3.59"},
+        {"t": "HSY", "n": "Hershey", "eps": "2.12"},
+        {"t": "ICE", "n": "Intercontinental Exchange", "eps": "1.97"}
+      ],
+      "pm": [
+        {"t": "AMZN", "n": "Amazon", "eps": "1.97", "star": true},
+        {"t": "INTC", "n": "Intel", "eps": "0.37"},
+        {"t": "SBUX", "n": "Starbucks", "eps": "0.71"},
+        {"t": "GILD", "n": "Gilead", "eps": "2.20"},
+        {"t": "MDLZ", "n": "Mondelez", "eps": "0.71"},
+        {"t": "COIN", "n": "Coinbase", "eps": "0.02"},
+        {"t": "MSTR", "n": "Strategy", "eps": "18.68"},
+        {"t": "RDDT", "n": "Reddit", "eps": "1.32"},
+        {"t": "RBLX", "n": "Roblox", "eps": "(0.42)"},
+        {"t": "PINS", "n": "Pinterest", "eps": "0.41"},
+        {"t": "FSLR", "n": "First Solar", "eps": "4.64"},
+        {"t": "SNDK", "n": "Sandisk", "eps": "46.17"},
+        {"t": "SYK", "n": "Stryker", "eps": "3.55"},
+        {"t": "DXCM", "n": "Dexcom", "eps": "0.67"}
+      ]
+    },
+    {
+      "key": "fri", "label": "Friday", "short": "Fri", "date": "Oct 30",
+      "macro": [
+        {"time": "Times vary", "name": "Fed speakers Daly and Musalem", "imp": "med", "cons": "", "prior": "",
+         "note": "The first Fed commentary after the decision and Thursday's data. There is no major US data release.",
+         "react": "A hawkish tone from either speaker would harden December hike odds going into the weekend. A cautious tone would give stocks room for a month end bounce."},
+        {"time": "Overnight", "name": "Bank of Japan decision, euro area GDP and flash CPI", "imp": "med", "cons": "BoJ hold at 1.25%", "prior": "BoJ hiked in Sep",
+         "note": "Markets see December as the likelier next BoJ hike, with about 80% priced. Euro area Q3 GDP and flash inflation come out too.",
+         "react": "A hawkish hold supports the yen and can pressure carry trades. Hot euro area inflation adds to global tightening bets."}
+      ],
+      "am": [
+        {"t": "XOM", "n": "Exxon Mobil", "eps": "3.43"},
+        {"t": "CVX", "n": "Chevron", "eps": "4.82"},
+        {"t": "ABBV", "n": "AbbVie", "eps": "3.78"},
+        {"t": "REGN", "n": "Regeneron", "eps": "15.71"},
+        {"t": "GD", "n": "General Dynamics", "eps": "4.13"},
+        {"t": "BP", "n": "BP", "eps": "2.63"},
+        {"t": "SNY", "n": "Sanofi", "eps": "1.63"},
+        {"t": "CL", "n": "Colgate", "eps": "0.92"},
+        {"t": "CCJ", "n": "Cameco", "eps": "0.23"}
+      ],
+      "pm": []
+    }
+  ],
+  "notes": [
+    "Earnings shows large market cap names and widely traded movers, not every report. EPS figures are consensus estimates from Robinhood data. Apple is not confirmed for this week.",
+    "Consensus figures come from public week ahead previews and can change. Implied earnings moves are not included.",
+    "Reaction notes are scenario thinking, not predictions."
+  ]
+}
