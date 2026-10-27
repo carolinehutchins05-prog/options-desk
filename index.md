@@ -10,36 +10,55 @@ title: Options Desk
 <p class="hero-links"><a href="week-ahead/">Week ahead</a><span>&middot;</span><a href="archive/">The daily log</a><span>&middot;</span><a href="methodology">Methodology</a><span>&middot;</span><a href="research/">Research</a></p>
 <p class="rules">Fourteen gates &nbsp;&middot;&nbsp; Delta 0.50 to 0.55 &nbsp;&middot;&nbsp; Spread under 3% &nbsp;&middot;&nbsp; Open interest over 1,000</p>
 </section>
-<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Premarket Plan, 2026-10-26</span></div>
+<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Live Verdict, 2026-10-27</span></div>
 
 <div class="report" markdown="1">
 
-# Premarket Calls and Puts, October 26, 2026
+# Calls and Puts Verdict, October 27, 2026
 
-## Today's Catalysts
-Friday was a risk off close, down about 0.5 to 1.2 percent across the Dow, S&P 500 and Nasdaq. The driver was oil. Brent crude spiked to its highest close since April on Houthi attacks against Saudi targets and reports the US and Israel could be weighing strikes on Iran.
+Live chain grading at 11:20 AM ET.
 
-Over the weekend crude eased about 2% as Qatari mediators visited Tehran. That pullback is the one real market wide catalyst today, and it points at energy.
+## Login
+Unusual Whales session was logged in and reachable all session.
 
-## XOM, Rejected
-Why: energy sector pullback catalyst, Brent easing off its highs.
-Trend: below its recent highs, tracking the sector down.
-Verdict: rejected. XOM reports earnings Friday 10/30 AM, inside any 21 to 60 day hold window.
+## TSLA CALL rejected
+Breakeven sits 6.5% above spot at the nearest strike. A 45 to 60 day window at delta 0.50 to 0.55 needs breakeven under 3% to clear.
 
-## CVX, Rejected
-Why: same energy sector pullback catalyst.
-Verdict: rejected. CVX also reports Friday 10/30 AM.
+## PLTR CALL rejected
+Reports November 2, before the December 18 expiry window this run is pricing against.
 
-## OXY, Rejected
-Why: same energy sector pullback catalyst.
-Verdict: rejected. OXY reports Monday 11/9 PM, still inside the hold window.
+## SHOP CALL rejected
+Reports November 3, before the December 18 expiry window.
 
-## Other Names Rejected
-HOOD, GOOGL, LNG and GD all report earnings this week. VZ reports this morning, CDNS reports tonight. Every one of these would hold through an unreleased print on any 21 to 60 day contract, so none were priced.
+## CRM CALL rejected
+Reports December 2, before the December 18 expiry window.
+
+## V CALL rejected
+Reports tonight, well before the December 18 expiry window.
+
+## MA CALL rejected
+Reports Thursday morning, before the December 18 expiry window.
+
+## COST CALL rejected
+Reports December 10, before the December 18 expiry window.
+
+## JNJ CALL rejected
+Spread 5.2% of mark, volume only 84 today at the nearest strike. Dead chain despite low implied volatility.
+
+## AMD CALL rejected
+Clean trend confirmation, price above a rising 50 day average. Reports November 3, before the December 18 expiry window.
+
+## LUV CALL rejected
+Spread 6.8% of mark, volume only 47 today, breakeven 5.8% from spot.
 
 ## Dropped for spread
-None reached contract pricing today.
+LUV $42.50 call, December 18 expiry, spread 6.8%.
 
-No candidate cleared every gate today. Zero is a valid outcome. The 10 AM run rechecks on live quotes.
+## Sector Call
+This morning's call had Semiconductors, Technology and Airlines higher, Energy, Healthcare and Staples lower. The live tape confirmed five of the six calls. Healthcare is the one that flipped, it opened weak and turned positive by late morning.
+
+## Trend Screen
+Semiconductors rallied hard today, but NVDA, AVGO, MU and MRVL are all still trading below their own 50 day average. AMD is the lone semiconductor name confirmed in an actual uptrend. Airlines popped too, DAL and UAL sit below their 50 day, LUV is the lone confirmed name. Every energy and consumer staples name checked still trades above its own 50 day average even on a red session, so a bearish contract on any of them would be fighting an uptrend on top of today's policy on puts.
+
 
 </div>
