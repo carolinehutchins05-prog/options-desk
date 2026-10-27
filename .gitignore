@@ -7,3 +7,5 @@ secrets*
 positions*.json
 *.key
 *.pem
+_redacted*.md
+redacted*.md

@@ -21,7 +21,7 @@ fi
 CLEAN=$(mktemp)
 # Drop whole sections that are about HER book, not about candidates.
 awk '
-  /^#{2,3}[[:space:]]*(Slots?|Holdings|Holdings Flow|Earnings Gap Alert|Insider Activity|Congressional|Corporate Insiders|Portfolio|My Positions|Book)([[:space:]]|$)/ { skip=1; next }
+  /^#{2,3}[[:space:]]*(Login|Slots?|Holdings|Holdings Flow|Earnings Gap Alert|Insider Activity|Congressional|Corporate Insiders|Portfolio|My Positions|Book)([[:space:]]|$)/ { skip=1; next }
   /^#{1,3}[[:space:]]/ { skip=0 }
   skip { next }
   { print }

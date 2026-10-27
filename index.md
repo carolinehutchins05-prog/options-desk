@@ -18,9 +18,6 @@ title: Options Desk
 
 Live chain grading at 11:20 AM ET.
 
-## Login
-Unusual Whales session was logged in and reachable all session.
-
 ## TSLA CALL rejected
 Breakeven sits 6.5% above spot at the nearest strike. A 45 to 60 day window at delta 0.50 to 0.55 needs breakeven under 3% to clear.
 
