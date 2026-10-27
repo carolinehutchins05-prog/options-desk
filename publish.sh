@@ -51,7 +51,7 @@ nb=$(basename "$NEWEST" .md); nd=${nb%-*}; nk=${nb##*-}
 <h1 class="hero-title">Calls and puts, held to a standard.</h1>
 <p class="hero-sub">Each morning the desk screens for liquid, trend aligned single leg contracts, then publishes what passed, what failed, and why. Most days nothing clears, and that is the right answer.</p>
 <p class="hero-links"><a href="week-ahead/">Week ahead</a><span>&middot;</span><a href="archive/">The daily log</a><span>&middot;</span><a href="methodology">Methodology</a><span>&middot;</span><a href="research/">Research</a></p>
-<p class="rules">Thirteen gates &nbsp;&middot;&nbsp; Delta 0.50 to 0.65 &nbsp;&middot;&nbsp; Spread under 3% &nbsp;&middot;&nbsp; Open interest over 1,000</p>
+<p class="rules">Fourteen gates &nbsp;&middot;&nbsp; Delta 0.50 to 0.55 &nbsp;&middot;&nbsp; Spread under 3% &nbsp;&middot;&nbsp; Open interest over 1,000</p>
 </section>
 HERO
   printf -- '<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">%s, %s</span></div>\n\n<div class="report" markdown="1">\n' "$nl" "$nd"

@@ -62,7 +62,7 @@ At five days the picture is the same: no measurable difference from an average s
 </table>
 </div>
 
-Only 893 days pass the modeled gates on SPY, so that row is noisy. The screen's calls did exactly as well as the same contract on a random stock on a random day, so the trend gate added nothing measurable. Calls were not significantly different from zero in any of three sub periods. The puts lost money in every period and at every setting tested. Only with zero trading cost did they reach roughly break even (a loss of 2.3%, with a range that includes zero).
+Only 893 days pass the modeled gates on SPY, so that row is noisy. The screen's calls did exactly as well as the same contract on a random stock on a random day, so the trend gate added nothing measurable. Calls were not significantly different from zero in any of three sub periods. The puts lost money in every period and at every setting tested, which is why they are now suspended. Only with zero trading cost did they reach roughly break even (a loss of 2.3%, with a range that includes zero).
 
 ## Finding three: spread decides it
 
@@ -81,19 +81,62 @@ For calls, the average return per trade moves almost one for one with the cost o
 
 Calls break even at about 1.8% each way, which is a quoted spread near **3.6% of the mark**. The old gate allowed 5% for a multi day hold. At 5% the modeled call loses roughly 1.4% per trade on average before anything else goes wrong. That is the same lesson as the [leverage and spread note](spread-is-the-edge.html), now measured on ten years of stocks.
 
+## Finding four: what actually reduces losses
+
+A second test asked which rule changes cut losses. I split the data in two, 2016 to 2021 and 2022 to October 2026, tried a small set of changes one at a time, and checked that a change helped in both halves before keeping it. The puts were excluded from this step because they lost in both halves anyway.
+
+<div class="scroll" markdown="0">
+<table>
+<thead><tr><th>Change to the call rules</th><th>Average per trade, 2016 to 2021</th><th>Average per trade, 2022 to 2026</th><th>Verdict</th></tr></thead>
+<tbody>
+<tr><td>Baseline: 30 days to expiry, delta 0.55</td><td>+0.5%</td><td>(1.8%)</td><td></td></tr>
+<tr><td>45 days to expiry</td><td>+1.2%</td><td>+0.1%</td><td class="pass">Better in both, kept</td></tr>
+<tr><td>Delta 0.50, nearest the money</td><td>+1.9%</td><td>+0.4%</td><td class="pass">Better in both, kept</td></tr>
+<tr><td>Delta 0.65</td><td>(1.0%)</td><td>(3.1%)</td><td class="fail">Worse in both, rejected</td></tr>
+<tr><td>Calls only when the S&amp;P 500 is above its 200 day average</td><td>+0.5%</td><td>(1.0%)</td><td class="pass">Better, and it cut the worst month, kept</td></tr>
+<tr><td>Stop at 50% down on the contract</td><td>(0.2%)</td><td>(2.0%)</td><td>Costs under a point, shrinks the worst trades, kept</td></tr>
+<tr><td>Stop at 30% down</td><td>(0.9%)</td><td>(2.5%)</td><td class="fail">Triggers on noise, rejected</td></tr>
+<tr><td>Hold 10 days instead of 5</td><td>+4.3%</td><td>+0.1%</td><td class="fail">Higher average, but the worst 10% of trades lose about 96%, rejected</td></tr>
+</tbody>
+</table>
+</div>
+
+The combination of the kept changes, a 45 to 60 day contract at delta 0.50 with the market filter and the 50% stop:
+
+<div class="scroll" markdown="0">
+<table>
+<thead><tr><th></th><th>Trades</th><th>Average per trade</th><th>Worst 10% of trades</th><th>Worst month</th></tr></thead>
+<tbody>
+<tr><td>Old call rules, 2016 to 2021</td><td>73,219</td><td>+0.5%</td><td>(83%)</td><td>(51%)</td></tr>
+<tr><td>New call rules, 2016 to 2021</td><td>15,541</td><td>+2.6%</td><td>(73%)</td><td>(37%)</td></tr>
+<tr><td>Old call rules, 2022 to 2026</td><td>44,503</td><td>(1.8%)</td><td>(83%)</td><td>(55%)</td></tr>
+<tr><td>New call rules, 2022 to 2026</td><td>4,108</td><td>+1.0%</td><td>(74%)</td><td>(21%)</td></tr>
+</tbody>
+</table>
+</div>
+
+Read this carefully. The gain is consistent in both halves, but it is small and the ranges still include zero, so it is not proof of an edge. It also removes most trades, 79% fewer in the earlier half and 91% fewer in the later one. What it does reliably is shrink the worst outcomes. The share of trades that lose 30% or more did not improve, because a stop cannot stop a trade from being a loser, only from being a bigger one.
+
+One result was rejected on purpose. The method I set up in advance would have combined a 60 day contract, a 10 day hold and a 100% target, and that combination showed an average of +17.6% in the earlier half. It left only a few hundred trades in the later half, all on the quietest stocks, and looks like an artifact of pricing options off recent volatility. I did not adopt it.
+
+Two honesty notes. The kept changes were chosen after reading the one at a time results, so the later half is a check on consistency and not a clean out of sample test. And the numbers are still modeled option prices.
+
 ## How much to trust this
 
 - **Survivorship bias.** Only stocks in the index today are tested, which flatters long signals. The true result for calls is, if anything, a little worse.
 - **Constant volatility.** The model holds implied volatility flat. Real options gain or lose value as volatility moves, and that is not captured.
 - **The contract gates look helpful in the model, but do not rely on that.** With no modeled gates the call average is (3.1%) against (0.4%) with them. Part of that gap is probably an artifact: the model prices options from recent realized volatility, and quiet stocks tend to get more volatile, which flatters low volatility picks. Real chains would price that in.
 - **Volatility premium.** If the volatility priced into options equals realized volatility the calls make +1.9% per trade. At 30% above realized they lose 1.9%. The result depends on an assumption that cannot be pinned down without real chains.
-- **No tuning.** The rules came from live mistakes in 2026, not from searching this data. That is why the 2016 to 2025 results are a fair test, and the reason the sample is still a limited one.
+- **Tuning.** The first test used the rules as written, which came from live mistakes in 2026 and not from searching this data. The second test tried a small set of changes, and how they were chosen is described in finding four.
 
 ## What changed
 
-1. **The spread gate is now 3% of the mark for every hold.** It was 5% for a multi day hold.
-2. **The trend gate is no longer described as an edge.** It stays as a filter against fighting the tape, but a candidate needs a named, dated catalyst as the reason to trade. Trend alone is never the reason.
-3. **Puts need a catalyst.** The data gives no support for a put on trend alone.
-4. **A real chain archive is the next step.** Until the daily runs have collected enough live chains to test spread, open interest and volume directly, the contract level results above stay modeled.
+1. **Puts are suspended.** They lost in both halves of the sample and at every setting tested.
+2. **Calls only when the S&P 500 is above its 200 day average.**
+3. **Contracts expire in 45 to 60 days, not 21 to 60, and the strike is the one nearest the money, delta 0.50 to 0.55.**
+4. **A stop at 50% down on the contract, on top of the existing exit at +50% or five days.**
+5. **The spread gate is 3% of the mark for every hold.** It was 5% for a multi day hold.
+6. **The trend gate is described as a filter, not an edge.** A candidate needs a named, dated catalyst as the reason to trade.
+7. **A real chain archive is the next step.** Until the daily runs have collected enough live chains to test spread, open interest and volume directly, the contract level results stay modeled.
 
 The code and full results are in the [backtest folder on GitHub](https://github.com/carolinehutchins05-prog/options-desk/tree/main/backtest).

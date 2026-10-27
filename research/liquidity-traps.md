@@ -70,4 +70,4 @@ Both puts **doubled in a session**. Buying either one required a further 10% col
 
 All three are cases where a number that looked like evidence was not. A tight spread with no depth, open interest with no activity, a sound thesis priced in already. Each required reading one additional field that the first one does not imply.
 
-This is why the screen checks thirteen things rather than three, and why every one of them is conjunctive.
+This is why the screen checks fourteen things rather than three, and why every one of them is conjunctive.

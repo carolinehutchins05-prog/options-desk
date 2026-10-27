@@ -17,7 +17,7 @@ Thirty minutes after the open is deliberate. See the methodology page for why.
 
 ## Gates
 
-Thirteen conjunctive gates. Delta 0.50 to 0.65, break even within 3 percent, spread under 3 percent, implied volatility under 40 percent, theta under 5 percent of mark per day, open interest 1,000 or more, volume 500 or more, bid and ask size 20 or more each, days to expiry 21 to 60, earnings after expiry, no 52 week high in the last three sessions, break even below the 52 week high, a fixed small position size.
+Fourteen conjunctive gates. Calls only, S&P 500 above its 200 day average, delta 0.50 to 0.55, break even within 3 percent, spread under 3 percent, implied volatility under 40 percent, theta under 5 percent of mark per day, open interest 1,000 or more, volume 500 or more, bid and ask size 20 or more each, days to expiry 45 to 60, earnings after expiry, no 52 week high in the last three sessions, break even below the 52 week high, a fixed small position size.
 
 Most runs report no candidates. That is the expected result.
 
@@ -27,7 +27,6 @@ Most runs report no candidates. That is the expected result.
 index.md              landing page
 methodology.md        the gates, each with its reason
 research/             measurements and case studies
-revisions.md          dated record of every rule change
 archive/              daily runs, auto generated
 publish.sh            publisher, with mechanical redaction
 ```
