@@ -38,6 +38,7 @@
   function decorate(h){
     var txt=h.textContent, i=txt.indexOf(': '), left=txt, right='';
     if(i>0){ left=txt.slice(0,i); right=txt.slice(i+2); }
+    else { var vm=txt.match(/^(.*\b(?:CALL|PUT))\s+(rejected|cleared|dead on spread|dropped for spread|dropped|passed|failed)\s*$/i); if(vm){ left=vm[1]; right=vm[2]; } }
     var html=left.replace(/\b(CALL|PUT)\b/g,function(m){return '<span class="side '+m.toLowerCase()+'">'+m+'</span>';});
     h.innerHTML='<span class="ht">'+html+'</span>';
     if(right){
