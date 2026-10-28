@@ -28,6 +28,8 @@ def card(r, rank):
     fav = "up" if call else "down"
     earn = {"after": "Earnings after expiry", "unknown": "Earnings date not found, check before buying",
             "before_expiry": f"Earnings {r['earnings']}, before expiry. Sell before it."}.get(r["earnings_flag"], "")
+    if r["earnings"].startswith("ETF"):
+        earn = "ETF, no earnings report"
     warn = '<span class="tag warn">Earnings before expiry</span>' if r["earnings_flag"] == "before_expiry" else ""
     warn += '<span class="tag warn">Check earnings date</span>' if r["earnings_flag"] == "unknown" else ""
     rows = "".join(
