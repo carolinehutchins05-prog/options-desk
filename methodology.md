@@ -17,7 +17,7 @@ description: The fourteen gates every candidate must clear, each with the reason
 Checked before anything else, because it is the cheapest filter and the most violated.
 
 - A **call** requires price above a rising 50 day simple moving average, with 14 day RSI between 45 and 70.
-- **Puts are suspended.** In the backtest the trend gate on the put side lost money in both halves of the sample, and the stocks it selected went up more than average. No put is graded as a candidate until live data shows otherwise.
+- **Puts are tactical only.** In the backtest the trend gate on the put side lost money in both halves of the sample, and the stocks it selected went up more than average. So a put needs the stock below its 50 day average, is held for days and not weeks, is shown in its own tactical list, and is never the core idea.
 
 This exists because of two specific errors. A call was once surfaced on a name trading at $210.96 against a 50 day of $212.91 with RSI 43.9, on the argument that a supertrend reading had flipped positive. Supertrend direction alone is not trend confirmation. Separately, a put was held on a stock sitting 5.6% above its rising 50 day with RSI 56, which is simply a bet against something that is going up.
 
@@ -41,7 +41,7 @@ Both lose for the same reason: the option was asked to overcome the underlying's
 <tr><td><strong>Volume</strong></td><td>500 or more today</td><td>Stale open interest from a crowded strike that has gone quiet.</td></tr>
 <tr><td><strong>Bid size and ask size</strong></td><td>20 or more, each</td><td>The trap described in <a href="research/liquidity-traps.html">liquidity traps</a>. This one is invisible in both spread and open interest.</td></tr>
 <tr><td><strong>Days to expiry</strong></td><td>45 to 60, third Friday monthly preferred</td><td>Fast time decay and the expiry week cliff. Contracts at 45 days or more lost less than 30 day contracts in both halves of the backtest.</td></tr>
-<tr><td><strong>Earnings</strong></td><td>must fall after expiry</td><td>Holding an unreleased print. See <a href="research/event-volatility.html">event volatility</a>.</td></tr>
+<tr><td><strong>Earnings</strong></td><td>no report inside the holding window, about 8 days. A report after that but before expiry is allowed, and the plan is to sell before it</td><td>Holding an unreleased print. A longer dated contract is bought so it can be sold within days, so only the days it is held matter. See <a href="research/event-volatility.html">event volatility</a>.</td></tr>
 <tr><td><strong>Recent high</strong></td><td>no 52 week high in the last three sessions</td><td>Entering into a move that has already happened.</td></tr>
 <tr><td><strong>Break even ceiling</strong></td><td>must sit below the 52 week high</td><td>Trades that need a new all time high just to return the premium.</td></tr>
 <tr><td><strong>Size</strong></td><td>A fixed, small share of capital</td><td>Position sizes that make one trade decide the year.</td></tr>
@@ -62,6 +62,15 @@ The stop works on closing prices. A gap through it can lose more than 50%, and a
 <span class="h">The expected output</span>
 <p>Most runs report <strong>no candidates</strong>. Fourteen conjunctive gates on a universe of roughly 500 names, intersected with a requirement for a specific dated catalyst, will usually produce nothing. A screen that returns something every day has gates that do not bind.</p>
 </div>
+
+## Core ideas, tactical ideas, and never an empty list
+
+The screen sorts what it finds into two tiers so a day is not wasted on "no".
+
+- **Core:** every gate above, calls only, S&P 500 above its 200 day average.
+- **Tactical:** looser on timing and price, 21 to 75 days, spread 4% or less, break even within 5%, implied vol under 60%. These are quick trades, and puts live here.
+
+Every contract is a longer dated option with a short plan: buy it, then sell within about three to five trading days, at a 50% gain, or at a 50% loss. The [Best Options page](best-options/) ranks the most liquid contracts every day by the estimated return on a normal week of movement, after the spread. Each daily run always lists its best available calls and puts with that plan, even when no contract clears every core gate.
 
 ## Why single leg only
 

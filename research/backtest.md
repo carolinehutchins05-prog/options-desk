@@ -62,7 +62,7 @@ At five days the picture is the same: no measurable difference from an average s
 </table>
 </div>
 
-Only 893 days pass the modeled gates on SPY, so that row is noisy. The screen's calls did exactly as well as the same contract on a random stock on a random day, so the trend gate added nothing measurable. Calls were not significantly different from zero in any of three sub periods. The puts lost money in every period and at every setting tested, which is why they are now suspended. Only with zero trading cost did they reach roughly break even (a loss of 2.3%, with a range that includes zero).
+Only 893 days pass the modeled gates on SPY, so that row is noisy. The screen's calls did exactly as well as the same contract on a random stock on a random day, so the trend gate added nothing measurable. Calls were not significantly different from zero in any of three sub periods. The puts lost money in every period and at every setting tested, which is why they are tactical only. Only with zero trading cost did they reach roughly break even (a loss of 2.3%, with a range that includes zero).
 
 ## Finding three: spread decides it
 
@@ -131,7 +131,7 @@ Two honesty notes. The kept changes were chosen after reading the one at a time 
 
 ## What changed
 
-1. **Puts are suspended.** They lost in both halves of the sample and at every setting tested.
+1. **Puts are tactical only.** They lost in both halves of the sample and at every setting tested, so they are short, small and never the core idea.
 2. **Calls only when the S&P 500 is above its 200 day average.**
 3. **Contracts expire in 45 to 60 days, not 21 to 60, and the strike is the one nearest the money, delta 0.50 to 0.55.**
 4. **A stop at 50% down on the contract, on top of the existing exit at +50% or five days.**

@@ -11,3 +11,5 @@ exclude:
   - build_week.py
   - data
   - options_card.py
+  - publish_board.sh
+  - build_board.py

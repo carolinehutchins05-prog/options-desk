@@ -11,7 +11,7 @@ d = json.load(open(src))
 e = html.escape
 stamp = datetime.now(ZoneInfo("America/New_York")).strftime("%a %b %-d, %-I:%M %p ET")
 
-NAV = [("Week Ahead", "/options-desk/week-ahead/"), ("Daily log", "/options-desk/archive/"),
+NAV = [("Best Options", "/options-desk/best-options/"), ("Week Ahead", "/options-desk/week-ahead/"), ("Daily log", "/options-desk/archive/"),
        ("Research", "/options-desk/research/"), ("Methodology", "/options-desk/methodology")]
 
 def chip(label, val):

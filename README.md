@@ -27,11 +27,12 @@ When a contract clears every gate, its heading gets a **View more** card that sh
 
 Fourteen gates, all of which must pass. The reason behind each one is on the [methodology page](https://carolinehutchins05-prog.github.io/options-desk/methodology).
 
-- **Calls only**, and only while the S&P 500 is above its 200 day average. Puts are suspended.
+- **Core calls** only while the S&P 500 is above its 200 day average. Puts are tactical only, short and small.
 - **Trend:** price above a rising 50 day average, RSI between 45 and 70, no 52 week high in the last three sessions.
 - **Contract:** 45 to 60 days to expiry, delta 0.50 to 0.55, spread 3% of the mark or less, open interest 1,000 or more, volume 500 or more, bid and ask size 20 or more.
-- **Event risk:** earnings must fall after expiry.
-- **Exit:** plus 50% on the contract, five days, or a stop at 50% down on a close.
+- **Event risk:** no earnings report inside the holding window. A report later but before expiry is flagged, and the plan is to sell first.
+- **Plan for every idea:** buy a longer dated contract, then sell within about three to five trading days, at plus 50%, or at a stop 50% down.
+- **Best Options board:** every day the most liquid calls and puts are ranked by estimated return on a normal move, after the spread.
 
 ## Tested against the S&P 500
 
