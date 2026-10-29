@@ -49,7 +49,14 @@ Liquidity: spread 1.1%, open interest 7,300, volume today 102.
 Verdict: rejected, breakeven needs HOOD down 6.1%, just over the 5% line.
 
 ## Dropped for spread
-SHEL $110C 6.7%, STM $50P 6.7%, XLV $185C (sector) 11.3%, XLK $190P (sector) 10.9%.
+SHEL $110C 6.7%, STM $50P 6.7%, TFC $50C 16.7%, XLV $185C (sector) 11.3%, XLK $190P (sector) 10.9%.
+
+## TFC CALL: Insider Signal, Dead Chain
+Why: a corporate officer bought over $1M of stock this week, filed this morning, the strongest insider buy signal of the day.
+Trend: price above 50 day, RSI 55.9.
+Contract: Dec 18 $50 call, mark $1.20, delta 0.47, IV 18.8%.
+Liquidity: spread 16.7%, open interest 1,891, volume today 4.
+Verdict: rejected, chain too thin to trade despite clean trend and strong insider signal.
 
 ## Sector Pass
 Technology, semiconductors and communication services confirmed below their 50 day lines live; healthcare, staples and financials confirmed above. Both sides of the rotation held into the cash session, a clean read. The best contract on each side (XLV call, XLK put) still failed the 3% spread cap, so no sector trade clears either.
