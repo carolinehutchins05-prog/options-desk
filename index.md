@@ -10,60 +10,39 @@ title: Options Desk
 <p class="hero-links"><a href="week-ahead/">Week ahead</a><span>&middot;</span><a href="archive/">The daily log</a><span>&middot;</span><a href="methodology">Methodology</a><span>&middot;</span><a href="research/">Research</a></p>
 <p class="rules">Fourteen gates &nbsp;&middot;&nbsp; Delta 0.50 to 0.55 &nbsp;&middot;&nbsp; Spread under 3% &nbsp;&middot;&nbsp; Open interest over 1,000</p>
 </section>
-<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Live Verdict, 2026-10-29</span></div>
+<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Premarket Plan, 2026-10-30</span></div>
 
 <div class="report" markdown="1">
 
-# Calls and Puts Verdict, October 29, 2026
-Live chain grading at 10:33 AM ET. Read only research, no trades placed.
+## Today's Catalysts
+AMZN reported Q3 last night, a small EPS miss, 1.89 versus 1.97 estimate, and premarket is pricing in a sharp negative reaction, down about 6.6 percent. That reaction is dragging the AI capex complex with it, NVDA, AVGO, MU, TSM and AMD are all down 2.4 to 6.4 percent premarket with no stock specific news of their own.
 
-## Cleared Contracts
-None cleared every gate today. The heaviest earnings day of the cycle pushed implied volatility up across the board, which pushed breakeven distances on every candidate, calls and puts alike, past the line.
+This is also one of the heaviest earnings mornings of the cycle. GD, XOM and CVX all reported strong beats before the open. SPY sits above its 200 day average, so calls were allowed today, but all three beat names were chasing either a recent or a same day high, the same mistake pattern that produced losses in August.
 
-## QCOM CALL: Best Available, Core
-Why: QCOM holding above its 50 day with RSI in the constructive band, the cleanest trend of the names screened today.
-Trend: price above 50 day, RSI 54.7.
-Contract: Dec 18 $180 call, mark $13.95, delta 0.56, IV 49.4%.
-Liquidity: spread 2.9%, open interest 1,583, volume today 3.
-Verdict: rejected, breakeven needs QCOM up 7.3% in 50 days.
+## GD CALL: Rejected
+Strong beat on earnings. Price above its rising 50 day average, but RSI near 72.5, over the normal call ceiling. The overbought reading alone killed it, not the setup.
 
-## PLTR CALL: Best Available, Core
-Why: PLTR holding above its 50 day, momentum intact.
-Trend: price above 50 day, RSI 53.9.
-Contract: Dec 18 $195 call, mark $16.95, delta 0.55, IV 57.7%.
-Liquidity: spread 1.2%, open interest 4,366, volume today 63.
-Verdict: rejected, breakeven needs PLTR up 8.6%.
+## XOM CALL: Rejected
+Strong beat, trend confirmed, but the stock printed a 52 week high just 3 sessions ago. Chasing a recent high is the single highest value rule on this desk.
 
-## UBER PUT: Best Available, Tactical
-Why: UBER below its 50 day, the closest contract to clearing on the board today.
-Trend: price below 50 day, RSI 34.8.
-Contract: Dec 18 $67.50 put, mark $4.93, delta -0.56, IV 39.3%.
-Liquidity: spread 3.1%, open interest 4,651, volume today 14.
-Verdict: rejected, volume under the 100 tactical floor.
+## CVX CALL: Rejected
+Strong beat, but the stock is making a fresh 52 week high this morning. Same entry timing pattern that has produced losses before. Rejected on sight.
 
-## HOOD PUT: Best Available, Tactical
-Why: HOOD below its 50 day after Tuesday's earnings miss.
-Trend: price below 50 day, RSI 34.3.
-Contract: Dec 18 $95 put, mark $9.45, delta -0.53, IV 55.5%.
-Liquidity: spread 1.1%, open interest 7,300, volume today 102.
-Verdict: rejected, breakeven needs HOOD down 6.1%, just over the 5% line.
+## NVDA PUT: Best Available, Tactical
+Why: AMZN's Q3 miss is spilling into the AI capex complex, NVDA named directly with no stock specific news of its own.
+Trend: price below its falling 50 day average, confirmed downtrend.
+Contract: Nov 20 $210 put, mark $7.13, delta 0.41, IV 44.9%.
+Liquidity: Spread 0.7%, open interest 42728, volume today 7918, volume to OI 0.19.
+Plan: Nov 20 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down.
 
-## Dropped for spread
-SHEL $110C 6.7%, STM $50P 6.7%, TFC $50C 16.7%, XLV $185C (sector) 11.3%, XLK $190P (sector) 10.9%.
+<aside class="oc" aria-label="NVDA contract detail"><div class="oc-title">NVDA $210 put, Nov 20, 21 days left, stock $208.00</div><div class="oc-facts"><div><span>Cost to buy</span><b>$713</b></div><div><span>Most you can lose</span><b>$713</b></div><div><span>Each $1 the stock moves</span><b>about $41</b></div><div><span>Breakeven at expiry</span><b>$202.87 (down 2.5%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$197.60</td><td class="up">$666</td><td class="up">$629</td></tr><tr><th scope="row">down 3%</th><td>$201.76</td><td class="up">$363</td><td class="up">$314</td></tr><tr><th scope="row">down 1%</th><td>$205.92</td><td class="up">$101</td><td class="up">$43</td></tr><tr><th scope="row">up 1%</th><td>$210.08</td><td class="dn">($118)</td><td class="dn">($179)</td></tr><tr><th scope="row">up 3%</th><td>$214.24</td><td class="dn">($292)</td><td class="dn">($352)</td></tr><tr><th scope="row">up 5%</th><td>$218.40</td><td class="dn">($426)</td><td class="dn">($479)</td></tr><tr><th scope="row">up 10%</th><td>$228.80</td><td class="dn">($618)</td><td class="dn">($649)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $3.56 costs about ($357). Target at $10.69 makes about $356.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
-## TFC CALL: Insider Signal, Dead Chain
-Why: a corporate officer bought over $1M of stock this week, filed this morning, the strongest insider buy signal of the day.
-Trend: price above 50 day, RSI 55.9.
-Contract: Dec 18 $50 call, mark $1.20, delta 0.47, IV 18.8%.
-Liquidity: spread 16.7%, open interest 1,891, volume today 4.
-Verdict: rejected, chain too thin to trade despite clean trend and strong insider signal.
+## MU PUT: Rejected for spread
+MU Nov 20 $950 put cleared every quality gate but the dollar cost per contract is far too large relative to a normal account, rejected on size, not setup.
 
-## Sector Pass
-Technology, semiconductors and communication services confirmed below their 50 day lines live; healthcare, staples and financials confirmed above. Both sides of the rotation held into the cash session, a clean read. The best contract on each side (XLV call, XLK put) still failed the 3% spread cap, so no sector trade clears either.
+## Dropped for liquidity
+AVGO puts near the money never clear 2000 open interest at a usable spread.
 
-## Earnings Watch
-Cheniere Energy (LNG) beat and raised this morning, stock up 3.4% premarket. General Dynamics reports tomorrow before the open.
-
-No trade cleared the bar today. Elevated implied volatility from this earnings-heavy week pushed every breakeven past its gate, which is the system working as designed rather than reaching for a weak fill.
+Today reads as a spillover rotation out of growth and tech into energy, healthcare, staples and real estate, not a broad risk off panic. The one clean tactical trade on the board is a small AI capex put, planned to be sold within days.
 
 </div>
