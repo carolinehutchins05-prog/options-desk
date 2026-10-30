@@ -10,39 +10,54 @@ title: Options Desk
 <p class="hero-links"><a href="week-ahead/">Week ahead</a><span>&middot;</span><a href="archive/">The daily log</a><span>&middot;</span><a href="methodology">Methodology</a><span>&middot;</span><a href="research/">Research</a></p>
 <p class="rules">Fourteen gates &nbsp;&middot;&nbsp; Delta 0.50 to 0.55 &nbsp;&middot;&nbsp; Spread under 3% &nbsp;&middot;&nbsp; Open interest over 1,000</p>
 </section>
-<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Premarket Plan, 2026-10-30</span></div>
+<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Live Verdict, 2026-10-30</span></div>
 
 <div class="report" markdown="1">
 
-## Today's Catalysts
-AMZN reported Q3 last night, a small EPS miss, 1.89 versus 1.97 estimate, and premarket is pricing in a sharp negative reaction, down about 6.6 percent. That reaction is dragging the AI capex complex with it, NVDA, AVGO, MU, TSM and AMD are all down 2.4 to 6.4 percent premarket with no stock specific news of their own.
+## Cleared Contracts
 
-This is also one of the heaviest earnings mornings of the cycle. GD, XOM and CVX all reported strong beats before the open. SPY sits above its 200 day average, so calls were allowed today, but all three beat names were chasing either a recent or a same day high, the same mistake pattern that produced losses in August.
+### NVDA PUT
+Why: AMZN Q3 miss triggered an AI capex spillover, dragging the entire chip complex down hard a second straight session.
+Trend: price $206.90, down 3.1% intraday, below its falling 50 day $221.99, RSI 42.3.
+Contract: Nov 20 $210 put, mark $10.58, delta 0.52, IV 45.9%.
+Liquidity: Spread 1.4%, open interest 42,738, volume today 1,631.
+Verdict: Tactical, sell within 3 to 5 days or at plus 50%, stop at 50% down.
 
-## GD CALL: Rejected
-Strong beat on earnings. Price above its rising 50 day average, but RSI near 72.5, over the normal call ceiling. The overbought reading alone killed it, not the setup.
+<aside class="oc" aria-label="NVDA contract detail"><div class="oc-title">NVDA $210 put, Nov 20, 21 days left, stock $206.90</div><div class="oc-facts"><div><span>Cost to buy</span><b>$1,058</b></div><div><span>Most you can lose</span><b>$1,058</b></div><div><span>Each $1 the stock moves</span><b>about $52</b></div><div><span>Breakeven at expiry</span><b>$199.42 (down 3.6%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$196.56</td><td class="up">$617</td><td class="up">$547</td></tr><tr><th scope="row">down 3%</th><td>$200.69</td><td class="up">$339</td><td class="up">$260</td></tr><tr><th scope="row">down 1%</th><td>$204.83</td><td class="up">$92</td><td class="up">$5</td></tr><tr><th scope="row">up 1%</th><td>$208.97</td><td class="dn">($126)</td><td class="dn">($216)</td></tr><tr><th scope="row">up 3%</th><td>$213.11</td><td class="dn">($313)</td><td class="dn">($404)</td></tr><tr><th scope="row">up 5%</th><td>$217.25</td><td class="dn">($471)</td><td class="dn">($559)</td></tr><tr><th scope="row">up 10%</th><td>$227.59</td><td class="dn">($755)</td><td class="dn">($825)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $5.29 costs about ($529). Target at $15.86 makes about $528.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
-## XOM CALL: Rejected
-Strong beat, trend confirmed, but the stock printed a 52 week high just 3 sessions ago. Chasing a recent high is the single highest value rule on this desk.
+### QQQ PUT
+Why: broad proxy for the semiconductor and tech breakdown, SMH and XLK both broke their 50 day hard today on an accelerating AMZN led AI capex spillover.
+Trend: price $694.47, down 2.9% intraday, below its 50 day.
+Contract: Nov 20 $700 put, mark $18.92, delta 0.53, IV 24.8%.
+Liquidity: Spread 0.74%, open interest 50,278, volume today 8,770.
+Verdict: Tactical, sell within 3 to 5 days or at plus 50%, stop at 50% down.
 
-## CVX CALL: Rejected
-Strong beat, but the stock is making a fresh 52 week high this morning. Same entry timing pattern that has produced losses before. Rejected on sight.
+<aside class="oc" aria-label="QQQ contract detail"><div class="oc-title">QQQ $700 put, Nov 20, 21 days left, stock $694.47</div><div class="oc-facts"><div><span>Cost to buy</span><b>$1,892</b></div><div><span>Most you can lose</span><b>$1,892</b></div><div><span>Each $1 the stock moves</span><b>about $53</b></div><div><span>Breakeven at expiry</span><b>$681.08 (down 1.9%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$659.75</td><td class="up">$2,341</td><td class="up">$2,266</td></tr><tr><th scope="row">down 3%</th><td>$673.64</td><td class="up">$1,266</td><td class="up">$1,150</td></tr><tr><th scope="row">down 1%</th><td>$687.53</td><td class="up">$353</td><td class="up">$206</td></tr><tr><th scope="row">up 1%</th><td>$701.41</td><td class="dn">($379)</td><td class="dn">($538)</td></tr><tr><th scope="row">up 3%</th><td>$715.30</td><td class="dn">($928)</td><td class="dn">($1,079)</td></tr><tr><th scope="row">up 5%</th><td>$729.19</td><td class="dn">($1,313)</td><td class="dn">($1,439)</td></tr><tr><th scope="row">up 10%</th><td>$763.92</td><td class="dn">($1,768)</td><td class="dn">($1,818)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $9.46 costs about ($946). Target at $28.38 makes about $946.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
-## NVDA PUT: Best Available, Tactical
-Why: AMZN's Q3 miss is spilling into the AI capex complex, NVDA named directly with no stock specific news of its own.
-Trend: price below its falling 50 day average, confirmed downtrend.
-Contract: Nov 20 $210 put, mark $7.13, delta 0.41, IV 44.9%.
-Liquidity: Spread 0.7%, open interest 42728, volume today 7918, volume to OI 0.19.
-Plan: Nov 20 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down.
+## Dropped for spread
+XLV $186C 17.1%, SMH $525P 4.9%, SMH $530P 3.9%.
 
-<aside class="oc" aria-label="NVDA contract detail"><div class="oc-title">NVDA $210 put, Nov 20, 21 days left, stock $208.00</div><div class="oc-facts"><div><span>Cost to buy</span><b>$713</b></div><div><span>Most you can lose</span><b>$713</b></div><div><span>Each $1 the stock moves</span><b>about $41</b></div><div><span>Breakeven at expiry</span><b>$202.87 (down 2.5%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$197.60</td><td class="up">$666</td><td class="up">$629</td></tr><tr><th scope="row">down 3%</th><td>$201.76</td><td class="up">$363</td><td class="up">$314</td></tr><tr><th scope="row">down 1%</th><td>$205.92</td><td class="up">$101</td><td class="up">$43</td></tr><tr><th scope="row">up 1%</th><td>$210.08</td><td class="dn">($118)</td><td class="dn">($179)</td></tr><tr><th scope="row">up 3%</th><td>$214.24</td><td class="dn">($292)</td><td class="dn">($352)</td></tr><tr><th scope="row">up 5%</th><td>$218.40</td><td class="dn">($426)</td><td class="dn">($479)</td></tr><tr><th scope="row">up 10%</th><td>$228.80</td><td class="dn">($618)</td><td class="dn">($649)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $3.56 costs about ($357). Target at $10.69 makes about $356.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+## Rejected
+### GD CALL
+Strong beat, $4.49 vs $4.13, but RSI 72.5, over the 45 to 70 ceiling.
 
-## MU PUT: Rejected for spread
-MU Nov 20 $950 put cleared every quality gate but the dollar cost per contract is far too large relative to a normal account, rejected on size, not setup.
+### XOM CALL
+Strong beat, but 52 week high printed 3 sessions ago.
 
-## Dropped for liquidity
-AVGO puts near the money never clear 2000 open interest at a usable spread.
+### CVX CALL
+Strong beat, but made a fresh 52 week high this morning, same entry timing mistake as prior extended entries.
 
-Today reads as a spillover rotation out of growth and tech into energy, healthcare, staples and real estate, not a broad risk off panic. The one clean tactical trade on the board is a small AI capex put, planned to be sold within days.
+### MU PUT
+Delta 0.52, spread 2.2%, open interest 3,853, but costs $5,535 a contract, over half a typical account. Rejected on size.
+
+### AVGO PUT
+Near the money strikes never clear 2,000 open interest, best was 714.
+
+### XLE CALL
+Spread 2.9%, open interest 65,119, but only 235 contracts traded today, under the 500 minimum.
+
+### AMD PUT
+Reports Nov 3, inside the entry holding window, rejected before pricing.
+
 
 </div>
