@@ -10,54 +10,51 @@ title: Options Desk
 <p class="hero-links"><a href="week-ahead/">Week ahead</a><span>&middot;</span><a href="archive/">The daily log</a><span>&middot;</span><a href="methodology">Methodology</a><span>&middot;</span><a href="research/">Research</a></p>
 <p class="rules">Fourteen gates &nbsp;&middot;&nbsp; Delta 0.50 to 0.55 &nbsp;&middot;&nbsp; Spread under 3% &nbsp;&middot;&nbsp; Open interest over 1,000</p>
 </section>
-<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Live Verdict, 2026-10-30</span></div>
+<div class="latest-head"><span class="eyebrow">Latest run</span><span class="meta">Premarket Plan, 2026-11-02</span></div>
 
 <div class="report" markdown="1">
 
-## Cleared Contracts
+# Premarket Calls and Puts, November 2, 2026
+> Provisional plan graded on live marks at 10:26 AM ET. The 10:00 AM run confirms.
 
-### NVDA PUT
-Why: AMZN Q3 miss triggered an AI capex spillover, dragging the entire chip complex down hard a second straight session.
-Trend: price $206.90, down 3.1% intraday, below its falling 50 day $221.99, RSI 42.3.
-Contract: Nov 20 $210 put, mark $10.58, delta 0.52, IV 45.9%.
-Liquidity: Spread 1.4%, open interest 42,738, volume today 1,631.
-Verdict: Tactical, sell within 3 to 5 days or at plus 50%, stop at 50% down.
+## Market
+- SPY 763.42 vs its 200 day 725.98, so calls are allowed.
+- Earnings beats this morning: EL, IDXX, CHKP. PLTR and VRTX report tonight.
+- October jobs report Friday sits inside a 3 to 5 day hold. Sell new contracts by Thursday.
+- No call clears the Core tier today.
 
-<aside class="oc" aria-label="NVDA contract detail"><div class="oc-title">NVDA $210 put, Nov 20, 21 days left, stock $206.90</div><div class="oc-facts"><div><span>Cost to buy</span><b>$1,058</b></div><div><span>Most you can lose</span><b>$1,058</b></div><div><span>Each $1 the stock moves</span><b>about $52</b></div><div><span>Breakeven at expiry</span><b>$199.42 (down 3.6%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$196.56</td><td class="up">$617</td><td class="up">$547</td></tr><tr><th scope="row">down 3%</th><td>$200.69</td><td class="up">$339</td><td class="up">$260</td></tr><tr><th scope="row">down 1%</th><td>$204.83</td><td class="up">$92</td><td class="up">$5</td></tr><tr><th scope="row">up 1%</th><td>$208.97</td><td class="dn">($126)</td><td class="dn">($216)</td></tr><tr><th scope="row">up 3%</th><td>$213.11</td><td class="dn">($313)</td><td class="dn">($404)</td></tr><tr><th scope="row">up 5%</th><td>$217.25</td><td class="dn">($471)</td><td class="dn">($559)</td></tr><tr><th scope="row">up 10%</th><td>$227.59</td><td class="dn">($755)</td><td class="dn">($825)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $5.29 costs about ($529). Target at $15.86 makes about $528.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+## Best Available
 
-### QQQ PUT
-Why: broad proxy for the semiconductor and tech breakdown, SMH and XLK both broke their 50 day hard today on an accelerating AMZN led AI capex spillover.
-Trend: price $694.47, down 2.9% intraday, below its 50 day.
-Contract: Nov 20 $700 put, mark $18.92, delta 0.53, IV 24.8%.
-Liquidity: Spread 0.74%, open interest 50,278, volume today 8,770.
-Verdict: Tactical, sell within 3 to 5 days or at plus 50%, stop at 50% down.
+## MSFT CALL: Best Available, Tactical
+- Why: no dated catalyst. Most liquid near the money call on the board, trend filter only.
+- Trend: $528.02 above a rising 50 day at $512.91, RSI 49.8.
+- Contract: Dec 18 $530 call, mark $20.50, delta 0.53, IV 26.1%
+- Liquidity: Spread 2.4%, open interest 5,719, volume today 448, volume to OI 0.08
+- Plan: Dec 18 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down.
+- Verdict: **Tactical only**. Break even $550.50, up 4.3%, just under the 52 week high.
 
-<aside class="oc" aria-label="QQQ contract detail"><div class="oc-title">QQQ $700 put, Nov 20, 21 days left, stock $694.47</div><div class="oc-facts"><div><span>Cost to buy</span><b>$1,892</b></div><div><span>Most you can lose</span><b>$1,892</b></div><div><span>Each $1 the stock moves</span><b>about $53</b></div><div><span>Breakeven at expiry</span><b>$681.08 (down 1.9%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$659.75</td><td class="up">$2,341</td><td class="up">$2,266</td></tr><tr><th scope="row">down 3%</th><td>$673.64</td><td class="up">$1,266</td><td class="up">$1,150</td></tr><tr><th scope="row">down 1%</th><td>$687.53</td><td class="up">$353</td><td class="up">$206</td></tr><tr><th scope="row">up 1%</th><td>$701.41</td><td class="dn">($379)</td><td class="dn">($538)</td></tr><tr><th scope="row">up 3%</th><td>$715.30</td><td class="dn">($928)</td><td class="dn">($1,079)</td></tr><tr><th scope="row">up 5%</th><td>$729.19</td><td class="dn">($1,313)</td><td class="dn">($1,439)</td></tr><tr><th scope="row">up 10%</th><td>$763.92</td><td class="dn">($1,768)</td><td class="dn">($1,818)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $9.46 costs about ($946). Target at $28.38 makes about $946.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+<aside class="oc" aria-label="MSFT contract detail"><div class="oc-title">MSFT $530 call, Dec 18, 46 days left, stock $528.02</div><div class="oc-facts"><div><span>Cost to buy</span><b>$2,050</b></div><div><span>Most you can lose</span><b>$2,050</b></div><div><span>Each $1 the stock moves</span><b>about $53</b></div><div><span>Breakeven at expiry</span><b>$550.50 (up 4.3%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$501.62</td><td class="dn">($1,129)</td><td class="dn">($1,212)</td></tr><tr><th scope="row">down 3%</th><td>$512.18</td><td class="dn">($754)</td><td class="dn">($847)</td></tr><tr><th scope="row">down 1%</th><td>$522.74</td><td class="dn">($290)</td><td class="dn">($390)</td></tr><tr><th scope="row">up 1%</th><td>$533.30</td><td class="up">$263</td><td class="up">$160</td></tr><tr><th scope="row">up 3%</th><td>$543.86</td><td class="up">$903</td><td class="up">$801</td></tr><tr><th scope="row">up 5%</th><td>$554.42</td><td class="up">$1,623</td><td class="up">$1,526</td></tr><tr><th scope="row">up 10%</th><td>$580.82</td><td class="up">$3,714</td><td class="up">$3,639</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $10.25 costs about ($1,025). Target at $30.75 makes about $1,025.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
-## Dropped for spread
-XLV $186C 17.1%, SMH $525P 4.9%, SMH $530P 3.9%.
+## Calls, no other contract passes
+- CRWD Dec 18 $250 call was closest, blocked by IV 66%, over the 60% cap.
+
+## Puts, none pass the Tactical tier
+- Puts are tactical only. The backtest showed trend puts lose on average.
+- NFLX Dec 18 $62 put was closest: spread 2.0%, open interest 4,905, blocked by volume today 56.
+- NOW Dec 18 $110 put: break even down 5.6%, over the 5% cap.
+- AVGO Dec 18 $330 put: break even down 6.9%, volume 73.
 
 ## Rejected
-### GD CALL
-Strong beat, $4.49 vs $4.13, but RSI 72.5, over the 45 to 70 ceiling.
+- **EL**: beat, but the call spread is too wide.
+- **CHKP**: down 5.9% on the beat, call spread too wide.
+- **IDXX**: gapped up 16.5%. Extended, never chase.
+- **PLTR**, **VRTX**: report tonight, inside the holding window.
+- **CPRT**: above a falling 50 day, not an uptrend.
+- **CCJ** put: right catalyst, spread too wide, volume 1.
 
-### XOM CALL
-Strong beat, but 52 week high printed 3 sessions ago.
+## Dropped for spread
+- EL $110C 12%, CHKP $145C 19%, CCJ $80P 6.5%, BA $175P 5.3%, C $120P 5.0%
 
-### CVX CALL
-Strong beat, but made a fresh 52 week high this morning, same entry timing mistake as prior extended entries.
-
-### MU PUT
-Delta 0.52, spread 2.2%, open interest 3,853, but costs $5,535 a contract, over half a typical account. Rejected on size.
-
-### AVGO PUT
-Near the money strikes never clear 2,000 open interest, best was 714.
-
-### XLE CALL
-Spread 2.9%, open interest 65,119, but only 235 contracts traded today, under the 500 minimum.
-
-### AMD PUT
-Reports Nov 3, inside the entry holding window, rejected before pricing.
-
+Relief bounce after Friday's chip flush. A failed bounce or a weak PLTR reaction tonight reopens the put side.
 
 </div>
