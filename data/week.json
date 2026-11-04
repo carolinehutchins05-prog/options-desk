@@ -1,6 +1,6 @@
 {
   "week_label": "November 2 to 6, 2026",
-  "summary": "Stocks enter the week on the back foot. The S&P 500 slipped below support last week after Intel fell about 30% on its results and revived doubts about the AI trade, while the Fed held rates in a 10 to 2 vote with two members wanting a hike. Third quarter growth came in at 3.4% and money markets price about a 76% chance of a December hike. This week stacks Apple and Palantir on Monday, the midterm elections and AMD on Tuesday, Qualcomm and Arm on Wednesday, a likely Bank of England hike on Thursday, and the October jobs report on Friday.",
+  "summary": "The first half of the week leaned hawkish on data and mixed for stocks. ISM manufacturing beat at 55.5, though prices paid cooled to 75.2, and JOLTS openings jumped to 7.52M, topping every forecast. Apple and Palantir both beat but fell, Apple on its margin outlook, while AMD beat with data center revenue up 97% and rose more than 7% after hours. The S&P 500 slipped Monday, then snapped a three day losing streak Tuesday on a chip rally. Overnight, Democrats were projected to win the House and the Senate, and stock futures fell, led by tech, as the 10 year yield dropped to near 4.91%. Still ahead: ADP, ISM services and the Treasury refunding today along with Qualcomm and Arm after the close, a Bank of England hike on Thursday, and the October jobs report on Friday.",
   "stats": [
     {
       "label": "Fed funds target",
@@ -10,23 +10,23 @@
     {
       "label": "December hike odds",
       "value": "About 76%",
-      "sub": "LSEG money market pricing, Dec 9"
+      "sub": "Last confirmed pricing, Dec 9 meeting"
     },
     {
       "label": "Oct payrolls consensus",
       "value": "55,000 to 65,000",
-      "sub": "Prior 29,000, varies by source"
+      "sub": "Prior 29,000. JOLTS openings beat at 7.52M"
     },
     {
       "label": "Oct ISM prices paid",
-      "value": "77",
-      "sub": "Prior 77.9, consensus for the factory survey"
+      "value": "75.2",
+      "sub": "Down from 77.9, consensus was 77"
     }
   ],
   "headline": {
-    "kicker": "Biggest day of the week",
+    "kicker": "Biggest day still ahead",
     "title": "Friday Nov 6: the October jobs report at 8:30 AM ET",
-    "body": "Tuesday's midterms and AMD will make more noise, but payrolls speak directly to the Fed's December decision. With a hike already about 76% priced, a strong report would harden it, while another weak one after September's 29,000 would give the case for waiting real support."
+    "body": "The midterms delivered the expected Democratic wins and tech futures slipped overnight, but payrolls still speak most directly to the Fed's December decision. A strong JOLTS report and a hot factory survey have firmed the hawkish case, so a beat on the 55,000 to 65,000 consensus with firm wages would harden hike bets, while another weak print would give the case for waiting real support."
   },
   "spotlight": [
     {
@@ -35,7 +35,7 @@
       "when": "Mon Nov 2, after the close, call 5:00 PM ET",
       "eps": "1.98",
       "rev": "$111.7B to $113.7B implied by guidance",
-      "watch": "Gross margin against the 47% to 48% outlook as memory costs surge, the December quarter guide, and the first call with John Ternus as CEO."
+      "watch": "Reported 2.10 versus 1.98 expected and beat on iPhone sales, but guided gross margin to 45% to 46% on high memory chip prices. The stock fell about 1.9% on Tuesday."
     },
     {
       "ticker": "PLTR",
@@ -43,7 +43,7 @@
       "when": "Mon Nov 2, after the close, webcast 5:00 PM ET",
       "eps": "0.39",
       "rev": "$2.18B",
-      "watch": "How far revenue clears the $2.160B to $2.164B guide, and US commercial growth. The bar is high after a long run of beats."
+      "watch": "Reported 0.44 versus 0.39 expected and raised its full year revenue outlook, yet the stock fell as much as 6% early Tuesday before recovering to close down about 1.7%, as analysts flagged slower contract value growth."
     },
     {
       "ticker": "AMD",
@@ -51,7 +51,7 @@
       "when": "Tue Nov 3, after the close, call 5:00 PM ET",
       "eps": "1.89",
       "rev": "About $13.0B to $13.1B",
-      "watch": "Data center momentum and spending plans. The stock fell after its last beat on higher capital spending, and Intel's drop has the AI trade on edge."
+      "watch": "Reported 2.09 versus 1.89 expected and beat on revenue, with data center revenue up 97%. The stock jumped more than 7% after hours, though overnight election selling in tech futures may trim that at the open."
     }
   ],
   "days": [
@@ -67,8 +67,8 @@
           "imp": "high",
           "cons": "54.6 to 54.7, prices paid 77",
           "prior": "54.5, prices paid 77.9",
-          "note": "The first big data point of the week. Readings above 50 signal expansion, and the prices paid index is the part the Fed will care about most.",
-          "react": "A strong headline with prices paid near 78 or higher would add to December hike bets, lifting yields and the dollar and weighing on tech and small caps. A drop in prices paid would ease that pressure and help rate sensitive stocks even if activity stays firm."
+          "note": "Came in at 55.5 versus about 54.6 to 54.7 expected, the tenth straight month of expansion, with production at 59.0, the highest since November 2021. Prices paid eased to 75.2 from 77.9, below the 77 consensus but still high, and employment slipped to 52.4.",
+          "react": "Stocks split on Monday. The Dow rose about 0.4% as oil posted its sharpest drop in three months on hopes for US and Iran diplomacy, while AI selling pulled the Nasdaq down about 1.1% and the S&P 500 down about 0.5% for a third straight loss."
         },
         {
           "time": "11:15 AM",
@@ -85,8 +85,8 @@
           "imp": "med",
           "cons": "",
           "prior": "",
-          "note": "The Fed's survey of whether banks are tightening or easing lending standards and how loan demand is holding up.",
-          "react": "Tighter standards would suggest higher rates are starting to bite, which helps bonds and hurts regional banks and small caps. Easier standards would back the view that the economy can absorb another hike."
+          "note": "Banks reported tighter standards on net for all commercial real estate loan categories and weaker demand for them, a reversal from easing in July. Mortgage demand also weakened while mortgage standards held broadly steady.",
+          "react": "It was not a market mover. Tighter real estate lending is a modest headwind for regional banks and fits the view that higher rates are starting to bite."
         },
         {
           "time": "3:00 PM",
@@ -94,8 +94,8 @@
           "imp": "med",
           "cons": "",
           "prior": "",
-          "note": "The borrowing estimates set up Wednesday's quarterly refunding announcement.",
-          "react": "Higher than expected borrowing would push long term yields up and pressure rate sensitive stocks. A lower figure would give bonds some relief."
+          "note": "Treasury cut its fourth quarter borrowing estimate to $618B, $10B below the August projection, because it started with more cash. Excluding that cushion, the need was $24B higher. It sees $800B of borrowing in the first quarter of 2027.",
+          "react": "The smaller headline figure eased supply worries going into Wednesday's refunding, and long term yields had no major reaction that day."
         },
         {
           "time": "10:30 PM",
@@ -103,35 +103,46 @@
           "imp": "med",
           "cons": "Hike to 4.85%, odds about 79% to 88%",
           "prior": "4.60%",
-          "note": "It lands Tuesday in Australia. It would be the fifth hike this year, and pricing is high but not complete.",
-          "react": "A hike adds to the global tightening theme and is largely expected. A hold would surprise, soften the Australian dollar, and offer modest relief to global bonds."
+          "note": "The RBA hiked to 4.85% as expected, its fifth hike this year and the highest rate since 2008, but the vote was split 6 to 3 with three members wanting to hold.",
+          "react": "The split vote read as less hawkish than the hike itself, and some economists now see a December pause as more likely. It added to the global tightening theme without a surprise."
         }
       ],
       "am": [
         {
           "t": "MAR",
           "n": "Marriott",
-          "eps": "2.85"
+          "eps": "2.85",
+          "actual": "3.02"
         },
         {
           "t": "IDXX",
           "n": "IDEXX Labs",
-          "eps": "3.71"
+          "eps": "3.71",
+          "actual": "4.01"
         },
         {
           "t": "EL",
           "n": "Estee Lauder",
-          "eps": "0.51"
+          "eps": "0.51",
+          "actual": "0.72"
         },
         {
           "t": "TEM",
           "n": "Tempus AI",
-          "eps": "(0.13)"
+          "eps": "(0.13)",
+          "actual": "0.07"
         },
         {
           "t": "CIFR",
           "n": "Cipher",
-          "eps": "(0.19)"
+          "eps": "(0.19)",
+          "actual": "(0.22)"
+        },
+        {
+          "t": "LITE",
+          "n": "Lumentum",
+          "eps": "4.14",
+          "actual": "4.57"
         }
       ],
       "pm": [
@@ -139,48 +150,57 @@
           "t": "AAPL",
           "n": "Apple",
           "eps": "1.98",
-          "star": true
+          "star": true,
+          "actual": "2.10"
         },
         {
           "t": "PLTR",
           "n": "Palantir",
           "eps": "0.39",
-          "star": true
+          "star": true,
+          "actual": "0.44"
         },
         {
           "t": "VRTX",
           "n": "Vertex",
-          "eps": "4.67"
+          "eps": "4.70",
+          "actual": "4.76"
         },
         {
           "t": "WMB",
           "n": "Williams",
-          "eps": "0.54"
+          "eps": "0.54",
+          "actual": "0.54"
         },
         {
           "t": "FANG",
           "n": "Diamondback Energy",
-          "eps": "5.46"
+          "eps": "5.46",
+          "actual": "5.86"
         },
         {
           "t": "O",
           "n": "Realty Income",
-          "eps": "1.11"
+          "eps": "1.11",
+          "actual": "1.12"
         },
         {
           "t": "ON",
           "n": "ON Semiconductor",
-          "eps": "0.88"
+          "eps": "0.88",
+          "actual": "0.90"
         },
         {
           "t": "ROKU",
           "n": "Roku",
-          "eps": "0.55"
+          "eps": "0.55",
+          "actual": "1.20"
         },
         {
           "t": "GRAB",
           "n": "Grab",
-          "eps": "0.02"
+          "eps": "0.02",
+          "actual": "0.00"
         }
       ]
     },
@@ -196,8 +216,8 @@
           "imp": "high",
           "cons": "Democratic sweep about 70% on Polymarket",
           "prior": "",
-          "note": "All 435 House seats, 35 Senate seats and 36 governorships are on the ballot. Polymarket puts Democrats near 94% for the House and 69% for the Senate. Results run through Tuesday night and close races could take longer.",
-          "react": "A sweep is largely priced, but it could raise shutdown and debt ceiling worries and analysts see it as slightly negative for the dollar. A split result or a Republican surprise would likely read as continuity and could lift the dollar. Sector moves would center on policy sensitive areas, and a contested count would add volatility."
+          "note": "Democrats are projected to win the House and, per Fox News Decision Desk, gain control of the Senate, broadly matching prediction market odds. Some close races may still take time to call.",
+          "react": "Stocks rose Tuesday before results, with the S&P 500 up 0.4% and the Nasdaq up 0.8% on a chip rally. Overnight, futures fell as the sweep came into view, with Nasdaq 100 futures down roughly 0.6% to 2% depending on the time, on worries about AI regulation and limits on data centers. The 10 year yield fell about 6 basis points to near 4.91% and the dollar weakened."
         },
         {
           "time": "10:00 AM",
@@ -205,8 +225,8 @@
           "imp": "med",
           "cons": "7.13M",
           "prior": "7.08M",
-          "note": "A measure of labor demand, ahead of Friday's payrolls.",
-          "react": "Openings well above consensus would argue the labor market is firmer than recent payrolls suggest, nudging yields up. A clear decline would add to the softening story and help bonds."
+          "note": "Openings rose to 7.52M versus 7.13M expected, topping every estimate in Bloomberg's survey, and quits jumped by the most since May 2023. August was revised up to 7.2M.",
+          "react": "It argues the labor market is firmer than recent payrolls suggest, which supports the hawkish case for December heading into Friday. Stock indexes still finished higher on the chip rally."
         },
         {
           "time": "10:00 AM",
@@ -214,8 +234,8 @@
           "imp": "low",
           "cons": "+1.2%",
           "prior": "+0.1%",
-          "note": "A follow up to last week's durable goods report, so most of it is already known.",
-          "react": "Rarely a market mover unless revisions are large."
+          "note": "Orders rose 1.8% versus 1.2% expected, helped by a 28.3% jump in aircraft. Core capital goods orders rose 0.6%.",
+          "react": "A beat, but mostly known from durable goods, so it did not move markets."
         },
         {
           "time": "11:00 AM",
@@ -240,62 +260,74 @@
         {
           "t": "SHOP",
           "n": "Shopify",
-          "eps": "0.43"
+          "eps": "0.43",
+          "actual": "0.49"
         },
         {
           "t": "PFE",
           "n": "Pfizer",
-          "eps": "0.73"
+          "eps": "0.73",
+          "actual": "0.87"
         },
         {
           "t": "ETN",
           "n": "Eaton",
-          "eps": "3.55"
+          "eps": "3.55",
+          "actual": "3.68"
         },
         {
           "t": "APO",
           "n": "Apollo",
-          "eps": "2.16"
+          "eps": "2.16",
+          "actual": "2.07"
         },
         {
           "t": "FISV",
           "n": "Fiserv",
-          "eps": "1.72"
+          "eps": "1.72",
+          "actual": "1.75"
         },
         {
           "t": "MPC",
           "n": "Marathon Petroleum",
-          "eps": "25.95"
+          "eps": "25.95",
+          "actual": "26.93"
         },
         {
           "t": "RACE",
           "n": "Ferrari",
-          "eps": "2.66"
+          "eps": "2.66",
+          "actual": "2.81"
         },
         {
           "t": "YUM",
           "n": "Yum Brands",
-          "eps": "1.46"
+          "eps": "1.46",
+          "actual": "1.56"
         },
         {
           "t": "KDP",
           "n": "Keurig Dr Pepper",
-          "eps": "0.62"
+          "eps": "0.62",
+          "actual": "0.66"
         },
         {
           "t": "ET",
           "n": "Energy Transfer",
-          "eps": "0.41"
+          "eps": "0.41",
+          "actual": "0.33"
         },
         {
           "t": "TEVA",
           "n": "Teva",
-          "eps": "0.72"
+          "eps": "0.72",
+          "actual": "0.86"
         },
         {
           "t": "UPST",
           "n": "Upstart",
-          "eps": "0.57"
+          "eps": "0.55",
+          "actual": "0.65"
         }
       ],
       "pm": [
@@ -303,32 +335,38 @@
           "t": "AMD",
           "n": "AMD",
           "eps": "1.89",
-          "star": true
+          "star": true,
+          "actual": "2.09"
         },
         {
           "t": "ANET",
           "n": "Arista Networks",
-          "eps": "1.06"
+          "eps": "1.06",
+          "actual": "1.20"
         },
         {
           "t": "AMGN",
           "n": "Amgen",
-          "eps": "5.78"
+          "eps": "5.77",
+          "actual": "6.45"
         },
         {
           "t": "BKNG",
           "n": "Booking",
-          "eps": "4.49"
+          "eps": "4.49",
+          "actual": "4.66"
         },
         {
           "t": "SMCI",
           "n": "Super Micro",
-          "eps": "1.20"
+          "eps": "1.20",
+          "actual": "1.81"
         },
         {
           "t": "ALAB",
           "n": "Astera Labs",
-          "eps": "1.12"
+          "eps": "1.12",
+          "actual": "1.32"
         },
         {
           "t": "EA",
@@ -338,32 +376,37 @@
         {
           "t": "AIG",
           "n": "AIG",
-          "eps": "1.86"
+          "eps": "1.88",
+          "actual": "2.06"
         },
         {
           "t": "PRU",
           "n": "Prudential",
-          "eps": "3.33"
+          "eps": "3.33",
+          "actual": "3.77"
         },
         {
           "t": "XYZ",
           "n": "Block",
-          "eps": "0.96"
+          "eps": "0.96",
+          "actual": "1.13"
         },
         {
           "t": "DUOL",
           "n": "Duolingo",
-          "eps": "1.38"
+          "eps": "1.38",
+          "actual": "0.54"
         },
         {
           "t": "TOST",
           "n": "Toast",
-          "eps": "0.35"
+          "eps": "0.35",
+          "actual": "0.29"
         },
         {
           "t": "RIOT",
           "n": "Riot Platforms",
-          "eps": "(0.29)"
+          "eps": "(0.31)"
         }
       ]
     },
@@ -386,7 +429,7 @@
           "time": "8:15 AM",
           "name": "ADP employment (Oct)",
           "imp": "med",
-          "cons": "65,000",
+          "cons": "65,000 to 80,000",
           "prior": "90,000",
           "note": "A private payrolls preview for Friday, though it is an imperfect guide to the official report.",
           "react": "A big beat could firm up payroll expectations and lift yields. A print near zero would add to labor softening concerns and support bonds."
@@ -404,7 +447,7 @@
           "time": "8:30 AM",
           "name": "Trade balance (Sep)",
           "imp": "low",
-          "cons": "Not found",
+          "cons": "$108.0B deficit",
           "prior": "$105.6B deficit",
           "note": "The gap feeds into revisions to third quarter growth, which came in at 3.4% in the first estimate.",
           "react": "A large change could shift GDP revision estimates by a few tenths, but it is rarely a market mover alone."
@@ -413,10 +456,10 @@
           "time": "Global",
           "name": "Eurozone flash CPI, Riksbank, Brazil, Poland",
           "imp": "med",
-          "cons": "Eurozone CPI 3.9%, core 2.5%. Riksbank hike to 2.00%",
+          "cons": "Eurozone CPI 3.9% to 4.0%, core 2.2% to 2.5%. Riksbank hike to 2.00%",
           "prior": "Eurozone CPI 3.8%, core 2.5%. Riksbank 1.75%",
-          "note": "Eurozone CPI is at 5:00 AM ET and the Riksbank at 3:30 AM ET. Markets price about a 63% chance of an ECB hike in December. Brazil is expected to pause and Poland to hold, with times varying.",
-          "react": "Hot eurozone inflation would raise ECB hike bets, lifting the euro and European yields and adding to global tightening pressure. A softer core reading would ease that and could help global bonds."
+          "note": "Eurozone inflation rose to 4.0% from 3.8%, at or a tenth above forecasts and the highest since September 2023, driven by energy. The core figure was not confirmed at the time of writing. The Riksbank hiked to 2.00% as expected and signaled more hikes are possible. Brazil and Poland come later, with times varying.",
+          "react": "Another energy driven jump keeps an ECB hike in December in play, which supports the euro and European yields. Watch whether core stayed steady, since that decides how much of the move is energy alone."
         }
       ],
       "am": [
@@ -433,7 +476,8 @@
         {
           "t": "NVO",
           "n": "Novo Nordisk",
-          "eps": "0.81"
+          "eps": "0.81",
+          "actual": "0.89"
         },
         {
           "t": "CVS",
@@ -463,7 +507,7 @@
         {
           "t": "FLUT",
           "n": "Flutter",
-          "eps": "0.18"
+          "eps": "0.15"
         },
         {
           "t": "KHC",
@@ -478,7 +522,17 @@
         {
           "t": "CRCL",
           "n": "Circle",
-          "eps": "0.38"
+          "eps": "0.39"
+        },
+        {
+          "t": "FIS",
+          "n": "Fidelity National Info",
+          "eps": "1.60"
+        },
+        {
+          "t": "CDW",
+          "n": "CDW",
+          "eps": "2.94"
         }
       ],
       "pm": [
@@ -527,7 +581,7 @@
         {
           "t": "MSI",
           "n": "Motorola Solutions",
-          "eps": "4.35"
+          "eps": "4.34"
         },
         {
           "t": "EXPE",
@@ -548,6 +602,41 @@
           "t": "CAVA",
           "n": "Cava",
           "eps": "0.12"
+        },
+        {
+          "t": "FICO",
+          "n": "Fair Isaac",
+          "eps": "10.41"
+        },
+        {
+          "t": "TKO",
+          "n": "TKO Group",
+          "eps": "1.12"
+        },
+        {
+          "t": "EW",
+          "n": "Edwards Lifesciences",
+          "eps": "0.74"
+        },
+        {
+          "t": "GOLD",
+          "n": "Barrick",
+          "eps": "0.88"
+        },
+        {
+          "t": "ALB",
+          "n": "Albemarle",
+          "eps": "2.54"
+        },
+        {
+          "t": "FIG",
+          "n": "Figma",
+          "eps": "0.01"
+        },
+        {
+          "t": "BROS",
+          "n": "Dutch Bros",
+          "eps": "0.24"
         }
       ]
     },
@@ -677,6 +766,26 @@
           "t": "U",
           "n": "Unity",
           "eps": "0.31"
+        },
+        {
+          "t": "CG",
+          "n": "Carlyle",
+          "eps": "0.97"
+        },
+        {
+          "t": "APD",
+          "n": "Air Products",
+          "eps": "3.61"
+        },
+        {
+          "t": "CAH",
+          "n": "Cardinal Health",
+          "eps": "2.94"
+        },
+        {
+          "t": "CORZ",
+          "n": "Core Scientific",
+          "eps": "(0.01)"
         }
       ],
       "pm": [
@@ -694,11 +803,6 @@
           "t": "EOG",
           "n": "EOG Resources",
           "eps": "4.45"
-        },
-        {
-          "t": "LITE",
-          "n": "Lumentum",
-          "eps": "4.14"
         },
         {
           "t": "AXON",
@@ -723,7 +827,7 @@
         {
           "t": "DKNG",
           "n": "DraftKings",
-          "eps": "(0.21)"
+          "eps": "(0.22)"
         },
         {
           "t": "AFRM",
@@ -744,6 +848,41 @@
           "t": "MP",
           "n": "MP Materials",
           "eps": "(0.02)"
+        },
+        {
+          "t": "DVN",
+          "n": "Devon Energy",
+          "eps": "1.30"
+        },
+        {
+          "t": "WPM",
+          "n": "Wheaton Precious Metals",
+          "eps": "0.90"
+        },
+        {
+          "t": "AKAM",
+          "n": "Akamai",
+          "eps": "1.52"
+        },
+        {
+          "t": "LYFT",
+          "n": "Lyft",
+          "eps": "0.20"
+        },
+        {
+          "t": "IREN",
+          "n": "IREN",
+          "eps": "(0.63)"
+        },
+        {
+          "t": "KTOS",
+          "n": "Kratos",
+          "eps": "0.19"
+        },
+        {
+          "t": "SOUN",
+          "n": "SoundHound",
+          "eps": "(0.06)"
         }
       ]
     },
@@ -794,7 +933,7 @@
         {
           "t": "CHTR",
           "n": "Charter",
-          "eps": "9.16"
+          "eps": "9.40"
         },
         {
           "t": "ENB",
@@ -804,7 +943,7 @@
         {
           "t": "VST",
           "n": "Vistra",
-          "eps": "2.55"
+          "eps": "2.38"
         },
         {
           "t": "BAM",
@@ -819,19 +958,29 @@
         {
           "t": "MRNA",
           "n": "Moderna",
-          "eps": "(1.25)"
+          "eps": "(1.22)"
         },
         {
           "t": "OKLO",
           "n": "Oklo",
           "eps": "(0.26)"
+        },
+        {
+          "t": "FLR",
+          "n": "Fluor",
+          "eps": "0.81"
+        },
+        {
+          "t": "WULF",
+          "n": "TeraWulf",
+          "eps": "(0.32)"
         }
       ],
       "pm": []
     }
   ],
   "notes": [
-    "Earnings shows large market cap names and widely traded movers, not every report. EPS figures are consensus estimates from Robinhood data and can differ from other sources. Names without a confirmed timing, such as DoorDash and Berkshire Hathaway, are left out.",
+    "Earnings shows large market cap names and widely traded movers, not every report. EPS figures are consensus estimates from Robinhood data and can differ from other sources. Reported figures are adjusted EPS from the same data. Lumentum moved to Monday morning after reporting early. Names without a confirmed timing, such as DoorDash and Berkshire Hathaway, are left out.",
     "Consensus figures come from public week ahead previews and can change. Where sources differ, a range is shown. Apple's revenue figure is a range implied by its growth guidance, not a consensus. Palantir and AMD revenue are from public previews. Implied earnings moves are not included.",
     "Reaction notes are scenario thinking, not predictions."
   ]

@@ -31,7 +31,8 @@ def tile(x):
     cls = "tile star" if x.get("star") else "tile"
     if x.get("actual"):
         try:
-            beat = float(x["actual"]) >= float(x["eps"])
+            num = lambda v: -float(v.strip("()")) if v.startswith("(") else float(v)
+            beat = num(x["actual"]) >= num(x["eps"])
         except ValueError:
             beat = False
         sub = f'<span class="eps {"beat" if beat else "miss"}">Reported {e(x["actual"])} vs {e(x["eps"])} est</span>'
