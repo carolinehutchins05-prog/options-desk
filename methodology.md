@@ -12,6 +12,13 @@ description: The fourteen gates every candidate must clear, each with the reason
 
 <p class="meta">Last revised 27 October 2026 after a <a href="research/backtest.html">backtest against the S&amp;P 500</a>. The rules below are what the screen enforces today.</p>
 
+<div class="note">
+<span class="h">The short version</span>
+<p>Calls when the S&amp;P 500 is above its 200 day average. The strike nearest the money, 45 to 60 days out. Spread 3% or less, real volume, no earnings inside the holding window. Sell at a 50% gain or after five days, and exit if the contract closes 50% below entry. Most days, nothing qualifies.</p>
+</div>
+
+<p class="meta">Jump to: <a href="#contract-gates">The gates</a> &middot; <a href="#exit">Exit rules</a> &middot; <a href="#core-ideas-tactical-ideas-and-never-an-empty-list">Core and tactical</a> &middot; <a href="#why-single-leg-only">Why single leg</a></p>
+
 ## Direction must agree with trend
 
 Checked before anything else, because it is the cheapest filter and the most violated.

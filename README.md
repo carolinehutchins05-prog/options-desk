@@ -4,9 +4,10 @@
 
 **A daily research desk for single leg calls, built to be tested and to say "no" most days.**
 
-[![Live site](https://img.shields.io/badge/live%20site-open-b9f26b?style=for-the-badge&labelColor=0a0e0c)](https://carolinehutchins05-prog.github.io/options-desk/)
-[![Week ahead](https://img.shields.io/badge/this%20week-calendar-b9f26b?style=for-the-badge&labelColor=0a0e0c)](https://carolinehutchins05-prog.github.io/options-desk/week-ahead/)
-[![Backtest](https://img.shields.io/badge/backtest-S%26P%20500-b9f26b?style=for-the-badge&labelColor=0a0e0c)](https://carolinehutchins05-prog.github.io/options-desk/research/backtest.html)
+[![Live site](https://img.shields.io/badge/live%20site-open-1d4ed8?style=for-the-badge&labelColor=101828)](https://carolinehutchins05-prog.github.io/options-desk/)
+[![Week ahead](https://img.shields.io/badge/this%20week-calendar-1d4ed8?style=for-the-badge&labelColor=101828)](https://carolinehutchins05-prog.github.io/options-desk/week-ahead/)
+[![Best options](https://img.shields.io/badge/best%20options-today-1d4ed8?style=for-the-badge&labelColor=101828)](https://carolinehutchins05-prog.github.io/options-desk/best-options/)
+[![Backtest](https://img.shields.io/badge/backtest-S%26P%20500-1d4ed8?style=for-the-badge&labelColor=101828)](https://carolinehutchins05-prog.github.io/options-desk/research/backtest.html)
 
 <img src="docs/home.png" alt="The Options Desk front page" width="760">
 
@@ -45,6 +46,12 @@ The rules were backtested on 503 S&P 500 stocks over ten years, with the index a
 
 Option prices in the test are modeled, because free historical option chains do not exist. The write up lists every limit. Code and results are in [`backtest/`](backtest).
 
+## Best options
+
+Every day the most liquid calls and puts are ranked by estimated return on a normal week of movement, after paying the spread, each with a sell plan.
+
+<img src="docs/best-options.png" alt="The Best Options board" width="760">
+
 ## Week ahead
 
 A dashboard of the week's economic releases, earnings reports and how markets could react, refreshed every Sunday evening and Wednesday morning.
@@ -58,6 +65,7 @@ A dashboard of the week's economic releases, earnings reports and how markets co
 | `index.md`, `methodology.md`, `research/` | The site pages |
 | `archive/` | Every daily run, generated |
 | `week-ahead.html`, `data/week.json` | The Week Ahead page and the data it is built from |
+| `best-options.html`, `build_board.py` | The Best Options board and its builder |
 | `backtest/` | Backtest code and results |
 | `assets/` | Stylesheets |
 | `publish.sh`, `publish_week.sh` | Publishers, with automatic redaction and a credential check |

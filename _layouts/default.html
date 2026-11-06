@@ -57,6 +57,7 @@
       (cur||frag).appendChild(el);
     });
     root.appendChild(frag);
+    root.querySelectorAll('.rcard').forEach(function(c){ if(c.children.length===1) c.classList.add('divider'); });
     root.querySelectorAll('.rcard').forEach(function(c,i){
       var oc=c.querySelector(':scope > .oc'), h=c.querySelector('h2'); if(!oc||!h) return;
       c.classList.add('has-oc'); oc.id='oc'+i; h.appendChild(oc);
