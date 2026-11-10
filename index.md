@@ -42,55 +42,67 @@ title: Options Desk
 <div class="stack"><span>Python</span><span>pandas</span><span>Black Scholes modeling</span><span>Live option chains</span><span>Jekyll</span><span>GitHub Pages</span></div>
 </section>
 
-<div class="latest-head"><span class="eyebrow">Latest daily run</span><span class="meta">Live Verdict, 2026-11-09</span></div>
+<div class="latest-head"><span class="eyebrow">Latest daily run</span><span class="meta">Premarket Plan, 2026-11-10</span></div>
 
 <div class="report" markdown="1">
 
-# Calls and Puts Verdict, November 9, 2026
-Live chain grading at 10:15 to 10:20 AM ET. Read only research, no trades placed.
+# Premarket Calls and Puts, November 10, 2026
+Provisional plan on last night's closing chains. The 10:00 AM run confirms on live quotes.
 
-- S&P 500 ETF above its 200 day, below its 50 day. Calls allowed, but the tape is a bounce.
-- No Core contract cleared. No monthly expiry falls in the 45 to 60 day window.
+- S&P 500 ETF $754.49, above its 200 day ($728). Calls allowed.
+- No Core contract cleared. No monthly expiry sits in the 45 to 60 day window (Dec 18 is 38 days, Jan 15 is 66).
+- Futures mixed: Nasdaq proxy down 0.5%, Dow proxy up 0.4%. Chips are the drag again.
+
+## Today's Catalysts
+- **TTD**, **OXY**, **CEG**, **NRG**, **TTWO** beat Monday after the close.
+- **TDG**, **ONON**, **WIX** beat this morning. **SE**, **HSAI** missed.
+- **MARA**, **HIMS**, **RKLB** missed Monday night.
+- **CRWV** reports tonight, the next AI capex read.
 
 ## Best Available
 
-## AMZN CALL: Best Available, Tactical
-- Why: leading the Nov 9 rotation away from the AI chip leader, up 4.4%.
-- Trend: $270.73, above a flat to rising 50 day ($253.95), RSI 54.
-- Contract: Dec 18 $270 call, mark $12.85, delta 0.55, IV 33.6%
-- Liquidity: Spread 2.3%, open interest 16,590, volume today 791, volume to OI 0.05
-- Plan: Dec 18 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down. Enter on a pullback that holds $269, never above $275.31.
+## UNH CALL: Best Available, Tactical
+- Why: health care is the strongest sector premarket, up 0.6%. No dated catalyst, so keep it small.
+- Trend: $397.21, above a flat to rising 50 day ($390.74), RSI 48.
+- Contract: Dec 18 $400 call, mark $15.35, delta 0.51, IV 30.7%
+- Liquidity: Spread 2.0%, open interest 3,795, volume today 543, volume to OI 0.14
+- Plan: Dec 18 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down ($7.67). Breakeven $415.35, well under the $461.62 high.
 
-<aside class="oc" aria-label="AMZN contract detail"><div class="oc-title">AMZN $270 call, Dec 18, 39 days left, stock $270.73</div><div class="oc-facts"><div><span>Cost to buy</span><b>$1,285</b></div><div><span>Most you can lose</span><b>$1,285</b></div><div><span>Each $1 the stock moves</span><b>about $55</b></div><div><span>Breakeven at expiry</span><b>$282.85 (up 4.5%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$257.19</td><td class="dn">($632)</td><td class="dn">($692)</td></tr><tr><th scope="row">down 3%</th><td>$262.61</td><td class="dn">($416)</td><td class="dn">($481)</td></tr><tr><th scope="row">down 1%</th><td>$268.02</td><td class="dn">($160)</td><td class="dn">($228)</td></tr><tr><th scope="row">up 1%</th><td>$273.44</td><td class="up">$136</td><td class="up">$67</td></tr><tr><th scope="row">up 3%</th><td>$278.85</td><td class="up">$470</td><td class="up">$402</td></tr><tr><th scope="row">up 5%</th><td>$284.27</td><td class="up">$840</td><td class="up">$776</td></tr><tr><th scope="row">up 10%</th><td>$297.80</td><td class="up">$1,897</td><td class="up">$1,845</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $6.43 costs about ($642). Target at $19.28 makes about $643.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+<aside class="oc" aria-label="UNH contract detail"><div class="oc-title">UNH $400 call, Dec 18, 38 days left, stock $397.21</div><div class="oc-facts"><div><span>Cost to buy</span><b>$1,535</b></div><div><span>Most you can lose</span><b>$1,535</b></div><div><span>Each $1 the stock moves</span><b>about $51</b></div><div><span>Breakeven at expiry</span><b>$415.35 (up 4.6%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$377.35</td><td class="dn">($832)</td><td class="dn">($909)</td></tr><tr><th scope="row">down 3%</th><td>$385.29</td><td class="dn">($556)</td><td class="dn">($643)</td></tr><tr><th scope="row">down 1%</th><td>$393.24</td><td class="dn">($217)</td><td class="dn">($310)</td></tr><tr><th scope="row">up 1%</th><td>$401.18</td><td class="up">$187</td><td class="up">$90</td></tr><tr><th scope="row">up 3%</th><td>$409.13</td><td class="up">$653</td><td class="up">$557</td></tr><tr><th scope="row">up 5%</th><td>$417.07</td><td class="up">$1,178</td><td class="up">$1,086</td></tr><tr><th scope="row">up 10%</th><td>$436.93</td><td class="up">$2,710</td><td class="up">$2,637</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $7.67 costs about ($768). Target at $23.02 makes about $767.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
-## IWM PUT: Best Available, Tactical
-- Why: small caps bouncing into a falling 50 day. Trend puts lose on average in the backtest, keep it small.
-- Trend: $279.51, below its 50 day ($282.11), RSI 43.
-- Contract: Dec 18 $279 put, mark $7.17, delta 0.46, IV 21.8%
-- Liquidity: Spread 1.1%, open interest 2,758, volume today 112, volume to OI 0.04
-- Plan: Dec 18 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down. Enter only on a fade under $277.44.
+## NFLX PUT: Best Available, Tactical
+- Why: down trend intact after a 45% slide from its high. Trend puts lose on average in the backtest, so size it small.
+- Trend: $63.81, below a falling 50 day ($70.68), RSI 41. Near its $61.39 low from Oct 29.
+- Contract: Dec 18 $63 put, mark $2.34, delta 0.42, IV 34.6%
+- Liquidity: Spread 2.6%, open interest 8,482, volume today 384, volume to OI 0.05
+- Plan: Dec 18 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down ($1.17). Only on a bounce that fails, never into a flush.
 
-<aside class="oc" aria-label="IWM contract detail"><div class="oc-title">IWM $279 put, Dec 18, 39 days left, stock $279.51</div><div class="oc-facts"><div><span>Cost to buy</span><b>$717</b></div><div><span>Most you can lose</span><b>$717</b></div><div><span>Each $1 the stock moves</span><b>about $46</b></div><div><span>Breakeven at expiry</span><b>$271.83 (down 2.7%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$265.53</td><td class="up">$819</td><td class="up">$795</td></tr><tr><th scope="row">down 3%</th><td>$271.12</td><td class="up">$441</td><td class="up">$410</td></tr><tr><th scope="row">down 1%</th><td>$276.71</td><td class="up">$125</td><td class="up">$90</td></tr><tr><th scope="row">up 1%</th><td>$282.31</td><td class="dn">($128)</td><td class="dn">($164)</td></tr><tr><th scope="row">up 3%</th><td>$287.90</td><td class="dn">($321)</td><td class="dn">($355)</td></tr><tr><th scope="row">up 5%</th><td>$293.49</td><td class="dn">($461)</td><td class="dn">($490)</td></tr><tr><th scope="row">up 10%</th><td>$307.46</td><td class="dn">($645)</td><td class="dn">($660)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $3.59 costs about ($358). Target at $10.76 makes about $359.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+<aside class="oc" aria-label="NFLX contract detail"><div class="oc-title">NFLX $63 put, Dec 18, 38 days left, stock $63.81</div><div class="oc-facts"><div><span>Cost to buy</span><b>$234</b></div><div><span>Most you can lose</span><b>$234</b></div><div><span>Each $1 the stock moves</span><b>about $42</b></div><div><span>Breakeven at expiry</span><b>$60.66 (down 4.9%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$60.62</td><td class="up">$159</td><td class="up">$146</td></tr><tr><th scope="row">down 3%</th><td>$61.90</td><td class="up">$87</td><td class="up">$73</td></tr><tr><th scope="row">down 1%</th><td>$63.17</td><td class="up">$24</td><td class="up">$10</td></tr><tr><th scope="row">up 1%</th><td>$64.45</td><td class="dn">($29)</td><td class="dn">($43)</td></tr><tr><th scope="row">up 3%</th><td>$65.72</td><td class="dn">($74)</td><td class="dn">($87)</td></tr><tr><th scope="row">up 5%</th><td>$67.00</td><td class="dn">($110)</td><td class="dn">($123)</td></tr><tr><th scope="row">up 10%</th><td>$70.19</td><td class="dn">($174)</td><td class="dn">($183)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $1.17 costs about ($117). Target at $3.51 makes about $117.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
-## QQQ PUT: Best Available, Tactical
-- Why: Nasdaq 100 up 2.8% but still 6.5% under its 50 day. Counter trend bounce. Keep it small.
-- Trend: $674.40, below a falling 50 day ($720.97), RSI 31.
-- Contract: Dec 18 $675 put, mark $21.72, delta 0.47, IV 25.7%
-- Liquidity: Spread 0.9%, open interest 27,451, volume today 288, volume to OI 0.01
-- Plan: Dec 18 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down. Enter only on a fade under $668.
+## SCHW PUT: Best Available, Tactical
+- Why: brokers weak while the 50 day rolls over. No dated catalyst. Trend puts lose on average, keep it small.
+- Trend: $93.15, below a falling 50 day ($98.14), RSI 49.
+- Contract: Jan 15 $95 put, mark $4.88, delta 0.52, IV 26.7%
+- Liquidity: Spread 3.1%, open interest 6,035, volume today 115, volume to OI 0.02
+- Plan: Jan 15 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down ($2.44). Ex dividend Nov 13.
 
-<aside class="oc" aria-label="QQQ contract detail"><div class="oc-title">QQQ $675 put, Dec 18, 39 days left, stock $674.40</div><div class="oc-facts"><div><span>Cost to buy</span><b>$2,172</b></div><div><span>Most you can lose</span><b>$2,172</b></div><div><span>Each $1 the stock moves</span><b>about $47</b></div><div><span>Breakeven at expiry</span><b>$653.28 (down 3.1%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$640.68</td><td class="up">$1,952</td><td class="up">$1,874</td></tr><tr><th scope="row">down 3%</th><td>$654.17</td><td class="up">$1,066</td><td class="up">$971</td></tr><tr><th scope="row">down 1%</th><td>$667.66</td><td class="up">$306</td><td class="up">$201</td></tr><tr><th scope="row">up 1%</th><td>$681.14</td><td class="dn">($325)</td><td class="dn">($433)</td></tr><tr><th scope="row">up 3%</th><td>$694.63</td><td class="dn">($833)</td><td class="dn">($936)</td></tr><tr><th scope="row">up 5%</th><td>$708.12</td><td class="dn">($1,227)</td><td class="dn">($1,321)</td></tr><tr><th scope="row">up 10%</th><td>$741.84</td><td class="dn">($1,821)</td><td class="dn">($1,880)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $10.86 costs about ($1,086). Target at $32.58 makes about $1,086.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+<aside class="oc" aria-label="SCHW contract detail"><div class="oc-title">SCHW $95 put, Jan 15, 66 days left, stock $93.15</div><div class="oc-facts"><div><span>Cost to buy</span><b>$488</b></div><div><span>Most you can lose</span><b>$488</b></div><div><span>Each $1 the stock moves</span><b>about $52</b></div><div><span>Breakeven at expiry</span><b>$90.12 (down 3.3%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$88.49</td><td class="up">$281</td><td class="up">$273</td></tr><tr><th scope="row">down 3%</th><td>$90.36</td><td class="up">$158</td><td class="up">$148</td></tr><tr><th scope="row">down 1%</th><td>$92.22</td><td class="up">$48</td><td class="up">$37</td></tr><tr><th scope="row">up 1%</th><td>$94.08</td><td class="dn">($50)</td><td class="dn">($61)</td></tr><tr><th scope="row">up 3%</th><td>$95.94</td><td class="dn">($134)</td><td class="dn">($145)</td></tr><tr><th scope="row">up 5%</th><td>$97.81</td><td class="dn">($206)</td><td class="dn">($217)</td></tr><tr><th scope="row">up 10%</th><td>$102.47</td><td class="dn">($337)</td><td class="dn">($346)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $2.44 costs about ($244). Target at $7.31 makes about $243.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
-- Only one call passes the tactical tier. Closest other: XLF Dec 18 $58 call, blocked by spread 7.7%.
-
-## Rejected
-- MTDR, KMI, CVS calls: insider buys, but all below their 50 days.
-- AXP call: falling 50 day, Jan contracts have no volume.
-- AMZN Dec 24 $270 call: open interest 77, too thin.
-- Tech and semis ETF calls: 10% to 15% under their 50 days.
+## Rejected, and why
+- **TTD** call: IV 85%, bid size 1, stock down 7% premarket despite the beat.
+- **TTWO** call: 50 day is falling ($206.97).
+- **OXY** call: below a falling 50 day ($59.99), RSI 32.
+- **CEG** call: 50 day falling, premarket $267 is under it.
+- **TDG**: over $1,000 a share.
+- **SBUX** call: printed a 52 week high Nov 5, breakeven above it.
+- **DAL** call: breakeven $96.33 sits above the $95.68 high.
+- **HIMS** put: IV 92%.
+- **MARA** put: sub $7 miner, not graded.
+- **CRWV**: reports tonight, inside the holding window.
 
 ## Dropped for spread
-- XLY $121C 14.6%, XLF $58C 7.7%, XLE $62.50P 6.3%, NFLX $64P 4.1%, AMZN Dec 24 $270C 11.5%
+- **ONON** Jan $37.50C 9.2%, **SE** Dec $75P 45%
 
+One clean tactical call and two small tactical puts. A chip rebound after **CRWV** tonight would undo the put side.
 
 </div>
