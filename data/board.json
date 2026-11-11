@@ -1,13 +1,13 @@
 {
- "as_of": "Tue Nov 10, 4:07 PM ET",
- "snapshot_date": "2026-11-10",
+ "as_of": "Wed Nov 11, 5:00 PM ET",
+ "snapshot_date": "2026-11-11",
  "spy": {
-  "spy": 750.01,
-  "sma200": 728.3,
+  "spy": 759.81,
+  "sma200": 728.65,
   "above": true
  },
- "contracts_scanned": 1466,
- "tickers_scanned": 174,
+ "contracts_scanned": 1317,
+ "tickers_scanned": 146,
  "calls_core": [],
  "calls_tactical": [
   {
@@ -16,65 +16,201 @@
    "side": "call",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 355.0,
-   "mid": 8.15,
-   "bid": 8.05,
-   "ask": 8.25,
-   "spread_pct": 2.5,
-   "oi": 5472,
-   "volume": 682,
-   "delta": 0.44,
-   "iv_pct": 22.8,
+   "dte": 37,
+   "strike": 360.0,
+   "mid": 8.38,
+   "bid": 8.3,
+   "ask": 8.45,
+   "spread_pct": 1.8,
+   "oi": 28255,
+   "volume": 3494,
+   "delta": 0.47,
+   "iv_pct": 21.5,
    "rv_pct": 22.5,
    "sigma_move_pct": 3.2,
-   "ret_sigma_pct": 54,
-   "usd_sigma": 446,
-   "breakeven_pct": 4.1,
-   "spot": 348.93,
-   "rsi": 56,
+   "ret_sigma_pct": 59,
+   "usd_sigma": 499,
+   "breakeven_pct": 3.6,
+   "spot": 355.63,
+   "rsi": 61,
    "trend": "above its 50 day",
    "earnings": "after expiry",
    "earnings_flag": "after",
-   "cost": 815,
-   "stop_price": 4.08,
-   "target_price": 12.23,
+   "cost": 838,
+   "stop_price": 4.19,
+   "target_price": 12.56,
    "table": [
     {
      "move": -3,
-     "stock": 338.47,
-     "d1": -414,
-     "d5": -484
+     "stock": 344.96,
+     "d1": -435,
+     "d5": -504
     },
     {
      "move": -1,
-     "stock": 345.45,
-     "d1": -184,
-     "d5": -266
+     "stock": 352.07,
+     "d1": -189,
+     "d5": -271
     },
     {
      "move": 1,
-     "stock": 352.42,
-     "d1": 121,
-     "d5": 31
+     "stock": 359.19,
+     "d1": 138,
+     "d5": 49
     },
     {
      "move": 3,
-     "stock": 359.4,
-     "d1": 500,
-     "d5": 409
+     "stock": 366.3,
+     "d1": 548,
+     "d5": 459
     },
     {
      "move": 5,
-     "stock": 366.38,
-     "d1": 951,
-     "d5": 865
+     "stock": 373.41,
+     "d1": 1033,
+     "d5": 951
     },
     {
      "move": 10,
-     "stock": 383.83,
-     "d1": 2329,
-     "d5": 2269
+     "stock": 391.19,
+     "d1": 2500,
+     "d5": 2447
+    }
+   ]
+  },
+  {
+   "ticker": "VZ",
+   "name": "Verizon",
+   "side": "call",
+   "expiry": "Dec 18",
+   "expiry_iso": "2026-12-18",
+   "dte": 37,
+   "strike": 47.0,
+   "mid": 1.27,
+   "bid": 1.26,
+   "ask": 1.28,
+   "spread_pct": 1.6,
+   "oi": 8235,
+   "volume": 508,
+   "delta": 0.49,
+   "iv_pct": 23.2,
+   "rv_pct": 22.7,
+   "sigma_move_pct": 3.2,
+   "ret_sigma_pct": 53,
+   "usd_sigma": 68,
+   "breakeven_pct": 3.6,
+   "spot": 46.6,
+   "rsi": 58,
+   "trend": "above its 50 day",
+   "earnings": "after expiry",
+   "earnings_flag": "after",
+   "cost": 127,
+   "stop_price": 0.64,
+   "target_price": 1.91,
+   "table": [
+    {
+     "move": -3,
+     "stock": 45.2,
+     "d1": -61,
+     "d5": -72
+    },
+    {
+     "move": -1,
+     "stock": 46.13,
+     "d1": -26,
+     "d5": -38
+    },
+    {
+     "move": 1,
+     "stock": 47.07,
+     "d1": 19,
+     "d5": 6
+    },
+    {
+     "move": 3,
+     "stock": 48.0,
+     "d1": 74,
+     "d5": 62
+    },
+    {
+     "move": 5,
+     "stock": 48.93,
+     "d1": 138,
+     "d5": 127
+    },
+    {
+     "move": 10,
+     "stock": 51.26,
+     "d1": 330,
+     "d5": 323
+    }
+   ]
+  },
+  {
+   "ticker": "MO",
+   "name": "Altria",
+   "side": "call",
+   "expiry": "Dec 18",
+   "expiry_iso": "2026-12-18",
+   "dte": 37,
+   "strike": 77.5,
+   "mid": 2.22,
+   "bid": 2.19,
+   "ask": 2.26,
+   "spread_pct": 3.1,
+   "oi": 4325,
+   "volume": 128,
+   "delta": 0.53,
+   "iv_pct": 21.6,
+   "rv_pct": 22.3,
+   "sigma_move_pct": 3.1,
+   "ret_sigma_pct": 52,
+   "usd_sigma": 118,
+   "breakeven_pct": 3.0,
+   "spot": 77.39,
+   "rsi": 62,
+   "trend": "above its 50 day",
+   "earnings": "after expiry",
+   "earnings_flag": "after",
+   "cost": 222,
+   "stop_price": 1.11,
+   "target_price": 3.34,
+   "table": [
+    {
+     "move": -3,
+     "stock": 75.07,
+     "d1": -112,
+     "d5": -129
+    },
+    {
+     "move": -1,
+     "stock": 76.62,
+     "d1": -50,
+     "d5": -68
+    },
+    {
+     "move": 1,
+     "stock": 78.16,
+     "d1": 31,
+     "d5": 12
+    },
+    {
+     "move": 3,
+     "stock": 79.71,
+     "d1": 129,
+     "d5": 110
+    },
+    {
+     "move": 5,
+     "stock": 81.26,
+     "d1": 242,
+     "d5": 225
+    },
+    {
+     "move": 10,
+     "stock": 85.13,
+     "d1": 572,
+     "d5": 562
     }
    ]
   },
@@ -84,133 +220,65 @@
    "side": "call",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 545.0,
-   "mid": 14.07,
-   "bid": 13.9,
-   "ask": 14.25,
-   "spread_pct": 2.5,
-   "oi": 3323,
-   "volume": 366,
-   "delta": 0.43,
-   "iv_pct": 26.7,
-   "rv_pct": 23.6,
-   "sigma_move_pct": 3.3,
-   "ret_sigma_pct": 46,
-   "usd_sigma": 660,
-   "breakeven_pct": 4.9,
-   "spot": 533.16,
-   "rsi": 52,
+   "dte": 37,
+   "strike": 525.0,
+   "mid": 16.7,
+   "bid": 16.45,
+   "ask": 16.95,
+   "spread_pct": 3.0,
+   "oi": 54002,
+   "volume": 15843,
+   "delta": 0.5,
+   "iv_pct": 26.5,
+   "rv_pct": 25.0,
+   "sigma_move_pct": 3.5,
+   "ret_sigma_pct": 48,
+   "usd_sigma": 816,
+   "breakeven_pct": 3.9,
+   "spot": 521.12,
+   "rsi": 48,
    "trend": "above its 50 day",
    "earnings": "after expiry",
    "earnings_flag": "after",
-   "cost": 1408,
-   "stop_price": 7.04,
-   "target_price": 21.11,
+   "cost": 1670,
+   "stop_price": 8.35,
+   "target_price": 25.05,
    "table": [
     {
      "move": -3,
-     "stock": 517.17,
-     "d1": -646,
-     "d5": -772
+     "stock": 505.49,
+     "d1": -745,
+     "d5": -880
     },
     {
      "move": -1,
-     "stock": 527.83,
-     "d1": -287,
-     "d5": -432
+     "stock": 515.91,
+     "d1": -331,
+     "d5": -481
     },
     {
      "move": 1,
-     "stock": 538.49,
-     "d1": 168,
-     "d5": 11
+     "stock": 526.34,
+     "d1": 182,
+     "d5": 26
     },
     {
      "move": 3,
-     "stock": 549.15,
-     "d1": 722,
-     "d5": 561
+     "stock": 536.76,
+     "d1": 792,
+     "d5": 638
     },
     {
      "move": 5,
-     "stock": 559.82,
-     "d1": 1370,
-     "d5": 1213
+     "stock": 547.18,
+     "d1": 1491,
+     "d5": 1347
     },
     {
      "move": 10,
-     "stock": 586.48,
-     "d1": 3345,
-     "d5": 3223
-    }
-   ]
-  },
-  {
-   "ticker": "ABT",
-   "name": "Abbott Laboratories",
-   "side": "call",
-   "expiry": "Jan 15",
-   "expiry_iso": "2027-01-15",
-   "dte": 66,
-   "strike": 110.0,
-   "mid": 5.2,
-   "bid": 5.1,
-   "ask": 5.3,
-   "spread_pct": 3.8,
-   "oi": 2524,
-   "volume": 358,
-   "delta": 0.55,
-   "iv_pct": 25.2,
-   "rv_pct": 28.7,
-   "sigma_move_pct": 4.0,
-   "ret_sigma_pct": 42,
-   "usd_sigma": 225,
-   "breakeven_pct": 4.5,
-   "spot": 110.19,
-   "rsi": 59,
-   "trend": "above its 50 day",
-   "earnings": "after expiry",
-   "earnings_flag": "after",
-   "cost": 520,
-   "stop_price": 2.6,
-   "target_price": 7.8,
-   "table": [
-    {
-     "move": -3,
-     "stock": 106.88,
-     "d1": -187,
-     "d5": -209
-    },
-    {
-     "move": -1,
-     "stock": 109.09,
-     "d1": -84,
-     "d5": -107
-    },
-    {
-     "move": 1,
-     "stock": 111.29,
-     "d1": 36,
-     "d5": 13
-    },
-    {
-     "move": 3,
-     "stock": 113.5,
-     "d1": 172,
-     "d5": 148
-    },
-    {
-     "move": 5,
-     "stock": 115.7,
-     "d1": 321,
-     "d5": 299
-    },
-    {
-     "move": 10,
-     "stock": 121.21,
-     "d1": 749,
-     "d5": 730
+     "stock": 573.24,
+     "d1": 3558,
+     "d5": 3455
     }
    ]
   },
@@ -220,201 +288,337 @@
    "side": "call",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
+   "dte": 37,
    "strike": 410.0,
-   "mid": 14.25,
-   "bid": 14.0,
-   "ask": 14.5,
-   "spread_pct": 3.5,
-   "oi": 2113,
-   "volume": 112,
-   "delta": 0.49,
-   "iv_pct": 30.2,
+   "mid": 12.5,
+   "bid": 12.25,
+   "ask": 12.75,
+   "spread_pct": 4.0,
+   "oi": 2170,
+   "volume": 296,
+   "delta": 0.46,
+   "iv_pct": 29.2,
    "rv_pct": 26.2,
    "sigma_move_pct": 3.7,
+   "ret_sigma_pct": 45,
+   "usd_sigma": 572,
+   "breakeven_pct": 4.9,
+   "spot": 402.94,
+   "rsi": 52,
+   "trend": "above its 50 day",
+   "earnings": "after expiry",
+   "earnings_flag": "after",
+   "cost": 1250,
+   "stop_price": 6.25,
+   "target_price": 18.75,
+   "table": [
+    {
+     "move": -3,
+     "stock": 390.85,
+     "d1": -548,
+     "d5": -658
+    },
+    {
+     "move": -1,
+     "stock": 398.91,
+     "d1": -253,
+     "d5": -376
+    },
+    {
+     "move": 1,
+     "stock": 406.97,
+     "d1": 109,
+     "d5": -21
+    },
+    {
+     "move": 3,
+     "stock": 415.03,
+     "d1": 540,
+     "d5": 408
+    },
+    {
+     "move": 5,
+     "stock": 423.09,
+     "d1": 1036,
+     "d5": 908
+    },
+    {
+     "move": 10,
+     "stock": 443.23,
+     "d1": 2522,
+     "d5": 2421
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla, Inc.",
+   "side": "call",
+   "expiry": "Dec 18",
+   "expiry_iso": "2026-12-18",
+   "dte": 37,
+   "strike": 385.0,
+   "mid": 24.85,
+   "bid": 24.55,
+   "ask": 25.15,
+   "spread_pct": 2.4,
+   "oi": 2517,
+   "volume": 336,
+   "delta": 0.58,
+   "iv_pct": 42.7,
+   "rv_pct": 37.1,
+   "sigma_move_pct": 5.2,
    "ret_sigma_pct": 42,
-   "usd_sigma": 608,
-   "breakeven_pct": 4.7,
-   "spot": 405.06,
+   "usd_sigma": 1056,
+   "breakeven_pct": 4.9,
+   "spot": 390.84,
+   "rsi": 55,
+   "trend": "above its 50 day",
+   "earnings": "after expiry",
+   "earnings_flag": "after",
+   "cost": 2485,
+   "stop_price": 12.43,
+   "target_price": 37.28,
+   "table": [
+    {
+     "move": -3,
+     "stock": 379.11,
+     "d1": -725,
+     "d5": -899
+    },
+    {
+     "move": -1,
+     "stock": 386.93,
+     "d1": -322,
+     "d5": -499
+    },
+    {
+     "move": 1,
+     "stock": 394.75,
+     "d1": 128,
+     "d5": -48
+    },
+    {
+     "move": 3,
+     "stock": 402.57,
+     "d1": 622,
+     "d5": 450
+    },
+    {
+     "move": 5,
+     "stock": 410.38,
+     "d1": 1157,
+     "d5": 993
+    },
+    {
+     "move": 10,
+     "stock": 429.92,
+     "d1": 2649,
+     "d5": 2513
+    }
+   ]
+  },
+  {
+   "ticker": "IBM",
+   "name": "IBM",
+   "side": "call",
+   "expiry": "Dec 18",
+   "expiry_iso": "2026-12-18",
+   "dte": 37,
+   "strike": 250.0,
+   "mid": 10.18,
+   "bid": 10.0,
+   "ask": 10.35,
+   "spread_pct": 3.4,
+   "oi": 2084,
+   "volume": 180,
+   "delta": 0.51,
+   "iv_pct": 33.5,
+   "rv_pct": 28.8,
+   "sigma_move_pct": 4.1,
+   "ret_sigma_pct": 42,
+   "usd_sigma": 432,
+   "breakeven_pct": 4.8,
+   "spot": 248.22,
+   "rsi": 55,
+   "trend": "above its 50 day",
+   "earnings": "after expiry",
+   "earnings_flag": "after",
+   "cost": 1018,
+   "stop_price": 5.09,
+   "target_price": 15.26,
+   "table": [
+    {
+     "move": -3,
+     "stock": 240.77,
+     "d1": -387,
+     "d5": -469
+    },
+    {
+     "move": -1,
+     "stock": 245.74,
+     "d1": -176,
+     "d5": -265
+    },
+    {
+     "move": 1,
+     "stock": 250.7,
+     "d1": 72,
+     "d5": -19
+    },
+    {
+     "move": 3,
+     "stock": 255.67,
+     "d1": 357,
+     "d5": 266
+    },
+    {
+     "move": 5,
+     "stock": 260.63,
+     "d1": 676,
+     "d5": 589
+    },
+    {
+     "move": 10,
+     "stock": 273.04,
+     "d1": 1603,
+     "d5": 1533
+    }
+   ]
+  },
+  {
+   "ticker": "IWM",
+   "name": "",
+   "side": "call",
+   "expiry": "Dec 18",
+   "expiry_iso": "2026-12-18",
+   "dte": 37,
+   "strike": 288.0,
+   "mid": 4.21,
+   "bid": 4.19,
+   "ask": 4.24,
+   "spread_pct": 1.2,
+   "oi": 2015,
+   "volume": 404,
+   "delta": 0.41,
+   "iv_pct": 16.3,
+   "rv_pct": 12.7,
+   "sigma_move_pct": 1.8,
+   "ret_sigma_pct": 39,
+   "usd_sigma": 165,
+   "breakeven_pct": 3.2,
+   "spot": 283.09,
    "rsi": 54,
    "trend": "above its 50 day",
-   "earnings": "after expiry",
+   "earnings": "ETF, no earnings",
    "earnings_flag": "after",
-   "cost": 1425,
-   "stop_price": 7.12,
-   "target_price": 21.38,
+   "cost": 422,
+   "stop_price": 2.11,
+   "target_price": 6.32,
    "table": [
     {
      "move": -3,
-     "stock": 392.91,
-     "d1": -586,
-     "d5": -704
+     "stock": 274.6,
+     "d1": -270,
+     "d5": -305
     },
     {
      "move": -1,
-     "stock": 401.01,
-     "d1": -266,
-     "d5": -395
+     "stock": 280.26,
+     "d1": -121,
+     "d5": -169
     },
     {
      "move": 1,
-     "stock": 409.11,
-     "d1": 120,
-     "d5": -14
+     "stock": 285.92,
+     "d1": 108,
+     "d5": 52
     },
     {
      "move": 3,
-     "stock": 417.21,
-     "d1": 571,
-     "d5": 437
+     "stock": 291.58,
+     "d1": 423,
+     "d5": 367
     },
     {
      "move": 5,
-     "stock": 425.31,
-     "d1": 1085,
-     "d5": 956
+     "stock": 297.24,
+     "d1": 818,
+     "d5": 768
     },
     {
      "move": 10,
-     "stock": 445.57,
-     "d1": 2600,
-     "d5": 2498
+     "stock": 311.4,
+     "d1": 2048,
+     "d5": 2019
     }
    ]
   },
   {
-   "ticker": "UBER",
-   "name": "Uber",
+   "ticker": "CMCSA",
+   "name": "Comcast",
    "side": "call",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 70.0,
-   "mid": 3.1,
-   "bid": 3.05,
-   "ask": 3.15,
-   "spread_pct": 3.2,
-   "oi": 9989,
-   "volume": 475,
+   "dte": 37,
+   "strike": 25.0,
+   "mid": 1.09,
+   "bid": 1.07,
+   "ask": 1.11,
+   "spread_pct": 3.7,
+   "oi": 7478,
+   "volume": 69,
    "delta": 0.54,
    "iv_pct": 32.5,
-   "rv_pct": 25.3,
-   "sigma_move_pct": 3.6,
-   "ret_sigma_pct": 35,
-   "usd_sigma": 109,
-   "breakeven_pct": 4.3,
-   "spot": 70.06,
-   "rsi": 53,
-   "trend": "above its 50 day",
-   "earnings": "after expiry",
-   "earnings_flag": "after",
-   "cost": 310,
-   "stop_price": 1.55,
-   "target_price": 4.65,
-   "table": [
-    {
-     "move": -3,
-     "stock": 67.96,
-     "d1": -115,
-     "d5": -138
-    },
-    {
-     "move": -1,
-     "stock": 69.36,
-     "d1": -52,
-     "d5": -76
-    },
-    {
-     "move": 1,
-     "stock": 70.76,
-     "d1": 23,
-     "d5": -2
-    },
-    {
-     "move": 3,
-     "stock": 72.16,
-     "d1": 107,
-     "d5": 83
-    },
-    {
-     "move": 5,
-     "stock": 73.56,
-     "d1": 202,
-     "d5": 179
-    },
-    {
-     "move": 10,
-     "stock": 77.07,
-     "d1": 473,
-     "d5": 455
-    }
-   ]
-  },
-  {
-   "ticker": "PFE",
-   "name": "Pfizer",
-   "side": "call",
-   "expiry": "Dec 18",
-   "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 29.0,
-   "mid": 1.22,
-   "bid": 1.2,
-   "ask": 1.23,
-   "spread_pct": 2.5,
-   "oi": 23862,
-   "volume": 242,
-   "delta": 0.6,
-   "iv_pct": 25.5,
-   "rv_pct": 19.9,
-   "sigma_move_pct": 2.8,
+   "rv_pct": 24.8,
+   "sigma_move_pct": 3.5,
    "ret_sigma_pct": 33,
-   "usd_sigma": 41,
-   "breakeven_pct": 2.9,
-   "spot": 29.36,
-   "rsi": 49,
+   "usd_sigma": 37,
+   "breakeven_pct": 4.3,
+   "spot": 25.02,
+   "rsi": 67,
    "trend": "above its 50 day",
    "earnings": "after expiry",
    "earnings_flag": "after",
-   "cost": 122,
-   "stop_price": 0.61,
-   "target_price": 1.82,
+   "cost": 109,
+   "stop_price": 0.55,
+   "target_price": 1.64,
    "table": [
     {
      "move": -3,
-     "stock": 28.48,
-     "d1": -50,
-     "d5": -58
+     "stock": 24.27,
+     "d1": -41,
+     "d5": -50
     },
     {
      "move": -1,
-     "stock": 29.07,
-     "d1": -22,
-     "d5": -30
+     "stock": 24.77,
+     "d1": -19,
+     "d5": -28
     },
     {
      "move": 1,
-     "stock": 29.65,
-     "d1": 13,
-     "d5": 5
+     "stock": 25.27,
+     "d1": 8,
+     "d5": -1
     },
     {
      "move": 3,
-     "stock": 30.24,
-     "d1": 53,
-     "d5": 45
+     "stock": 25.77,
+     "d1": 38,
+     "d5": 29
     },
     {
      "move": 5,
-     "stock": 30.83,
-     "d1": 97,
-     "d5": 91
+     "stock": 26.27,
+     "d1": 71,
+     "d5": 63
     },
     {
      "move": 10,
-     "stock": 32.3,
-     "d1": 223,
-     "d5": 219
+     "stock": 27.52,
+     "d1": 168,
+     "d5": 162
     }
    ]
   },
@@ -424,543 +628,135 @@
    "side": "call",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 350.0,
-   "mid": 7.05,
-   "bid": 6.95,
-   "ask": 7.15,
-   "spread_pct": 2.8,
-   "oi": 3818,
-   "volume": 55,
-   "delta": 0.41,
-   "iv_pct": 22.5,
+   "dte": 37,
+   "strike": 345.0,
+   "mid": 9.28,
+   "bid": 9.1,
+   "ask": 9.45,
+   "spread_pct": 3.8,
+   "oi": 2002,
+   "volume": 70,
+   "delta": 0.51,
+   "iv_pct": 21.5,
    "rv_pct": 16.2,
    "sigma_move_pct": 2.3,
-   "ret_sigma_pct": 33,
-   "usd_sigma": 235,
-   "breakeven_pct": 4.4,
-   "spot": 342.0,
+   "ret_sigma_pct": 32,
+   "usd_sigma": 305,
+   "breakeven_pct": 3.2,
+   "spot": 343.39,
    "rsi": 53,
    "trend": "above its 50 day",
    "earnings": "after expiry",
    "earnings_flag": "after",
-   "cost": 705,
-   "stop_price": 3.53,
-   "target_price": 10.58,
+   "cost": 928,
+   "stop_price": 4.64,
+   "target_price": 13.91,
    "table": [
     {
      "move": -3,
-     "stock": 331.74,
-     "d1": -372,
-     "d5": -435
+     "stock": 333.09,
+     "d1": -480,
+     "d5": -551
     },
     {
      "move": -1,
-     "stock": 338.58,
-     "d1": -168,
-     "d5": -245
+     "stock": 339.96,
+     "d1": -216,
+     "d5": -298
     },
     {
      "move": 1,
-     "stock": 345.42,
-     "d1": 107,
-     "d5": 21
+     "stock": 346.82,
+     "d1": 126,
+     "d5": 41
     },
     {
      "move": 3,
-     "stock": 352.26,
-     "d1": 456,
-     "d5": 367
+     "stock": 353.69,
+     "d1": 547,
+     "d5": 465
     },
     {
      "move": 5,
-     "stock": 359.1,
-     "d1": 877,
-     "d5": 792
+     "stock": 360.56,
+     "d1": 1036,
+     "d5": 963
     },
     {
      "move": 10,
-     "stock": 376.2,
-     "d1": 2190,
-     "d5": 2129
-    }
-   ]
-  },
-  {
-   "ticker": "NEE",
-   "name": "NextEra Energy",
-   "side": "call",
-   "expiry": "Jan 15",
-   "expiry_iso": "2027-01-15",
-   "dte": 66,
-   "strike": 87.5,
-   "mid": 2.6,
-   "bid": 2.55,
-   "ask": 2.65,
-   "spread_pct": 3.8,
-   "oi": 4990,
-   "volume": 78,
-   "delta": 0.48,
-   "iv_pct": 19.7,
-   "rv_pct": 17.1,
-   "sigma_move_pct": 2.4,
-   "ret_sigma_pct": 31,
-   "usd_sigma": 81,
-   "breakeven_pct": 4.4,
-   "spot": 86.28,
-   "rsi": 64,
-   "trend": "above its 50 day",
-   "earnings": "after expiry",
-   "earnings_flag": "after",
-   "cost": 260,
-   "stop_price": 1.3,
-   "target_price": 3.9,
-   "table": [
-    {
-     "move": -3,
-     "stock": 83.69,
-     "d1": -118,
-     "d5": -130
-    },
-    {
-     "move": -1,
-     "stock": 85.41,
-     "d1": -52,
-     "d5": -67
-    },
-    {
-     "move": 1,
-     "stock": 87.14,
-     "d1": 29,
-     "d5": 14
-    },
-    {
-     "move": 3,
-     "stock": 88.86,
-     "d1": 127,
-     "d5": 112
-    },
-    {
-     "move": 5,
-     "stock": 90.59,
-     "d1": 240,
-     "d5": 225
-    },
-    {
-     "move": 10,
-     "stock": 94.9,
-     "d1": 575,
-     "d5": 564
-    }
-   ]
-  },
-  {
-   "ticker": "WMT",
-   "name": "Walmart",
-   "side": "call",
-   "expiry": "Dec 18",
-   "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 125.0,
-   "mid": 5.75,
-   "bid": 5.65,
-   "ask": 5.85,
-   "spread_pct": 3.5,
-   "oi": 8326,
-   "volume": 508,
-   "delta": 0.55,
-   "iv_pct": 32.3,
-   "rv_pct": 23.5,
-   "sigma_move_pct": 3.3,
-   "ret_sigma_pct": 30,
-   "usd_sigma": 178,
-   "breakeven_pct": 4.1,
-   "spot": 125.55,
-   "rsi": 64,
-   "trend": "above its 50 day",
-   "earnings": "Nov 19",
-   "earnings_flag": "before_expiry",
-   "cost": 575,
-   "stop_price": 2.88,
-   "target_price": 8.62,
-   "table": [
-    {
-     "move": -3,
-     "stock": 121.78,
-     "d1": -213,
-     "d5": -255
-    },
-    {
-     "move": -1,
-     "stock": 124.29,
-     "d1": -96,
-     "d5": -140
-    },
-    {
-     "move": 1,
-     "stock": 126.81,
-     "d1": 40,
-     "d5": -4
-    },
-    {
-     "move": 3,
-     "stock": 129.32,
-     "d1": 195,
-     "d5": 153
-    },
-    {
-     "move": 5,
-     "stock": 131.83,
-     "d1": 367,
-     "d5": 327
-    },
-    {
-     "move": 10,
-     "stock": 138.11,
-     "d1": 859,
-     "d5": 828
-    }
-   ]
-  },
-  {
-   "ticker": "AXP",
-   "name": "American Express",
-   "side": "call",
-   "expiry": "Jan 15",
-   "expiry_iso": "2027-01-15",
-   "dte": 66,
-   "strike": 320.0,
-   "mid": 17.17,
-   "bid": 16.95,
-   "ask": 17.4,
-   "spread_pct": 2.6,
-   "oi": 2457,
-   "volume": 53,
-   "delta": 0.6,
-   "iv_pct": 25.1,
-   "rv_pct": 19.9,
-   "sigma_move_pct": 2.8,
-   "ret_sigma_pct": 26,
-   "usd_sigma": 451,
-   "breakeven_pct": 4.0,
-   "spot": 324.2,
-   "rsi": 55,
-   "trend": "above its 50 day",
-   "earnings": "after expiry",
-   "earnings_flag": "after",
-   "cost": 1717,
-   "stop_price": 8.59,
-   "target_price": 25.76,
-   "table": [
-    {
-     "move": -3,
-     "stock": 314.47,
-     "d1": -580,
-     "d5": -646
-    },
-    {
-     "move": -1,
-     "stock": 320.96,
-     "d1": -247,
-     "d5": -315
-    },
-    {
-     "move": 1,
-     "stock": 327.44,
-     "d1": 135,
-     "d5": 66
-    },
-    {
-     "move": 3,
-     "stock": 333.93,
-     "d1": 561,
-     "d5": 495
-    },
-    {
-     "move": 5,
-     "stock": 340.41,
-     "d1": 1028,
-     "d5": 966
-    },
-    {
-     "move": 10,
-     "stock": 356.62,
-     "d1": 2341,
-     "d5": 2292
+     "stock": 377.73,
+     "d1": 2483,
+     "d5": 2438
     }
    ]
   }
  ],
  "puts_tactical": [
   {
-   "ticker": "META",
-   "name": "Meta Platforms",
-   "side": "put",
-   "expiry": "Dec 18",
-   "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 640.0,
-   "mid": 29.7,
-   "bid": 29.55,
-   "ask": 29.85,
-   "spread_pct": 1.0,
-   "oi": 2652,
-   "volume": 167,
-   "delta": -0.45,
-   "iv_pct": 38.5,
-   "rv_pct": 35.3,
-   "sigma_move_pct": 5.0,
-   "ret_sigma_pct": 48,
-   "usd_sigma": 1427,
-   "breakeven_pct": -4.8,
-   "spot": 641.39,
-   "rsi": 46,
-   "trend": "below its 50 day",
-   "earnings": "after expiry",
-   "earnings_flag": "after",
-   "cost": 2970,
-   "stop_price": 14.85,
-   "target_price": 44.55,
-   "table": [
-    {
-     "move": -3,
-     "stock": 660.63,
-     "d1": -865,
-     "d5": -1088
-    },
-    {
-     "move": -1,
-     "stock": 647.8,
-     "d1": -364,
-     "d5": -591
-    },
-    {
-     "move": 1,
-     "stock": 634.98,
-     "d1": 218,
-     "d5": -7
-    },
-    {
-     "move": 3,
-     "stock": 622.15,
-     "d1": 883,
-     "d5": 669
-    },
-    {
-     "move": 5,
-     "stock": 609.32,
-     "d1": 1634,
-     "d5": 1437
-    },
-    {
-     "move": 10,
-     "stock": 577.25,
-     "d1": 3867,
-     "d5": 3736
-    }
-   ]
-  },
-  {
-   "ticker": "SPY",
-   "name": "",
-   "side": "put",
-   "expiry": "Dec 4",
-   "expiry_iso": "2026-12-04",
-   "dte": 24,
-   "strike": 750.0,
-   "mid": 10.46,
-   "bid": 10.43,
-   "ask": 10.48,
-   "spread_pct": 0.5,
-   "oi": 2681,
-   "volume": 916,
-   "delta": -0.46,
-   "iv_pct": 14.9,
-   "rv_pct": 11.0,
-   "sigma_move_pct": 1.5,
-   "ret_sigma_pct": 47,
-   "usd_sigma": 496,
-   "breakeven_pct": -1.4,
-   "spot": 750.01,
-   "rsi": 45,
-   "trend": "below its 50 day",
-   "earnings": "ETF, no earnings",
-   "earnings_flag": "after",
-   "cost": 1046,
-   "stop_price": 5.23,
-   "target_price": 15.68,
-   "table": [
-    {
-     "move": -3,
-     "stock": 772.51,
-     "d1": -747,
-     "d5": -836
-    },
-    {
-     "move": -1,
-     "stock": 757.51,
-     "d1": -342,
-     "d5": -464
-    },
-    {
-     "move": 1,
-     "stock": 742.51,
-     "d1": 356,
-     "d5": 241
-    },
-    {
-     "move": 3,
-     "stock": 727.51,
-     "d1": 1366,
-     "d5": 1299
-    },
-    {
-     "move": 5,
-     "stock": 712.51,
-     "d1": 2626,
-     "d5": 2616
-    },
-    {
-     "move": 10,
-     "stock": 675.01,
-     "d1": 6251,
-     "d5": 6295
-    }
-   ]
-  },
-  {
    "ticker": "NFLX",
    "name": "Netflix",
    "side": "put",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 63.0,
-   "mid": 2.63,
-   "bid": 2.62,
-   "ask": 2.64,
-   "spread_pct": 0.8,
-   "oi": 8694,
-   "volume": 627,
-   "delta": -0.45,
-   "iv_pct": 35.6,
+   "dte": 37,
+   "strike": 64.0,
+   "mid": 2.33,
+   "bid": 2.3,
+   "ask": 2.37,
+   "spread_pct": 3.0,
+   "oi": 5323,
+   "volume": 861,
+   "delta": -0.43,
+   "iv_pct": 33.4,
    "rv_pct": 31.2,
    "sigma_move_pct": 4.4,
-   "ret_sigma_pct": 46,
-   "usd_sigma": 121,
-   "breakeven_pct": -4.6,
-   "spot": 63.26,
-   "rsi": 40,
+   "ret_sigma_pct": 49,
+   "usd_sigma": 116,
+   "breakeven_pct": -4.5,
+   "spot": 64.54,
+   "rsi": 46,
    "trend": "below its 50 day",
    "earnings": "after expiry",
    "earnings_flag": "after",
-   "cost": 263,
-   "stop_price": 1.31,
-   "target_price": 3.94,
+   "cost": 234,
+   "stop_price": 1.17,
+   "target_price": 3.5,
    "table": [
     {
      "move": -3,
-     "stock": 65.16,
-     "d1": -82,
+     "stock": 66.48,
+     "d1": -84,
      "d5": -102
     },
     {
      "move": -1,
+     "stock": 65.19,
+     "d1": -38,
+     "d5": -57
+    },
+    {
+     "move": 1,
      "stock": 63.89,
-     "d1": -34,
-     "d5": -55
-    },
-    {
-     "move": 1,
-     "stock": 62.63,
-     "d1": 23,
-     "d5": 2
+     "d1": 17,
+     "d5": -2
     },
     {
      "move": 3,
-     "stock": 61.36,
-     "d1": 88,
-     "d5": 69
+     "stock": 62.6,
+     "d1": 82,
+     "d5": 63
     },
     {
      "move": 5,
-     "stock": 60.1,
-     "d1": 163,
-     "d5": 145
+     "stock": 61.31,
+     "d1": 157,
+     "d5": 140
     },
     {
      "move": 10,
-     "stock": 56.93,
-     "d1": 387,
-     "d5": 376
-    }
-   ]
-  },
-  {
-   "ticker": "SCHW",
-   "name": "Charles Schwab Corporation",
-   "side": "put",
-   "expiry": "Dec 18",
-   "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 92.5,
-   "mid": 2.75,
-   "bid": 2.71,
-   "ask": 2.78,
-   "spread_pct": 2.6,
-   "oi": 4243,
-   "volume": 103,
-   "delta": -0.42,
-   "iv_pct": 27.8,
-   "rv_pct": 22.4,
-   "sigma_move_pct": 3.2,
-   "ret_sigma_pct": 40,
-   "usd_sigma": 111,
-   "breakeven_pct": -3.8,
-   "spot": 93.32,
-   "rsi": 50,
-   "trend": "below its 50 day",
-   "earnings": "after expiry",
-   "earnings_flag": "after",
-   "cost": 274,
-   "stop_price": 1.37,
-   "target_price": 4.12,
-   "table": [
-    {
-     "move": -3,
-     "stock": 96.12,
-     "d1": -112,
-     "d5": -133
-    },
-    {
-     "move": -1,
-     "stock": 94.25,
-     "d1": -49,
-     "d5": -72
-    },
-    {
-     "move": 1,
-     "stock": 92.39,
-     "d1": 29,
-     "d5": 6
-    },
-    {
-     "move": 3,
-     "stock": 90.52,
-     "d1": 124,
-     "d5": 103
-    },
-    {
-     "move": 5,
-     "stock": 88.65,
-     "d1": 236,
-     "d5": 217
-    },
-    {
-     "move": 10,
-     "stock": 83.99,
-     "d1": 583,
-     "d5": 575
+     "stock": 58.09,
+     "d1": 384,
+     "d5": 374
     }
    ]
   },
@@ -970,65 +766,201 @@
    "side": "put",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
+   "dte": 37,
    "strike": 105.0,
-   "mid": 9.62,
-   "bid": 9.6,
-   "ask": 9.65,
-   "spread_pct": 0.5,
-   "oi": 3736,
-   "volume": 151,
-   "delta": -0.58,
-   "iv_pct": 52.3,
-   "rv_pct": 44.8,
-   "sigma_move_pct": 6.3,
-   "ret_sigma_pct": 37,
-   "usd_sigma": 361,
-   "breakeven_pct": -4.2,
-   "spot": 99.6,
-   "rsi": 27,
+   "mid": 7.28,
+   "bid": 7.2,
+   "ask": 7.35,
+   "spread_pct": 2.1,
+   "oi": 3732,
+   "volume": 211,
+   "delta": -0.52,
+   "iv_pct": 48.1,
+   "rv_pct": 46.5,
+   "sigma_move_pct": 6.6,
+   "ret_sigma_pct": 46,
+   "usd_sigma": 341,
+   "breakeven_pct": -4.9,
+   "spot": 102.76,
+   "rsi": 31,
    "trend": "below its 50 day",
    "earnings": "after expiry",
    "earnings_flag": "after",
-   "cost": 962,
-   "stop_price": 4.81,
-   "target_price": 14.44,
+   "cost": 728,
+   "stop_price": 3.64,
+   "target_price": 10.91,
    "table": [
     {
      "move": -3,
-     "stock": 102.59,
-     "d1": -180,
-     "d5": -230
+     "stock": 105.84,
+     "d1": -172,
+     "d5": -219
     },
     {
      "move": -1,
-     "stock": 100.6,
-     "d1": -73,
-     "d5": -121
+     "stock": 103.79,
+     "d1": -77,
+     "d5": -124
     },
     {
      "move": 1,
-     "stock": 98.6,
-     "d1": 43,
-     "d5": -2
+     "stock": 101.73,
+     "d1": 28,
+     "d5": -17
     },
     {
      "move": 3,
-     "stock": 96.61,
-     "d1": 168,
-     "d5": 127
+     "stock": 99.68,
+     "d1": 144,
+     "d5": 101
     },
     {
      "move": 5,
-     "stock": 94.62,
-     "d1": 303,
-     "d5": 265
+     "stock": 97.62,
+     "d1": 271,
+     "d5": 232
     },
     {
      "move": 10,
-     "stock": 89.64,
-     "d1": 676,
-     "d5": 650
+     "stock": 92.48,
+     "d1": 633,
+     "d5": 605
+    }
+   ]
+  },
+  {
+   "ticker": "SPY",
+   "name": "",
+   "side": "put",
+   "expiry": "Dec 11",
+   "expiry_iso": "2026-12-11",
+   "dte": 30,
+   "strike": 765.0,
+   "mid": 12.96,
+   "bid": 12.93,
+   "ask": 13.0,
+   "spread_pct": 0.5,
+   "oi": 5458,
+   "volume": 248,
+   "delta": -0.53,
+   "iv_pct": 13.3,
+   "rv_pct": 10.7,
+   "sigma_move_pct": 1.5,
+   "ret_sigma_pct": 46,
+   "usd_sigma": 601,
+   "breakeven_pct": -1.0,
+   "spot": 759.81,
+   "rsi": 50,
+   "trend": "below its 50 day",
+   "earnings": "ETF, no earnings",
+   "earnings_flag": "after",
+   "cost": 1296,
+   "stop_price": 6.48,
+   "target_price": 19.45,
+   "table": [
+    {
+     "move": -3,
+     "stock": 782.6,
+     "d1": -887,
+     "d5": -967
+    },
+    {
+     "move": -1,
+     "stock": 767.41,
+     "d1": -391,
+     "d5": -486
+    },
+    {
+     "move": 1,
+     "stock": 752.21,
+     "d1": 415,
+     "d5": 339
+    },
+    {
+     "move": 3,
+     "stock": 737.02,
+     "d1": 1523,
+     "d5": 1491
+    },
+    {
+     "move": 5,
+     "stock": 721.82,
+     "d1": 2853,
+     "d5": 2864
+    },
+    {
+     "move": 10,
+     "stock": 683.83,
+     "d1": 6558,
+     "d5": 6604
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms",
+   "side": "put",
+   "expiry": "Dec 18",
+   "expiry_iso": "2026-12-18",
+   "dte": 37,
+   "strike": 630.0,
+   "mid": 30.4,
+   "bid": 30.0,
+   "ask": 30.8,
+   "spread_pct": 2.6,
+   "oi": 3501,
+   "volume": 74,
+   "delta": -0.47,
+   "iv_pct": 39.0,
+   "rv_pct": 35.3,
+   "sigma_move_pct": 5.0,
+   "ret_sigma_pct": 45,
+   "usd_sigma": 1376,
+   "breakeven_pct": -4.6,
+   "spot": 628.77,
+   "rsi": 44,
+   "trend": "below its 50 day",
+   "earnings": "after expiry",
+   "earnings_flag": "after",
+   "cost": 3040,
+   "stop_price": 15.2,
+   "target_price": 45.6,
+   "table": [
+    {
+     "move": -3,
+     "stock": 647.63,
+     "d1": -918,
+     "d5": -1144
+    },
+    {
+     "move": -1,
+     "stock": 635.06,
+     "d1": -415,
+     "d5": -643
+    },
+    {
+     "move": 1,
+     "stock": 622.48,
+     "d1": 168,
+     "d5": -56
+    },
+    {
+     "move": 3,
+     "stock": 609.91,
+     "d1": 833,
+     "d5": 620
+    },
+    {
+     "move": 5,
+     "stock": 597.33,
+     "d1": 1580,
+     "d5": 1386
+    },
+    {
+     "move": 10,
+     "stock": 565.89,
+     "d1": 3790,
+     "d5": 3664
     }
    ]
   },
@@ -1038,201 +970,201 @@
    "side": "put",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 675.0,
-   "mid": 20.05,
-   "bid": 19.99,
-   "ask": 20.11,
-   "spread_pct": 0.6,
-   "oi": 29009,
-   "volume": 1477,
-   "delta": -0.47,
-   "iv_pct": 24.6,
-   "rv_pct": 18.0,
-   "sigma_move_pct": 2.5,
-   "ret_sigma_pct": 36,
-   "usd_sigma": 726,
-   "breakeven_pct": -2.9,
-   "spot": 674.76,
-   "rsi": 40,
+   "dte": 37,
+   "strike": 685.0,
+   "mid": 17.23,
+   "bid": 17.16,
+   "ask": 17.3,
+   "spread_pct": 0.8,
+   "oi": 8716,
+   "volume": 1864,
+   "delta": -0.42,
+   "iv_pct": 24.2,
+   "rv_pct": 18.3,
+   "sigma_move_pct": 2.6,
+   "ret_sigma_pct": 40,
+   "usd_sigma": 686,
+   "breakeven_pct": -3.3,
+   "spot": 690.38,
+   "rsi": 46,
    "trend": "below its 50 day",
    "earnings": "ETF, no earnings",
    "earnings_flag": "after",
-   "cost": 2005,
-   "stop_price": 10.02,
-   "target_price": 30.07,
+   "cost": 1723,
+   "stop_price": 8.62,
+   "target_price": 25.84,
    "table": [
     {
      "move": -3,
-     "stock": 695.0,
-     "d1": -837,
-     "d5": -976
+     "stock": 711.09,
+     "d1": -769,
+     "d5": -903
     },
     {
      "move": -1,
-     "stock": 681.51,
-     "d1": -343,
-     "d5": -489
+     "stock": 697.28,
+     "d1": -322,
+     "d5": -468
     },
     {
      "move": 1,
-     "stock": 668.01,
-     "d1": 284,
-     "d5": 142
+     "stock": 683.48,
+     "d1": 260,
+     "d5": 113
     },
     {
      "move": 3,
-     "stock": 654.52,
-     "d1": 1050,
-     "d5": 923
+     "stock": 669.67,
+     "d1": 989,
+     "d5": 854
     },
     {
      "move": 5,
-     "stock": 641.02,
-     "d1": 1950,
-     "d5": 1849
+     "stock": 655.86,
+     "d1": 1863,
+     "d5": 1752
     },
     {
      "move": 10,
-     "stock": 607.28,
-     "d1": 4694,
-     "d5": 4670
+     "stock": 621.34,
+     "d1": 4597,
+     "d5": 4566
     }
    ]
   },
   {
-   "ticker": "C",
-   "name": "Citigroup",
+   "ticker": "CVX",
+   "name": "Chevron Corporation",
    "side": "put",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 125.0,
-   "mid": 5.85,
-   "bid": 5.75,
-   "ask": 5.95,
-   "spread_pct": 3.4,
-   "oi": 6035,
-   "volume": 184,
-   "delta": -0.55,
-   "iv_pct": 29.6,
-   "rv_pct": 24.6,
-   "sigma_move_pct": 3.5,
-   "ret_sigma_pct": 35,
-   "usd_sigma": 210,
-   "breakeven_pct": -2.6,
-   "spot": 122.32,
-   "rsi": 46,
+   "dte": 37,
+   "strike": 210.0,
+   "mid": 6.1,
+   "bid": 6.05,
+   "ask": 6.15,
+   "spread_pct": 1.6,
+   "oi": 3799,
+   "volume": 181,
+   "delta": -0.4,
+   "iv_pct": 29.7,
+   "rv_pct": 21.8,
+   "sigma_move_pct": 3.1,
+   "ret_sigma_pct": 37,
+   "usd_sigma": 225,
+   "breakeven_pct": -4.4,
+   "spot": 213.2,
+   "rsi": 43,
    "trend": "below its 50 day",
    "earnings": "after expiry",
    "earnings_flag": "after",
-   "cost": 585,
-   "stop_price": 2.92,
-   "target_price": 8.77,
+   "cost": 610,
+   "stop_price": 3.05,
+   "target_price": 9.15,
    "table": [
     {
      "move": -3,
-     "stock": 125.99,
-     "d1": -205,
-     "d5": -238
+     "stock": 219.6,
+     "d1": -240,
+     "d5": -291
     },
     {
      "move": -1,
-     "stock": 123.54,
-     "d1": -92,
-     "d5": -124
+     "stock": 215.33,
+     "d1": -104,
+     "d5": -159
     },
     {
      "move": 1,
-     "stock": 121.1,
-     "d1": 42,
-     "d5": 13
+     "stock": 211.07,
+     "d1": 66,
+     "d5": 9
     },
     {
      "move": 3,
-     "stock": 118.65,
-     "d1": 196,
-     "d5": 171
+     "stock": 206.8,
+     "d1": 272,
+     "d5": 217
     },
     {
      "move": 5,
-     "stock": 116.2,
-     "d1": 369,
-     "d5": 348
+     "stock": 202.54,
+     "d1": 515,
+     "d5": 465
     },
     {
      "move": 10,
-     "stock": 110.09,
-     "d1": 869,
-     "d5": 863
+     "stock": 191.88,
+     "d1": 1276,
+     "d5": 1249
     }
    ]
   },
   {
-   "ticker": "IWM",
-   "name": "",
+   "ticker": "PLTR",
+   "name": "Palantir Technologies",
    "side": "put",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 279.0,
-   "mid": 6.11,
-   "bid": 6.07,
-   "ask": 6.14,
-   "spread_pct": 1.1,
-   "oi": 2664,
-   "volume": 145,
-   "delta": -0.43,
-   "iv_pct": 20.6,
-   "rv_pct": 13.7,
-   "sigma_move_pct": 1.9,
-   "ret_sigma_pct": 32,
-   "usd_sigma": 198,
-   "breakeven_pct": -2.7,
-   "spot": 280.56,
-   "rsi": 52,
+   "dte": 37,
+   "strike": 180.0,
+   "mid": 14.32,
+   "bid": 14.2,
+   "ask": 14.45,
+   "spread_pct": 1.7,
+   "oi": 3994,
+   "volume": 137,
+   "delta": -0.57,
+   "iv_pct": 47.3,
+   "rv_pct": 38.2,
+   "sigma_move_pct": 5.4,
+   "ret_sigma_pct": 34,
+   "usd_sigma": 496,
+   "breakeven_pct": -3.9,
+   "spot": 172.4,
+   "rsi": 43,
    "trend": "below its 50 day",
-   "earnings": "ETF, no earnings",
+   "earnings": "after expiry",
    "earnings_flag": "after",
-   "cost": 610,
-   "stop_price": 3.05,
-   "target_price": 9.16,
+   "cost": 1432,
+   "stop_price": 7.16,
+   "target_price": 21.49,
    "table": [
     {
      "move": -3,
-     "stock": 288.98,
-     "d1": -306,
-     "d5": -349
+     "stock": 177.57,
+     "d1": -318,
+     "d5": -397
     },
     {
      "move": -1,
-     "stock": 283.37,
-     "d1": -130,
-     "d5": -178
+     "stock": 174.12,
+     "d1": -139,
+     "d5": -215
     },
     {
      "move": 1,
-     "stock": 277.75,
-     "d1": 109,
-     "d5": 61
+     "stock": 170.68,
+     "d1": 58,
+     "d5": -13
     },
     {
      "move": 3,
-     "stock": 272.14,
-     "d1": 417,
-     "d5": 375
+     "stock": 167.23,
+     "d1": 273,
+     "d5": 208
     },
     {
      "move": 5,
-     "stock": 266.53,
-     "d1": 792,
-     "d5": 761
+     "stock": 163.78,
+     "d1": 506,
+     "d5": 447
     },
     {
      "move": 10,
-     "stock": 252.5,
-     "d1": 1963,
-     "d5": 1962
+     "stock": 155.16,
+     "d1": 1158,
+     "d5": 1121
     }
    ]
   },
@@ -1242,133 +1174,201 @@
    "side": "put",
    "expiry": "Dec 18",
    "expiry_iso": "2026-12-18",
-   "dte": 38,
-   "strike": 350.0,
-   "mid": 33.23,
-   "bid": 32.95,
-   "ask": 33.5,
-   "spread_pct": 1.7,
-   "oi": 9323,
-   "volume": 117,
-   "delta": -0.58,
-   "iv_pct": 54.6,
-   "rv_pct": 40.8,
-   "sigma_move_pct": 5.8,
-   "ret_sigma_pct": 30,
-   "usd_sigma": 997,
+   "dte": 37,
+   "strike": 360.0,
+   "mid": 30.42,
+   "bid": 30.15,
+   "ask": 30.7,
+   "spread_pct": 1.8,
+   "oi": 6535,
+   "volume": 378,
+   "delta": -0.56,
+   "iv_pct": 51.9,
+   "rv_pct": 39.5,
+   "sigma_move_pct": 5.6,
+   "ret_sigma_pct": 32,
+   "usd_sigma": 969,
    "breakeven_pct": -4.5,
-   "spot": 331.71,
-   "rsi": 49,
+   "spot": 345.22,
+   "rsi": 54,
    "trend": "below its 50 day",
    "earnings": "Dec 9",
    "earnings_flag": "before_expiry",
-   "cost": 3322,
-   "stop_price": 16.61,
-   "target_price": 49.84,
+   "cost": 3042,
+   "stop_price": 15.21,
+   "target_price": 45.64,
    "table": [
     {
      "move": -3,
-     "stock": 341.66,
-     "d1": -632,
-     "d5": -806
+     "stock": 355.58,
+     "d1": -633,
+     "d5": -808
     },
     {
      "move": -1,
-     "stock": 335.03,
-     "d1": -281,
-     "d5": -448
+     "stock": 348.67,
+     "d1": -282,
+     "d5": -451
     },
     {
      "move": 1,
-     "stock": 328.39,
-     "d1": 101,
-     "d5": -57
+     "stock": 341.77,
+     "d1": 102,
+     "d5": -59
     },
     {
      "move": 3,
-     "stock": 321.76,
-     "d1": 512,
-     "d5": 365
+     "stock": 334.86,
+     "d1": 519,
+     "d5": 370
     },
     {
      "move": 5,
-     "stock": 315.12,
-     "d1": 952,
-     "d5": 818
+     "stock": 327.96,
+     "d1": 969,
+     "d5": 833
     },
     {
      "move": 10,
-     "stock": 298.54,
-     "d1": 2172,
-     "d5": 2077
+     "stock": 310.7,
+     "d1": 2229,
+     "d5": 2133
     }
    ]
   },
   {
-   "ticker": "CVX",
-   "name": "Chevron Corporation",
+   "ticker": "C",
+   "name": "Citigroup",
    "side": "put",
    "expiry": "Jan 15",
    "expiry_iso": "2027-01-15",
-   "dte": 66,
-   "strike": 210.0,
-   "mid": 9.28,
-   "bid": 9.2,
-   "ask": 9.35,
-   "spread_pct": 1.6,
-   "oi": 2417,
-   "volume": 198,
-   "delta": -0.43,
-   "iv_pct": 29.7,
-   "rv_pct": 22.4,
-   "sigma_move_pct": 3.2,
-   "ret_sigma_pct": 28,
-   "usd_sigma": 259,
-   "breakeven_pct": -5.0,
-   "spot": 211.19,
-   "rsi": 40,
+   "dte": 65,
+   "strike": 125.0,
+   "mid": 5.85,
+   "bid": 5.75,
+   "ask": 5.95,
+   "spread_pct": 3.4,
+   "oi": 8023,
+   "volume": 57,
+   "delta": -0.47,
+   "iv_pct": 28.2,
+   "rv_pct": 23.9,
+   "sigma_move_pct": 3.4,
+   "ret_sigma_pct": 29,
+   "usd_sigma": 174,
+   "breakeven_pct": -4.1,
+   "spot": 124.21,
+   "rsi": 50,
    "trend": "below its 50 day",
-   "earnings": "after expiry",
-   "earnings_flag": "after",
-   "cost": 928,
-   "stop_price": 4.64,
-   "target_price": 13.91,
+   "earnings": "Jan 14",
+   "earnings_flag": "before_expiry",
+   "cost": 585,
+   "stop_price": 2.92,
+   "target_price": 8.77,
    "table": [
     {
      "move": -3,
-     "stock": 217.53,
-     "d1": -269,
-     "d5": -308
+     "stock": 127.94,
+     "d1": -181,
+     "d5": -203
     },
     {
      "move": -1,
-     "stock": 213.3,
-     "d1": -112,
-     "d5": -152
+     "stock": 125.45,
+     "d1": -81,
+     "d5": -103
     },
     {
      "move": 1,
-     "stock": 209.08,
-     "d1": 70,
-     "d5": 31
+     "stock": 122.97,
+     "d1": 35,
+     "d5": 13
     },
     {
      "move": 3,
-     "stock": 204.85,
-     "d1": 279,
-     "d5": 241
+     "stock": 120.48,
+     "d1": 167,
+     "d5": 147
     },
     {
      "move": 5,
-     "stock": 200.63,
-     "d1": 515,
-     "d5": 481
+     "stock": 118.0,
+     "d1": 316,
+     "d5": 299
     },
     {
      "move": 10,
-     "stock": 190.07,
-     "d1": 1223,
-     "d5": 1201
+     "stock": 111.79,
+     "d1": 758,
+     "d5": 748
+    }
+   ]
+  },
+  {
+   "ticker": "BAC",
+   "name": "Bank of America",
+   "side": "put",
+   "expiry": "Dec 18",
+   "expiry_iso": "2026-12-18",
+   "dte": 37,
+   "strike": 50.0,
+   "mid": 1.25,
+   "bid": 1.23,
+   "ask": 1.26,
+   "spread_pct": 2.4,
+   "oi": 15144,
+   "volume": 930,
+   "delta": -0.4,
+   "iv_pct": 25.7,
+   "rv_pct": 14.3,
+   "sigma_move_pct": 2.0,
+   "ret_sigma_pct": 22,
+   "usd_sigma": 28,
+   "breakeven_pct": -3.8,
+   "spot": 50.66,
+   "rsi": 42,
+   "trend": "below its 50 day",
+   "earnings": "after expiry",
+   "earnings_flag": "after",
+   "cost": 125,
+   "stop_price": 0.62,
+   "target_price": 1.87,
+   "table": [
+    {
+     "move": -3,
+     "stock": 52.18,
+     "d1": -56,
+     "d5": -66
+    },
+    {
+     "move": -1,
+     "stock": 51.17,
+     "d1": -25,
+     "d5": -36
+    },
+    {
+     "move": 1,
+     "stock": 50.15,
+     "d1": 16,
+     "d5": 4
+    },
+    {
+     "move": 3,
+     "stock": 49.14,
+     "d1": 66,
+     "d5": 55
+    },
+    {
+     "move": 5,
+     "stock": 48.13,
+     "d1": 126,
+     "d5": 116
+    },
+    {
+     "move": 10,
+     "stock": 45.59,
+     "d1": 316,
+     "d5": 312
     }
    ]
   }
