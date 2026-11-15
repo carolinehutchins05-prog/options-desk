@@ -1,6 +1,6 @@
 {
-  "week_label": "November 9 to 13, 2026",
-  "summary": "Stocks enter the week on the back foot. The S&P 500 fell 2.68% last week to 7,376.86, the Nasdaq dropped 3.37% and the Dow slipped 0.94%, as AI names sold off after midterm wins for candidates who back limits on data center building. A blowout October jobs report added 165,000 jobs versus about 60,000 expected and pulled unemployment down to 4.1%, sending the 10 year yield to about 4.87% and lifting December hike odds to roughly 78% to 80%. This week tests both stories. October CPI lands Tuesday morning and CoreWeave reports that evening, Cisco and Applied Materials report Thursday after the close, and PPI closes the week Friday. Bond markets are shut Wednesday for Veterans Day while stocks trade normally, and a busy slate of Fed speakers will react to every print.",
+  "week_label": "November 16 to 20, 2026",
+  "summary": "The rate hike story is now nearly settled. October CPI ran hot at 0.4% headline and 0.3% core, and while PPI came in a bit cooler than feared, CME FedWatch prices a December hike at close to 100%, with roughly 90% odds of a quarter point and 10% of a half point. This week shifts the spotlight to AI and the consumer. Nvidia reports Tuesday after the close, with the stock down about 20% so far in November and Colette Kress serving as interim CEO. October retail sales land the same morning, Home Depot, Lowe's, Target, TJX and Walmart report through the week, and the FOMC minutes on Wednesday will show how many officials wanted to hike in October. Chair Warsh opens the week with remarks Monday at noon.",
   "stats": [
     {
       "label": "Fed funds target",
@@ -9,451 +9,452 @@
     },
     {
       "label": "December hike odds",
-      "value": "About 78 to 80%",
-      "sub": "CME FedWatch, Dec 8 to 9 meeting"
+      "value": "Near 100%",
+      "sub": "About 90% for a quarter point, 10% for a half point (CME FedWatch)"
     },
     {
-      "label": "Oct payrolls",
-      "value": "165,000",
-      "sub": "Versus about 60,000 expected, jobless rate 4.1%"
+      "label": "Oct retail sales consensus",
+      "value": "0.0% m/m",
+      "sub": "Ex autos 0.4%. Prior 0.8% and 0.9%"
     },
     {
-      "label": "Oct core CPI consensus",
-      "value": "0.2% m/m",
-      "sub": "Prior 0.3%. Headline 0.3% versus 0.6% prior"
+      "label": "Oct CPI (reported)",
+      "value": "0.4% m/m",
+      "sub": "Core 0.3%. PPI 0.3%, core 0.3%"
     }
   ],
   "headline": {
     "kicker": "Biggest day of the week",
-    "title": "Tuesday Nov 10: October CPI at 8:30 AM ET, then CoreWeave after the close",
-    "body": "With a hot jobs report already pushing hike odds near 80%, the CPI print decides whether the Fed has room to wait. Consensus looks for a cooler 0.3% headline and 0.2% core after September's 0.6% jump, so an in line or soft number could steady bonds and tech, while a hot core would cement a December hike. Hours later, CoreWeave reports at the center of worries over AI buildout financing, with options implying a move of about 20%."
+    "title": "Tuesday Nov 17: retail sales and Home Depot in the morning, Nvidia after the close",
+    "body": "Tuesday packs the consumer and the AI trade into one session. Retail sales at 8:30 AM ET show whether shoppers are holding up under rising rates, and Home Depot reports before the open. After the bell, Nvidia reports with consensus near $109B in revenue and $2.47 in EPS, the first report with an interim CEO and with the stock down about 20% this month. Its data center guidance will set the tone for chips and AI infrastructure into year end."
   },
   "spotlight": [
     {
-      "ticker": "CRWV",
-      "name": "CoreWeave",
-      "when": "Tue Nov 10, after the close, call 5:00 PM ET",
-      "eps": "(1.45) to (1.55)",
-      "rev": "About $3.5B",
-      "watch": "Backlog, capex plans and how the buildout is being funded. The stock is the market's read on AI infrastructure financing after last week's selloff."
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "when": "Tue Nov 17, after the close, call 5:00 PM ET",
+      "eps": "2.47",
+      "rev": "About $108.8B to $109.1B",
+      "watch": "Data center revenue and next quarter guidance, plus any comment on leadership after the CEO change. A strong guide could steady the AI trade after November's selloff."
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "when": "Thu Nov 12, after the close, call 4:30 PM ET",
-      "eps": "1.29 to 1.32",
-      "rev": "About $18.1B",
-      "watch": "AI networking orders from hyperscalers and whether guidance shows data center demand holding up as AI spending worries build."
+      "ticker": "WMT",
+      "name": "Walmart",
+      "when": "Thu Nov 19, before the open, call 8:00 AM ET",
+      "eps": "0.63 to 0.64",
+      "rev": "About $187.2B",
+      "watch": "Whether Walmart raises full year guidance, and what it says about lower and middle income shoppers heading into the holidays."
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "when": "Thu Nov 12, after the close, call 4:30 PM ET",
-      "eps": "4.06",
-      "rev": "About $10.30B",
-      "watch": "Fiscal 2027 commentary on wafer fab equipment spending, China sales, and whether chipmakers are keeping investment plans intact."
+      "ticker": "HD",
+      "name": "Home Depot",
+      "when": "Tue Nov 17, before the open, call 9:00 AM ET",
+      "eps": "3.84 to 3.87",
+      "rev": "About $42.8B",
+      "watch": "Same store sales and big ticket demand with mortgage rates elevated. A read on housing related spending as the Fed moves toward a hike."
     }
   ],
   "days": [
     {
-      "date": "Nov 9",
+      "date": "Nov 16",
       "key": "mon",
       "label": "Monday",
       "short": "Mon",
       "macro": [
         {
-          "time": "Times vary",
-          "name": "China CPI and PPI (Oct)",
+          "time": "8:30 AM",
+          "name": "Empire State manufacturing survey (Nov)",
           "imp": "med",
-          "cons": "CPI 0.8% y/y, PPI minus 5.4% y/y",
-          "prior": "CPI 0.9%, PPI minus 5.0%",
-          "note": "China's inflation readings show whether deflation pressure in the world's second largest economy is easing or deepening. Producer prices remain deeply negative.",
-          "react": "A softer reading would revive stimulus hopes and could lift copper, miners and China linked names, while a deeper PPI drop would add to global disinflation and favor bonds. Impact on US indexes is usually modest unless the miss is large."
+          "cons": "19",
+          "prior": "25.5",
+          "note": "The New York Fed's survey of factories in the state, the first regional read on November activity.",
+          "react": "A reading well above 19 would add to the strong growth picture and push yields a bit higher. A sharp drop would hint at cooling demand and help bonds. It rarely moves indexes much on its own."
         },
         {
-          "time": "10:00 AM",
-          "name": "Wholesale inventories (Sep)",
-          "imp": "low",
-          "cons": "Not found",
-          "prior": "Not found",
-          "note": "A delayed September read on inventories held by wholesalers, used to fine tune GDP estimates.",
-          "react": "Rarely moves markets. A large build could hint at softer demand and trim growth estimates slightly, but the CPI later in the week matters far more."
-        },
-        {
-          "time": "Times vary",
-          "name": "Fed speakers: Bowman, Barkin",
-          "imp": "med",
+          "time": "12:00 PM",
+          "name": "Fed Chair Warsh, opening remarks at Fed productivity and jobs conference",
+          "imp": "high",
           "cons": "None",
           "prior": "None",
-          "note": "Governor Bowman and Richmond Fed President Barkin give the first official reactions to the strong October jobs report.",
-          "react": "Hawkish comments that lean toward a December hike would push the 2 year yield and the dollar higher and weigh on long duration tech. Any sign of patience, especially from Williams or other leadership voices, would trim the roughly 78% to 80% hike pricing and help growth stocks."
+          "note": "Chair Warsh speaks for the first time since the hot CPI and cooler PPI. Watch whether he endorses a December hike or hints at the size.",
+          "react": "Any nod toward a half point move would lift the 2 year yield and the dollar and hit tech and small caps. A focus on productivity and a measured path would support stocks. A quarter point hike is close to fully priced, so tone on 2027 matters most."
+        },
+        {
+          "time": "Times vary",
+          "name": "China industrial production and retail sales (Oct)",
+          "imp": "low",
+          "cons": "IP 5.3%, retail sales 0.8%",
+          "prior": "IP 5.5%, retail sales 1.1%",
+          "note": "Monthly activity data for China. Exact release day was not confirmed by previews.",
+          "react": "Weak retail sales would revive stimulus hopes and could lift China linked names, while a broad miss would weigh on copper and miners. Impact on US indexes is usually modest."
         }
       ],
       "am": [
         {
-          "t": "CEG",
-          "n": "Constellation Energy",
-          "eps": "3.88"
+          "t": "BIDU",
+          "n": "Baidu",
+          "eps": "0.71"
         },
         {
-          "t": "KKR",
-          "n": "KKR",
-          "eps": "1.55"
+          "t": "TSN",
+          "n": "Tyson Foods",
+          "eps": "0.61"
         },
         {
-          "t": "FERG",
-          "n": "Ferguson",
-          "eps": "3.29"
-        },
-        {
-          "t": "NRG",
-          "n": "NRG Energy",
-          "eps": "3.11"
+          "t": "BEKE",
+          "n": "KE Holdings",
+          "eps": "0.23"
         }
       ],
       "pm": [
         {
-          "t": "OXY",
-          "n": "Occidental Petroleum",
-          "eps": "1.46"
+          "t": "XP",
+          "n": "XP Inc",
+          "eps": "0.53"
         },
         {
-          "t": "TTWO",
-          "n": "Take Two Interactive",
-          "eps": "(0.59)"
-        },
-        {
-          "t": "TTD",
-          "n": "The Trade Desk",
-          "eps": "0.22"
-        },
-        {
-          "t": "HIMS",
-          "n": "Hims and Hers Health",
-          "eps": "0.06"
-        },
-        {
-          "t": "RKLB",
-          "n": "Rocket Lab",
-          "eps": "(0.06)"
-        },
-        {
-          "t": "ASTS",
-          "n": "AST SpaceMobile",
-          "eps": "(0.44)"
-        },
-        {
-          "t": "MARA",
-          "n": "MARA Holdings",
-          "eps": "(0.09)"
-        },
-        {
-          "t": "LCID",
-          "n": "Lucid Group",
-          "eps": "(2.32)"
-        },
-        {
-          "t": "ACHR",
-          "n": "Archer Aviation",
-          "eps": "(0.27)"
-        },
-        {
-          "t": "QUBT",
-          "n": "Quantum Computing",
-          "eps": "(0.06)"
-        },
-        {
-          "t": "PLUG",
-          "n": "Plug Power",
-          "eps": "(0.06)"
+          "t": "ACM",
+          "n": "AECOM",
+          "eps": "1.59"
         }
       ]
     },
     {
-      "date": "Nov 10",
+      "date": "Nov 17",
       "key": "tue",
       "label": "Tuesday",
       "short": "Tue",
       "macro": [
         {
-          "time": "6:00 AM",
-          "name": "NFIB Small Business Optimism (Oct)",
-          "imp": "low",
-          "cons": "97.7",
-          "prior": "97.9",
-          "note": "A survey of small business owners on hiring plans, prices and sales expectations.",
-          "react": "Usually a minor mover. A jump in the share of firms raising prices would feed the inflation worry just ahead of CPI."
-        },
-        {
-          "time": "8:15 AM",
-          "name": "ADP weekly employment, 4 week average",
-          "imp": "low",
-          "cons": "Not found",
-          "prior": "Not found",
-          "note": "ADP's weekly private payroll tracker, which gives an early read on hiring trends after Friday's strong report.",
-          "react": "Small market impact on its own, since CPI follows 15 minutes later. A firm reading would reinforce the hot labor story."
+          "time": "8:30 AM",
+          "name": "Retail sales (Oct)",
+          "imp": "high",
+          "cons": "Headline 0.0% m/m (some previews 0.2%), ex autos 0.4%",
+          "prior": "Headline 0.8%, ex autos 0.9%",
+          "note": "The main read on consumer spending this quarter. Sales beat forecasts in August and September. Watch the control group, which feeds into GDP.",
+          "react": "A strong print would support the case for a larger hike, lift yields and the dollar and hurt rate sensitive stocks, though retailers could gain. A weak print would pull yields lower and help tech and housing names. Expectations are low after two strong months, so an upside surprise is the bigger risk for bonds."
         },
         {
           "time": "8:30 AM",
-          "name": "Consumer Price Index (Oct)",
-          "imp": "high",
-          "cons": "Headline 0.3% m/m, core 0.2% m/m. No official y/y figure",
-          "prior": "Headline 0.6% m/m, core 0.3% m/m",
-          "note": "The week's main event. October 2025 prices were never collected during the government shutdown, so BLS will not publish a standard year over year rate, and the monthly change carries all the weight. Watch shelter, used cars and core services.",
-          "react": "A hot core print of 0.4% or more would push the 2 year yield and the dollar higher, lock in a December hike and hit tech, small caps and housing stocks. An in line or soft 0.2% would ease some of the near 80% hike pricing, pull yields lower and could spark a relief rally in beaten up AI names. Markets already price a hike, so a cool print has more room to surprise."
-        },
-        {
-          "time": "Times vary",
-          "name": "China trade balance (Oct)",
+          "name": "Import and export prices (Oct)",
           "imp": "low",
-          "cons": "$126.5B surplus",
-          "prior": "$133.5B surplus",
-          "note": "Shows the strength of Chinese exports and import demand.",
-          "react": "A sharp drop in exports would weigh on global cyclicals and commodities. Rarely moves US indexes on its own."
+          "cons": "Not found",
+          "prior": "Not found",
+          "note": "Prices of goods coming into and leaving the US, a pipeline signal for goods inflation.",
+          "react": "A hot import price reading would add to inflation worries already in place after CPI. Usually overshadowed by retail sales at the same time."
+        },
+        {
+          "time": "9:15 AM",
+          "name": "Industrial production and capacity utilization (Oct)",
+          "imp": "med",
+          "cons": "IP 0.1%, utilization 76.8%",
+          "prior": "IP 0.7%",
+          "note": "Output at factories, mines and utilities after a strong September.",
+          "react": "A big miss would point to cooling manufacturing and help bonds. A beat adds to the strong growth story. Market impact is usually small."
+        },
+        {
+          "time": "10:00 AM",
+          "name": "NAHB homebuilder index (Nov) and business inventories (Sep)",
+          "imp": "low",
+          "cons": "NAHB 29",
+          "prior": "NAHB 29",
+          "note": "Builder confidence sits near depressed levels with mortgage rates high.",
+          "react": "A further drop would weigh on homebuilders. Rarely moves the broad market."
         },
         {
           "time": "Times vary",
-          "name": "Fed speakers: Waller, Logan, Schmid, Bowman",
+          "name": "Fed speaker: Waller",
           "imp": "med",
           "cons": "None",
           "prior": "None",
-          "note": "Governor Waller, a voter, speaks early, so his views come before CPI. Logan, Schmid and Bowman speak after the print and will be read as instant reactions to it.",
-          "react": "Hawkish comments that lean toward a December hike would push the 2 year yield and the dollar higher and weigh on long duration tech. Any sign of patience, especially from Williams or other leadership voices, would trim the roughly 78% to 80% hike pricing and help growth stocks."
-        },
-        {
-          "time": "Times vary",
-          "name": "BoJ Summary of Opinions (Oct meeting)",
-          "imp": "low",
-          "cons": "None",
-          "prior": "None",
-          "note": "Details of Bank of Japan board views from the October meeting.",
-          "react": "Hawkish language would firm the yen and nudge global yields higher. A quiet summary keeps the focus on US data."
+          "note": "Governor Waller speaks on payments, though questions on policy are likely.",
+          "react": "Hawkish comments that lean toward a larger December move or more hikes in 2027 would lift the 2 year yield and the dollar and weigh on long duration tech. Signs of patience after the softer PPI would trim the roughly 10% odds of a half point hike and help growth stocks. A quarter point hike in December is already close to fully priced."
         }
       ],
       "am": [
         {
-          "t": "SE",
-          "n": "Sea Limited",
-          "eps": "0.94"
+          "t": "HD",
+          "n": "Home Depot",
+          "eps": "3.87"
         },
         {
-          "t": "TDG",
-          "n": "TransDigm",
-          "eps": "12.05"
+          "t": "DIS",
+          "n": "Walt Disney",
+          "eps": "1.69"
         },
         {
-          "t": "ONON",
-          "n": "On Holding",
-          "eps": "0.46"
+          "t": "JD",
+          "n": "JD.com",
+          "eps": "0.93"
         },
         {
-          "t": "QBTS",
-          "n": "D Wave Quantum",
-          "eps": "(0.11)"
+          "t": "TME",
+          "n": "Tencent Music",
+          "eps": "0.21"
+        },
+        {
+          "t": "KLAR",
+          "n": "Klarna",
+          "eps": "(0.14)"
         }
       ],
       "pm": [
         {
-          "t": "CRWV",
-          "n": "CoreWeave",
-          "eps": "(1.53)"
+          "t": "NVDA",
+          "n": "Nvidia",
+          "eps": "2.47",
+          "star": true
         },
         {
-          "t": "PBR",
-          "n": "Petrobras",
-          "eps": "1.38"
-        },
-        {
-          "t": "ALC",
-          "n": "Alcon",
-          "eps": "0.89"
-        },
-        {
-          "t": "RGTI",
-          "n": "Rigetti Computing",
-          "eps": "(0.06)"
+          "t": "SQM",
+          "n": "Sociedad Quimica y Minera",
+          "eps": "2.05"
         }
       ]
     },
     {
-      "date": "Nov 11",
+      "date": "Nov 18",
       "key": "wed",
       "label": "Wednesday",
       "short": "Wed",
       "macro": [
         {
-          "time": "All day",
-          "name": "Veterans Day: bond market closed, stocks open",
+          "time": "8:30 AM",
+          "name": "Housing starts and building permits (Oct)",
+          "imp": "med",
+          "cons": "Starts 1.23 to 1.24 million",
+          "prior": "1.221 million",
+          "note": "New residential construction, squeezed by high mortgage rates.",
+          "react": "Weaker starts would hit builders and building materials names. A strong print adds a bit to growth and yield pressure."
+        },
+        {
+          "time": "10:00 AM",
+          "name": "Pending home sales (Oct)",
+          "imp": "low",
+          "cons": "Not found",
+          "prior": "Not found",
+          "note": "Contract signings on existing homes, a lead on closings. Previews expect a significant decline.",
+          "react": "A large drop is largely expected and would mainly weigh on housing stocks and mortgage lenders."
+        },
+        {
+          "time": "1:00 PM",
+          "name": "20 year Treasury bond auction ($13B)",
           "imp": "low",
           "cons": "None",
           "prior": "None",
-          "note": "US and Canadian bond markets are closed while stock exchanges trade normally. There are no major US data releases.",
-          "react": "Thin trading can exaggerate moves, and stocks will react to CoreWeave results from Tuesday night without help from the bond market. Expect yields to catch up on Thursday."
+          "note": "A test of demand for long dated debt with yields near multi year highs.",
+          "react": "A weak auction with a large tail would push long yields higher and pressure stocks into the minutes. Strong demand would ease that pressure."
+        },
+        {
+          "time": "2:00 PM",
+          "name": "FOMC minutes (Oct 27 to 28 meeting)",
+          "imp": "high",
+          "cons": "None",
+          "prior": "None",
+          "note": "Details of the meeting where the Fed held rates with two dissents for a hike. Watch how many officials saw a hike as likely soon and any debate on a larger move.",
+          "react": "Minutes showing broad support for hiking, or talk of more than one hike, would lift short yields and the dollar and hit tech. A divided or cautious tone would ease fears of a half point move and help growth stocks. A December hike is already priced, so the path beyond it matters most."
         },
         {
           "time": "Times vary",
-          "name": "OPEC Monthly Oil Market Report",
-          "imp": "low",
-          "cons": "None",
-          "prior": "None",
-          "note": "OPEC's monthly view of oil demand and supply.",
-          "react": "A cut to demand forecasts would weigh on crude and energy stocks. Oil has been driven more by US and Iran headlines recently."
-        }
-      ],
-      "am": [],
-      "pm": [
-        {
-          "t": "FNV",
-          "n": "Franco Nevada",
-          "eps": "1.74"
+          "name": "UK CPI (Oct)",
+          "imp": "med",
+          "cons": "3.6% y/y",
+          "prior": "3.5%",
+          "note": "UK inflation after the Bank of England's recent hike.",
+          "react": "A hot print would support more Bank of England tightening, lift gilt yields and the pound and can spill into Treasuries. A soft one would ease global yield pressure."
         },
         {
-          "t": "CTVA",
-          "n": "Corteva",
-          "eps": "0.09"
+          "time": "Times vary",
+          "name": "Bank Indonesia rate decision",
+          "imp": "low",
+          "cons": "Hike to 6.00%",
+          "prior": "5.75%",
+          "note": "Another emerging market central bank leaning toward tightening.",
+          "react": "Mostly a local market event. A surprise hold would weigh on the rupiah."
+        }
+      ],
+      "am": [
+        {
+          "t": "LOW",
+          "n": "Lowe's",
+          "eps": "2.86"
+        },
+        {
+          "t": "TGT",
+          "n": "Target",
+          "eps": "2.04"
+        },
+        {
+          "t": "TJX",
+          "n": "TJX Companies",
+          "eps": "1.33"
+        },
+        {
+          "t": "TCEHY",
+          "n": "Tencent",
+          "eps": "1.11"
+        }
+      ],
+      "pm": [
+        {
+          "t": "PANW",
+          "n": "Palo Alto Networks",
+          "eps": "0.88",
+          "star": true
         }
       ]
     },
     {
-      "date": "Nov 12",
+      "date": "Nov 19",
       "key": "thu",
       "label": "Thursday",
       "short": "Thu",
       "macro": [
         {
           "time": "8:30 AM",
-          "name": "Initial jobless claims (week of Nov 7)",
+          "name": "Initial jobless claims (week of Nov 14)",
           "imp": "med",
-          "cons": "194,000",
-          "prior": "189,000",
-          "note": "Weekly layoffs data. Claims have stayed very low, consistent with the strong October payrolls.",
-          "react": "A drop below 190,000 would add to hike conviction and lift yields. A jump above 210,000 would be the first crack in the labor story and would rally bonds and rate sensitive stocks."
+          "cons": "About 197,000 to 200,000",
+          "prior": "200,000",
+          "note": "Weekly layoffs data. Claims remain very low, consistent with a tight labor market.",
+          "react": "A drop toward 190,000 would add to hike conviction and lift yields. A jump above 215,000 would be an early crack in the labor story and would rally bonds and rate sensitive stocks."
+        },
+        {
+          "time": "8:30 AM",
+          "name": "Philadelphia Fed manufacturing survey (Nov)",
+          "imp": "med",
+          "cons": "19.2 to 23",
+          "prior": "20.9",
+          "note": "Factory conditions in the mid Atlantic region, including a prices paid gauge.",
+          "react": "A strong reading with rising prices paid would add to inflation worries and lift yields. A sharp drop would help bonds. Watch the prices components."
         },
         {
           "time": "10:00 AM",
-          "name": "Existing home sales (Oct)",
-          "imp": "low",
-          "cons": "Down about 3.0%",
-          "prior": "Not found",
-          "note": "Sales of previously owned homes, which are being squeezed by mortgage rates tracking a 10 year yield near 4.9%.",
-          "react": "A weaker than expected print would hit homebuilders and mortgage lenders but rarely moves the broad market."
-        },
-        {
-          "time": "2:00 PM",
-          "name": "Monthly budget statement (Oct)",
+          "name": "Leading economic index (Oct)",
           "imp": "low",
           "cons": "Not found",
           "prior": "Not found",
-          "note": "Treasury's monthly deficit figures for the start of the new fiscal year.",
-          "react": "A larger deficit can add to long end yield pressure through supply worries, but the reaction is usually small."
+          "note": "The Conference Board's composite of forward looking indicators.",
+          "react": "Rarely moves markets."
         },
         {
-          "time": "Times vary",
-          "name": "UK GDP (Q3 and Sep)",
-          "imp": "med",
+          "time": "11:00 AM",
+          "name": "Kansas City Fed manufacturing survey (Nov)",
+          "imp": "low",
           "cons": "Not found",
           "prior": "Not found",
-          "note": "Third quarter growth for the UK after the Bank of England's rate hike last week. Bank of England forecasts implied roughly flat September activity.",
-          "react": "A strong number would support more Bank of England tightening and lift the pound and gilt yields, which can spill into Treasuries. A weak one would ease global yield pressure."
+          "note": "Another regional factory read.",
+          "react": "Minor market impact."
         },
         {
           "time": "Times vary",
-          "name": "Fed speakers: Hammack, Goolsbee, Daly, Schmid, Williams",
+          "name": "Fed speaker: Vice Chair Jefferson",
           "imp": "med",
           "cons": "None",
           "prior": "None",
-          "note": "Cleveland Fed President Hammack, a voter, and New York Fed President Williams lead a full day of speeches, now with CPI in hand.",
-          "react": "Hawkish comments that lean toward a December hike would push the 2 year yield and the dollar higher and weigh on long duration tech. Any sign of patience, especially from Williams or other leadership voices, would trim the roughly 78% to 80% hike pricing and help growth stocks."
+          "note": "Vice Chair Jefferson speaks on economic shocks, a chance to hear leadership views after the minutes.",
+          "react": "Hawkish comments that lean toward a larger December move or more hikes in 2027 would lift the 2 year yield and the dollar and weigh on long duration tech. Signs of patience after the softer PPI would trim the roughly 10% odds of a half point hike and help growth stocks. A quarter point hike in December is already close to fully priced."
         }
       ],
       "am": [
         {
-          "t": "BN",
-          "n": "Brookfield Corporation",
-          "eps": "0.72"
+          "t": "WMT",
+          "n": "Walmart",
+          "eps": "0.64",
+          "star": true
         },
         {
-          "t": "SIEGY",
-          "n": "Siemens",
-          "eps": "1.69"
+          "t": "BABA",
+          "n": "Alibaba",
+          "eps": "1.64"
         },
         {
-          "t": "NBIS",
-          "n": "Nebius Group",
-          "eps": "(1.11)"
+          "t": "PDD",
+          "n": "PDD Holdings",
+          "eps": "2.69"
         },
         {
-          "t": "LUNR",
-          "n": "Intuitive Machines",
-          "eps": "(0.11)"
+          "t": "NTES",
+          "n": "NetEase",
+          "eps": "2.49"
         }
       ],
       "pm": [
         {
-          "t": "CSCO",
-          "n": "Cisco",
-          "eps": "1.29",
+          "t": "INTU",
+          "n": "Intuit",
+          "eps": "2.61",
           "star": true
         },
         {
-          "t": "AMAT",
-          "n": "Applied Materials",
-          "eps": "4.06",
-          "star": true
+          "t": "ROST",
+          "n": "Ross Stores",
+          "eps": "1.82"
         },
         {
-          "t": "NU",
-          "n": "Nu Holdings",
-          "eps": "0.22"
+          "t": "KEYS",
+          "n": "Keysight Technologies",
+          "eps": "3.32"
         },
         {
-          "t": "CBRS",
-          "n": "Cerebras Systems",
-          "eps": "(0.14)"
+          "t": "GAP",
+          "n": "Gap",
+          "eps": "0.73"
         }
       ]
     },
     {
-      "date": "Nov 13",
+      "date": "Nov 20",
       "key": "fri",
       "label": "Friday",
       "short": "Fri",
       "macro": [
         {
-          "time": "8:30 AM",
-          "name": "Producer Price Index (Oct)",
-          "imp": "high",
-          "cons": "Headline 0.4% m/m, 6.5% to 6.6% y/y. Core 0.3% m/m",
-          "prior": "Headline 1.3% m/m, 6.3% y/y. Core 0.7% m/m",
-          "note": "Wholesale prices jumped in September. PPI feeds into the Fed's preferred PCE inflation gauge, so the details matter for the December decision.",
-          "react": "Another hot reading, especially in services, would confirm pipeline inflation, lift yields and the dollar and add pressure on growth stocks into the weekend. A cooling toward the 0.4% forecast would support the idea that September was a spike, helping bonds and tech."
+          "time": "10:00 AM",
+          "name": "University of Michigan consumer sentiment, final (Nov)",
+          "imp": "med",
+          "cons": "51.0 to 53.3",
+          "prior": "51.0 preliminary",
+          "note": "Final November read on consumer mood, plus 1 year and 5 year inflation expectations.",
+          "react": "Rising inflation expectations would lift yields and support the hawkish case into the weekend. A drop in expectations would help bonds and tech. Sentiment itself is near historic lows and moves markets less than the inflation gauges."
         },
         {
-          "time": "Times vary",
-          "name": "Eurozone GDP second estimate (Q3)",
-          "imp": "low",
-          "cons": "Not found",
-          "prior": "Not found",
-          "note": "Revision to the euro area's third quarter growth figure along with employment data.",
-          "react": "Usually a minor market mover unless the revision is large."
-        },
-        {
-          "time": "Times vary",
-          "name": "Fed speakers: Collins, Bowman, Daly, Jefferson",
+          "time": "12:15 PM",
+          "name": "Fed speaker: Governor Cook",
           "imp": "med",
           "cons": "None",
           "prior": "None",
-          "note": "A final round of Fed commentary after both CPI and PPI, including Vice Chair Jefferson.",
-          "react": "Hawkish comments that lean toward a December hike would push the 2 year yield and the dollar higher and weigh on long duration tech. Any sign of patience, especially from Williams or other leadership voices, would trim the roughly 78% to 80% hike pricing and help growth stocks."
+          "note": "A final Fed voice for the week.",
+          "react": "Hawkish comments that lean toward a larger December move or more hikes in 2027 would lift the 2 year yield and the dollar and weigh on long duration tech. Signs of patience after the softer PPI would trim the roughly 10% odds of a half point hike and help growth stocks. A quarter point hike in December is already close to fully priced."
+        },
+        {
+          "time": "Times vary",
+          "name": "Global: Japan CPI (Oct), UK retail sales (Oct), Lagarde speech",
+          "imp": "low",
+          "cons": "Japan CPI 2.0%, UK retail sales 0.0%",
+          "prior": "UK retail sales minus 0.4%",
+          "note": "A cluster of global releases. Exact days were not confirmed by all previews.",
+          "react": "A firm Japan CPI could support Bank of Japan tightening and firm the yen. Impact on US indexes is usually small."
         }
       ],
-      "am": [],
+      "am": [
+        {
+          "t": "BJ",
+          "n": "BJ's Wholesale Club",
+          "eps": "1.22"
+        },
+        {
+          "t": "FRO",
+          "n": "Frontline",
+          "eps": "2.27"
+        }
+      ],
       "pm": []
     }
   ],
   "notes": [
-    "Earnings shows large market cap names and widely traded movers, not every report. EPS figures are consensus estimates from Robinhood data and can differ from other sources; spotlight ranges combine Robinhood with public previews. Names without a confirmed timing or estimate, such as Berkshire Hathaway and the Japanese megabanks, are left out. Nvidia reports the following week on Nov 17.",
-    "Consensus figures come from public week ahead previews and can change. Where sources differ, a range is shown. Fed speaker times differ across schedules, so they are listed as Times vary. Revenue figures are from public previews. Options implied moves are from public previews.",
+    "Earnings shows large market cap names and widely traded movers, not every report. EPS figures are consensus estimates from Robinhood data and can differ from other sources; spotlight ranges combine Robinhood with public previews. Names without a confirmed timing or estimate, such as XPeng and Futu, are left out.",
+    "Consensus figures come from public week ahead previews and can change. Where sources differ, a range is shown. Some global release days were not confirmed and are listed as Times vary. Revenue figures are from public previews.",
     "Reaction notes are scenario thinking, not predictions."
   ]
 }
