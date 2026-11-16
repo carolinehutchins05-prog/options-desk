@@ -8,7 +8,7 @@ title: Daily log
 # Every run, newest first
 
 <div class="runlist">
-<div class="runrow"><span class="d">Mon, Nov 16</span><a href="2026-11-16-premarket.html">Premarket Plan</a></div>
+<div class="runrow"><span class="d">Mon, Nov 16</span><a href="2026-11-16-premarket.html">Premarket Plan</a><a href="2026-11-16-verdict.html">Live Verdict</a></div>
 <div class="runrow"><span class="d">Fri, Nov 13</span><a href="2026-11-13-premarket.html">Premarket Plan</a><a href="2026-11-13-verdict.html">Live Verdict</a></div>
 <div class="runrow"><span class="d">Thu, Nov 12</span><a href="2026-11-12-premarket.html">Premarket Plan</a><a href="2026-11-12-verdict.html">Live Verdict</a></div>
 <div class="runrow"><span class="d">Wed, Nov 11</span><a href="2026-11-11-premarket.html">Premarket Plan</a><a href="2026-11-11-verdict.html">Live Verdict</a></div>
