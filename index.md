@@ -42,45 +42,57 @@ title: Options Desk
 <div class="stack"><span>Python</span><span>pandas</span><span>Black Scholes modeling</span><span>Live option chains</span><span>Jekyll</span><span>GitHub Pages</span></div>
 </section>
 
-<div class="latest-head"><span class="eyebrow">Latest daily run</span><span class="meta">Premarket Plan, 2026-11-17</span></div>
+<div class="latest-head"><span class="eyebrow">Latest daily run</span><span class="meta">Live Verdict, 2026-11-17</span></div>
 
 <div class="report" markdown="1">
 
-# Premarket Calls and Puts, November 17, 2026
-Late run, priced on live midday quotes (about 11:58 AM ET). Provisional.
+# Calls and Puts Verdict, November 17, 2026
+Live chain grading at 11:45 AM ET. Read only research, no trades placed.
 
-## Today's Catalysts
-- **NVDA** reports Q3 after the close tonight. Sector binary for every chip name.
-- New Commerce rule on remote access to advanced chips, plus SE Asia export limits (Nov 16).
-- **DIS** beat, EPS $1.77 vs $1.68, new 52 week high today.
-- **SPY** $730.26 vs its 200 day $732.16. No Core call today.
+## Market Gate
+- **SPY** $730.16, down 1.3%, below its 200 day ($732.16). **No call clears today.**
+- Puts graded as Tactical only. The backtest shows trend puts lose about 6% a trade on average, so keep them small and short.
 
-## TSM PUT: Best Available, Tactical
-- Why: remote access chip rule and SE Asia export limits, Nov 16.
-- Trend: $357.55, below a falling 50 day ($429), RSI 39.
-- Contract: Dec 18 $370 put, mark $28.13, delta 0.55, IV 52.2%
-- Liquidity: Spread 3.0%, open interest 7,246, volume today 635, volume to OI 0.09
-- Plan: Dec 18 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down. Wait for the NVDA reaction first.
-- Verdict: **tactical only**. Trend puts lost on average in our backtest, keep it small.
+## SPY PUT: Best Available, Tactical
+- Why: SPY broke its 200 day; NVDA reports tonight after its CEO exit
+- Trend: 4.4% below the 50 day ($763.82)
+- Contract: Dec 18 $730 put, mark $17.54, delta 0.47, IV 22.0%
+- Liquidity: Spread 0.7%, open interest 36,355, volume today 7,177, volume to OI 0.20
+- Plan: Dec 18 expiry, enter Wednesday only if SPY stays below $740, sell within about 3 to 5 trading days, or at +50%, stop at 50% down.
 
-<aside class="oc" aria-label="TSM contract detail"><div class="oc-title">TSM $370 put, Dec 18, 31 days left, stock $357.55</div><div class="oc-facts"><div><span>Cost to buy</span><b>$2,813</b></div><div><span>Most you can lose</span><b>$2,813</b></div><div><span>Each $1 the stock moves</span><b>about $55</b></div><div><span>Breakeven at expiry</span><b>$341.87 (down 4.4%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$339.67</td><td class="up">$1,071</td><td class="up">$959</td></tr><tr><th scope="row">down 3%</th><td>$346.82</td><td class="up">$602</td><td class="up">$478</td></tr><tr><th scope="row">down 1%</th><td>$353.97</td><td class="up">$169</td><td class="up">$37</td></tr><tr><th scope="row">up 1%</th><td>$361.13</td><td class="dn">($225)</td><td class="dn">($365)</td></tr><tr><th scope="row">up 3%</th><td>$368.28</td><td class="dn">($583)</td><td class="dn">($726)</td></tr><tr><th scope="row">up 5%</th><td>$375.43</td><td class="dn">($903)</td><td class="dn">($1,048)</td></tr><tr><th scope="row">up 10%</th><td>$393.31</td><td class="dn">($1,553)</td><td class="dn">($1,690)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $14.06 costs about ($1,407). Target at $42.19 makes about $1,406.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+<aside class="oc" aria-label="SPY contract detail"><div class="oc-title">SPY $730 put, Dec 18, 31 days left, stock $730.16</div><div class="oc-facts"><div><span>Cost to buy</span><b>$1,754</b></div><div><span>Most you can lose</span><b>$1,754</b></div><div><span>Each $1 the stock moves</span><b>about $47</b></div><div><span>Breakeven at expiry</span><b>$712.46 (down 2.4%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$693.65</td><td class="up">$2,235</td><td class="up">$2,168</td></tr><tr><th scope="row">down 3%</th><td>$708.26</td><td class="up">$1,199</td><td class="up">$1,106</td></tr><tr><th scope="row">down 1%</th><td>$722.86</td><td class="up">$336</td><td class="up">$227</td></tr><tr><th scope="row">up 1%</th><td>$737.46</td><td class="dn">($344)</td><td class="dn">($456)</td></tr><tr><th scope="row">up 3%</th><td>$752.06</td><td class="dn">($849)</td><td class="dn">($952)</td></tr><tr><th scope="row">up 5%</th><td>$766.67</td><td class="dn">($1,203)</td><td class="dn">($1,288)</td></tr><tr><th scope="row">up 10%</th><td>$803.18</td><td class="dn">($1,627)</td><td class="dn">($1,662)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $8.77 costs about ($877). Target at $26.31 makes about $877.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
-## Best Available
-- Calls: none passes. Closest is **CVX** Dec 18 $220 call, blocked by a 6.2% spread.
-- Puts: **TSM** above. **NOW** Dec 18 $95 put missed on spread (4.2%). **META** Dec 18 $640 put missed on volume (36 today).
+## QQQ PUT: Best Available, Tactical
+- Why: Nasdaq 9.0% below its 50 day into the NVDA print and new chip export limits
+- Trend: $652.28, falling 50 day $716.72, RSI 38
+- Contract: Dec 18 $650 put, mark $22.07, delta 0.45, IV 31.9%
+- Liquidity: Spread 0.7%, open interest 52,000, volume today 2,585, volume to OI 0.05
+- Plan: Dec 18 expiry, enter Wednesday only if QQQ stays below $662, sell within about 3 to 5 trading days, or at +50%, stop at 50% down.
+
+<aside class="oc" aria-label="QQQ contract detail"><div class="oc-title">QQQ $650 put, Dec 18, 31 days left, stock $652.28</div><div class="oc-facts"><div><span>Cost to buy</span><b>$2,207</b></div><div><span>Most you can lose</span><b>$2,207</b></div><div><span>Each $1 the stock moves</span><b>about $45</b></div><div><span>Breakeven at expiry</span><b>$627.93 (down 3.7%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$619.67</td><td class="up">$1,795</td><td class="up">$1,674</td></tr><tr><th scope="row">down 3%</th><td>$632.71</td><td class="up">$977</td><td class="up">$839</td></tr><tr><th scope="row">down 1%</th><td>$645.76</td><td class="up">$273</td><td class="up">$125</td></tr><tr><th scope="row">up 1%</th><td>$658.80</td><td class="dn">($317)</td><td class="dn">($467)</td></tr><tr><th scope="row">up 3%</th><td>$671.85</td><td class="dn">($798)</td><td class="dn">($942)</td></tr><tr><th scope="row">up 5%</th><td>$684.89</td><td class="dn">($1,181)</td><td class="dn">($1,311)</td></tr><tr><th scope="row">up 10%</th><td>$717.51</td><td class="dn">($1,785)</td><td class="dn">($1,871)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $11.04 costs about ($1,103). Target at $33.11 makes about $1,104.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+
+## Third put: none passes
+- Closest: **NOW** Dec 18 $95 put, break even 5.1% away (limit 5%). Also down 6.9% today, a chase
+
+## Calls: none passes
+- Gate: SPY below its 200 day. **AAPL** and **JNJ** pass trend but cannot clear
 
 ## Dropped for spread
-- CVX $220C 6.2%, AS $30C 25.5%, NOW $95P 4.2%
+- XLK $161P 6.0%, KRE $71P 10.6%
 
-## Rejected
-- **DIS** call: new 52 week high today.
-- **HUM** call: 52 week high Nov 16.
-- **AAPL** call: 52 week high Nov 13.
-- **XOM** call: below its 50 day.
-- **AMD** put: IV 79%.
-- **MU** put: IV 81%, size 1 quotes.
-- **NVDA**: reports tonight.
+## Rejected, and why
+- **IWM** Dec 18 $269P: volume today 50
+- **META** Dec 18 $615P: open interest 1,207, volume 14
+- **SMH** Dec 18 $455P: open interest 911
+- **AMZN**: sitting on a flat 50 day
+- **NVDA**: reports tonight, inside the holding window
+- **SKYD**, **CAT**: below the 50 day despite insider buys
 
-Chips are weak into tonight's NVDA print and SPY sits just under its 200 day. A strong NVDA beat would undo the put case overnight.
+### Corporate
+- **SKYD** Gerald Cardinale bought about $500K twice, Nov 11 and Nov 13
+- **BRKB** general counsel $250K Nov 12; **WY** director $307K Nov 11
+- Standing: **INTC** CEO $9.71M Nov 2, **KMI** Kinder $15M Nov 6, **ROK** CEO $1.55M
+
+SPY broke its 200 day, so the desk is puts only. Wait for the NVDA reaction Wednesday before any entry.
 
 </div>
