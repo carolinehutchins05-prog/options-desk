@@ -42,48 +42,45 @@ title: Options Desk
 <div class="stack"><span>Python</span><span>pandas</span><span>Black Scholes modeling</span><span>Live option chains</span><span>Jekyll</span><span>GitHub Pages</span></div>
 </section>
 
-<div class="latest-head"><span class="eyebrow">Latest daily run</span><span class="meta">Live Verdict, 2026-11-16</span></div>
+<div class="latest-head"><span class="eyebrow">Latest daily run</span><span class="meta">Premarket Plan, 2026-11-17</span></div>
 
 <div class="report" markdown="1">
 
-# Calls and Puts Verdict, November 16, 2026
-Live chain grading at 10:25 AM ET. Read only research, no trades placed.
+# Premarket Calls and Puts, November 17, 2026
+Late run, priced on live midday quotes (about 11:58 AM ET). Provisional.
 
-## Market
-- SPY $744.3, down 1.3%, still above its 200 day ($731.9), so calls are allowed
-- QQQ down 2.2%, SMH down 4.2%. Money is rotating into health care and staples
-- No Core contract cleared. The best Core length call, AMZN Jan 15 $260C, has a break even 6.0% away
+## Today's Catalysts
+- **NVDA** reports Q3 after the close tonight. Sector binary for every chip name.
+- New Commerce rule on remote access to advanced chips, plus SE Asia export limits (Nov 16).
+- **DIS** beat, EPS $1.77 vs $1.68, new 52 week high today.
+- **SPY** $730.26 vs its 200 day $732.16. No Core call today.
+
+## TSM PUT: Best Available, Tactical
+- Why: remote access chip rule and SE Asia export limits, Nov 16.
+- Trend: $357.55, below a falling 50 day ($429), RSI 39.
+- Contract: Dec 18 $370 put, mark $28.13, delta 0.55, IV 52.2%
+- Liquidity: Spread 3.0%, open interest 7,246, volume today 635, volume to OI 0.09
+- Plan: Dec 18 expiry, sell within about 3 to 5 trading days, or at +50%, stop at 50% down. Wait for the NVDA reaction first.
+- Verdict: **tactical only**. Trend puts lost on average in our backtest, keep it small.
+
+<aside class="oc" aria-label="TSM contract detail"><div class="oc-title">TSM $370 put, Dec 18, 31 days left, stock $357.55</div><div class="oc-facts"><div><span>Cost to buy</span><b>$2,813</b></div><div><span>Most you can lose</span><b>$2,813</b></div><div><span>Each $1 the stock moves</span><b>about $55</b></div><div><span>Breakeven at expiry</span><b>$341.87 (down 4.4%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$339.67</td><td class="up">$1,071</td><td class="up">$959</td></tr><tr><th scope="row">down 3%</th><td>$346.82</td><td class="up">$602</td><td class="up">$478</td></tr><tr><th scope="row">down 1%</th><td>$353.97</td><td class="up">$169</td><td class="up">$37</td></tr><tr><th scope="row">up 1%</th><td>$361.13</td><td class="dn">($225)</td><td class="dn">($365)</td></tr><tr><th scope="row">up 3%</th><td>$368.28</td><td class="dn">($583)</td><td class="dn">($726)</td></tr><tr><th scope="row">up 5%</th><td>$375.43</td><td class="dn">($903)</td><td class="dn">($1,048)</td></tr><tr><th scope="row">up 10%</th><td>$393.31</td><td class="dn">($1,553)</td><td class="dn">($1,690)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $14.06 costs about ($1,407). Target at $42.19 makes about $1,406.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
 ## Best Available
-## AMZN CALL: Best Available, Tactical
-- Why: holds above a rising 50 day through the tech selloff; Anthropic IPO expected this week, Amazon is a major holder
-- Trend: $259.42, down 2.7% today, 50 day $254.81 rising, RSI 57
-- Contract: Dec 18 $260 call, mark $11.08, delta 0.53, IV 35.3%
-- Liquidity: Spread 2.3%, open interest 19,827, volume today 1,008, volume to OI 0.05
-- Plan: Dec 18 expiry, enter Wednesday after Tuesday night's chip earnings report only if AMZN holds $255, sell within 3 to 5 trading days or at +50% ($16.62), stop at 50% down ($5.54). Cost $1,108
-
-<aside class="oc" aria-label="AMZN contract detail"><div class="oc-title">AMZN $260 call, Dec 18, 32 days left, stock $259.42</div><div class="oc-facts"><div><span>Cost to buy</span><b>$1,108</b></div><div><span>Most you can lose</span><b>$1,108</b></div><div><span>Each $1 the stock moves</span><b>about $53</b></div><div><span>Breakeven at expiry</span><b>$271.08 (up 4.5%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$246.45</td><td class="dn">($575)</td><td class="dn">($639)</td></tr><tr><th scope="row">down 3%</th><td>$251.64</td><td class="dn">($382)</td><td class="dn">($454)</td></tr><tr><th scope="row">down 1%</th><td>$256.83</td><td class="dn">($150)</td><td class="dn">($226)</td></tr><tr><th scope="row">up 1%</th><td>$262.01</td><td class="up">$123</td><td class="up">$45</td></tr><tr><th scope="row">up 3%</th><td>$267.20</td><td class="up">$434</td><td class="up">$358</td></tr><tr><th scope="row">up 5%</th><td>$272.39</td><td class="up">$782</td><td class="up">$709</td></tr><tr><th scope="row">up 10%</th><td>$285.36</td><td class="up">$1,785</td><td class="up">$1,729</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $5.54 costs about ($554). Target at $16.62 makes about $554.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
-
-## Puts
-- No single stock put passes the Tactical tier today
-- Closest: NOW Dec 18 $105 put, spread 2.2%, open interest 3,739, volume 193, blocked by delta 0.62 (limit 0.60)
-- Trend puts lose about 6% a trade on average in the backtest
-
-## Gapped Past Entry
-- FCX: down 5.2% to $56.15. The planned put now chases a 5% flush, dead for today
-
-## Rejected
-- CVX call: break even 5.0% away, ask size 2
-- XOM call: price fell below its 50 day
-- ORCL put: IV 74%
-- PLTR put: break even 6.6% away, volume 92
-- BA put: volume 32. NFLX put: volume 28
-- JNJ call: new 52 week high today
-- GE call: volume 4. ISRG call: volume 0
+- Calls: none passes. Closest is **CVX** Dec 18 $220 call, blocked by a 6.2% spread.
+- Puts: **TSM** above. **NOW** Dec 18 $95 put missed on spread (4.2%). **META** Dec 18 $640 put missed on volume (36 today).
 
 ## Dropped for spread
-- UNH $410C 4.2%, CVX Dec $220C 6.8%, ABBV $300C 5.1%, JNJ $290C 5.5%, V $430C 5.7%, ABT $110C 8.5%, SHOP $140P 11.7%, SNDK put 14%
+- CVX $220C 6.2%, AS $30C 25.5%, NOW $95P 4.2%
 
-The tape is a defensive rotation ahead of Tuesday night's chip earnings report. A strong report would put AMZN back in play.
+## Rejected
+- **DIS** call: new 52 week high today.
+- **HUM** call: 52 week high Nov 16.
+- **AAPL** call: 52 week high Nov 13.
+- **XOM** call: below its 50 day.
+- **AMD** put: IV 79%.
+- **MU** put: IV 81%, size 1 quotes.
+- **NVDA**: reports tonight.
+
+Chips are weak into tonight's NVDA print and SPY sits just under its 200 day. A strong NVDA beat would undo the put case overnight.
 
 </div>
