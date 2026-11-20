@@ -42,49 +42,56 @@ title: Options Desk
 <div class="stack"><span>Python</span><span>pandas</span><span>Black Scholes modeling</span><span>Live option chains</span><span>Jekyll</span><span>GitHub Pages</span></div>
 </section>
 
-<div class="latest-head"><span class="eyebrow">Latest daily run</span><span class="meta">Live Verdict, 2026-11-19</span></div>
+<div class="latest-head"><span class="eyebrow">Latest daily run</span><span class="meta">Live Verdict, 2026-11-20</span></div>
 
 <div class="report" markdown="1">
 
-# Calls and Puts Verdict, November 19, 2026
-Live chain grading at 10:38 AM ET. Read only research, no trades placed.
+# Calls and Puts Verdict, November 20, 2026
+Live chain grading at 3:34 PM ET, a late run. Read only research, no trades placed.
 
-## Market Gate
-- The S&P 500 is below its 200 day average ($727.68 vs $732.55). **No Core call clears today.**
-- The premarket AI gap on Anthropic IPO day fully reversed in the first hour.
-- Puts are Tactical only. The backtest shows trend puts lose on average, so keep them small and short.
+## Market
+- **SPY** 692.97, down 3.2%, 5.1% under its 200 day. No core call clears today.
+- **QQQ** down 5.1%, **XLK** down 6.8%. Chips led lower after NVDA earnings.
+
+## Best Available
 
 ## QQQ PUT: Best Available, Tactical
-- Why: QQQ opened up 2% on the Anthropic IPO and gave it all back by 10:30.
-- Trend: $659.20, 7.7% below a falling 50 day ($714.36), RSI 38.
-- Contract: Dec 18 $660 put, mark $22.27, delta 0.48, IV 30.5%
-- Liquidity: Spread 0.7%, open interest 38,151, volume today 7,589, volume to OI 0.20
-- Plan: Dec 18 expiry, enter only below $655, sell within about 3 to 5 trading days, or at +50%, stop at 50% down or QQQ above $673.
+- Why: chip led flush, QQQ 14.1% under a falling 50 day.
+- Contract: Dec 18 $610 put, mark $26.78, delta 0.47, IV 41.0%
+- Liquidity: Spread 0.9%, open interest 53,963, volume today 14,058, volume to OI 0.26
+- Plan: Dec 18 expiry, enter only on a failed bounce near 625, sell within about 3 to 5 trading days, or at +50%, stop at 50% down.
+- Verdict: **wait for the bounce**. Trend puts lose on average in the backtest, keep it small.
 
-<aside class="oc" aria-label="QQQ contract detail"><div class="oc-title">QQQ $660 put, Dec 18, 29 days left, stock $659.20</div><div class="oc-facts"><div><span>Cost to buy</span><b>$2,227</b></div><div><span>Most you can lose</span><b>$2,227</b></div><div><span>Each $1 the stock moves</span><b>about $48</b></div><div><span>Breakeven at expiry</span><b>$637.73 (down 3.3%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$626.24</td><td class="up">$1,910</td><td class="up">$1,796</td></tr><tr><th scope="row">down 3%</th><td>$639.42</td><td class="up">$1,041</td><td class="up">$905</td></tr><tr><th scope="row">down 1%</th><td>$652.61</td><td class="up">$292</td><td class="up">$143</td></tr><tr><th scope="row">up 1%</th><td>$665.79</td><td class="dn">($334)</td><td class="dn">($486)</td></tr><tr><th scope="row">up 3%</th><td>$678.98</td><td class="dn">($840)</td><td class="dn">($987)</td></tr><tr><th scope="row">up 5%</th><td>$692.16</td><td class="dn">($1,237)</td><td class="dn">($1,371)</td></tr><tr><th scope="row">up 10%</th><td>$725.12</td><td class="dn">($1,847)</td><td class="dn">($1,931)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $11.14 costs about ($1,113). Target at $33.41 makes about $1,114.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+<aside class="oc" aria-label="QQQ contract detail"><div class="oc-title">QQQ $610 put, Dec 18, 28 days left, stock $612.22</div><div class="oc-facts"><div><span>Cost to buy</span><b>$2,678</b></div><div><span>Most you can lose</span><b>$2,678</b></div><div><span>Each $1 the stock moves</span><b>about $47</b></div><div><span>Breakeven at expiry</span><b>$583.22 (down 4.7%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$581.61</td><td class="up">$1,608</td><td class="up">$1,431</td></tr><tr><th scope="row">down 3%</th><td>$593.85</td><td class="up">$881</td><td class="up">$688</td></tr><tr><th scope="row">down 1%</th><td>$606.10</td><td class="up">$240</td><td class="up">$38</td></tr><tr><th scope="row">up 1%</th><td>$618.34</td><td class="dn">($316)</td><td class="dn">($520)</td></tr><tr><th scope="row">up 3%</th><td>$630.59</td><td class="dn">($791)</td><td class="dn">($990)</td></tr><tr><th scope="row">up 5%</th><td>$642.83</td><td class="dn">($1,190)</td><td class="dn">($1,378)</td></tr><tr><th scope="row">up 10%</th><td>$673.44</td><td class="dn">($1,901)</td><td class="dn">($2,046)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $13.39 costs about ($1,339). Target at $40.17 makes about $1,339.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
-## IWM PUT: Best Available, Tactical
-- Why: small caps are the weakest index today, down 0.9% while QQQ is flat.
-- Trend: $267.57, 4.2% below a falling 50 day ($279.38), RSI 41.
-- Contract: Dec 18 $268 put, mark $7.47, delta 0.48, IV 25.4%
-- Liquidity: Spread 2.5%, open interest 28,358, volume today 173, volume to OI 0.01
-- Plan: Dec 18 expiry, enter below $267, sell within about 3 to 5 trading days, or at +50%, stop at 50% down or IWM close above $272.
+## MSFT PUT: Best Available, Tactical
+- Why: megacap software sold with AI capex names, no earnings until late January.
+- Trend: 484.88, 6.8% under its 50 day, RSI 39.
+- Contract: Dec 18 $485 put, mark $22.15, delta 0.48, IV 41.1%
+- Liquidity: Spread 2.3%, open interest 4,609, volume today 1,563, volume to OI 0.34
+- Plan: Dec 18 expiry, enter on a failed bounce under 498, sell within about 3 to 5 trading days, or at +50%, stop at 50% down.
 
-<aside class="oc" aria-label="IWM contract detail"><div class="oc-title">IWM $268 put, Dec 18, 29 days left, stock $267.57</div><div class="oc-facts"><div><span>Cost to buy</span><b>$747</b></div><div><span>Most you can lose</span><b>$747</b></div><div><span>Each $1 the stock moves</span><b>about $48</b></div><div><span>Breakeven at expiry</span><b>$260.53 (down 2.6%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$254.19</td><td class="up">$813</td><td class="up">$781</td></tr><tr><th scope="row">down 3%</th><td>$259.54</td><td class="up">$440</td><td class="up">$397</td></tr><tr><th scope="row">down 1%</th><td>$264.89</td><td class="up">$124</td><td class="up">$75</td></tr><tr><th scope="row">up 1%</th><td>$270.25</td><td class="dn">($132)</td><td class="dn">($182)</td></tr><tr><th scope="row">up 3%</th><td>$275.60</td><td class="dn">($330)</td><td class="dn">($377)</td></tr><tr><th scope="row">up 5%</th><td>$280.95</td><td class="dn">($475)</td><td class="dn">($516)</td></tr><tr><th scope="row">up 10%</th><td>$294.33</td><td class="dn">($669)</td><td class="dn">($689)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $3.73 costs about ($374). Target at $11.20 makes about $373.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+<aside class="oc" aria-label="MSFT contract detail"><div class="oc-title">MSFT $485 put, Dec 18, 28 days left, stock $484.88</div><div class="oc-facts"><div><span>Cost to buy</span><b>$2,215</b></div><div><span>Most you can lose</span><b>$2,215</b></div><div><span>Each $1 the stock moves</span><b>about $48</b></div><div><span>Breakeven at expiry</span><b>$462.85 (down 4.5%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$460.64</td><td class="up">$1,305</td><td class="up">$1,167</td></tr><tr><th scope="row">down 3%</th><td>$470.33</td><td class="up">$717</td><td class="up">$566</td></tr><tr><th scope="row">down 1%</th><td>$480.03</td><td class="up">$197</td><td class="up">$37</td></tr><tr><th scope="row">up 1%</th><td>$489.73</td><td class="dn">($257)</td><td class="dn">($419)</td></tr><tr><th scope="row">up 3%</th><td>$499.43</td><td class="dn">($645)</td><td class="dn">($805)</td></tr><tr><th scope="row">up 5%</th><td>$509.12</td><td class="dn">($973)</td><td class="dn">($1,125)</td></tr><tr><th scope="row">up 10%</th><td>$533.37</td><td class="dn">($1,560)</td><td class="dn">($1,679)</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $11.08 costs about ($1,107). Target at $33.23 makes about $1,108.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
 
-## Calls: nothing passes the Tactical tier
-- Closest: **XLV** Dec 18 $180 call failed spread at 14.5%.
-- **XLY** Dec 18 $120 call: spread 22.6%, volume 0.
+## AAPL CALL: Best Available, Tactical
+- Why: holding far better than chips, no earnings until late January.
+- Trend: 343.54, 0.6% above a rising 50 day, RSI 53, down 1.6% today.
+- Contract: Dec 18 $345 call, mark $10.58, delta 0.49, IV 29.9%
+- Liquidity: Spread 2.4%, open interest 8,671, volume today 3,286, volume to OI 0.38
+- Plan: Dec 18 expiry, enter only if it holds 341.60 and reclaims 345, sell within about 3 to 5 trading days, or at +50%, stop at 50% down.
 
-## Rejected, and why
-- **COHR**: CEO bought $997K, but price is below its 50 day ($223 vs $260).
-- **ROK**: CEO bought $1.55M, but price is below its 50 day ($388 vs $425).
-- **BA**: director cluster near $2M, but RSI 30 and below its 50 day.
-- **NFLX** Dec 18 $60 put: volume 89 today, needs 100.
-- Every morning leader (SMH, XLK, XLC) is below its 50 day. The AI rally was a counter trend bounce.
+<aside class="oc" aria-label="AAPL contract detail"><div class="oc-title">AAPL $345 call, Dec 18, 28 days left, stock $343.54</div><div class="oc-facts"><div><span>Cost to buy</span><b>$1,058</b></div><div><span>Most you can lose</span><b>$1,058</b></div><div><span>Each $1 the stock moves</span><b>about $49</b></div><div><span>Breakeven at expiry</span><b>$355.58 (up 3.5%)</b></div></div><table class="oc-table"><thead><tr><th>Stock moves</th><th>Stock price</th><th>In 1 day</th><th>In 5 days</th></tr></thead><tbody><tr><th scope="row">down 5%</th><td>$326.36</td><td class="dn">($676)</td><td class="dn">($742)</td></tr><tr><th scope="row">down 3%</th><td>$333.23</td><td class="dn">($466)</td><td class="dn">($544)</td></tr><tr><th scope="row">down 1%</th><td>$340.10</td><td class="dn">($187)</td><td class="dn">($274)</td></tr><tr><th scope="row">up 1%</th><td>$346.98</td><td class="up">$162</td><td class="up">$73</td></tr><tr><th scope="row">up 3%</th><td>$353.85</td><td class="up">$581</td><td class="up">$494</td></tr><tr><th scope="row">up 5%</th><td>$360.72</td><td class="up">$1,063</td><td class="up">$984</td></tr><tr><th scope="row">up 10%</th><td>$377.89</td><td class="up">$2,484</td><td class="up">$2,432</td></tr></tbody></table><p class="oc-plan"><b>Plan per contract</b> Stop at $5.29 costs about ($529). Target at $15.86 makes about $528.</p><p class="oc-foot">Profit or loss for one contract (100 shares), from an options pricing model that holds implied volatility flat and includes time decay. An estimate, not a prediction. Parentheses mean a loss.</p></aside>
+
+## Other calls
+- No second or third call passes. Closest was **V** Dec 18 $405 call, blocked by open interest 915.
+- **XOM** and **XLE** are below their 50 day.
+
+## Third put
+- **META** Dec 18 $560 put: breakeven 5.8% away, ask size 1.
+- **TSLA** Dec 18 $345 put: IV 61.6%.
 
 ## Dropped for spread
-- SMH $460P 6.8%, XLK $165P 16.0%, IGV $98P 12.1%, XLV $180C 14.5%, XLY $120C 22.6%
+- V $405C 10.6%, XLK $150P 5.0%
 
 
 </div>
