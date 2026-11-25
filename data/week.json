@@ -1,6 +1,6 @@
 {
   "week_label": "November 23 to 27, 2026",
-  "summary": "Stocks enter Thanksgiving week in a correction. The S&P 500 fell 3.7% Friday to 6,910 and lost 8.6% on the week, its worst since April 2025, while the Nasdaq fell 10% and the Dow lost 8%. Nvidia dropped 14% Friday after Reuters reported that regulators were examining its accounting, and chip stocks fell hard with it. Money moved into Treasuries, with the 10 year yield down to about 4.9% from 5.15% a week earlier, and the VIX closed near 36. Almost all of the US data lands Wednesday morning, led by October PCE, the last major inflation report before the December 8 to 9 Fed meeting. Dell on Tuesday night is the first big test of AI spending since the rout. US markets are closed Thursday, and on Friday stocks close at 1:00 PM ET and bonds at 2:00 PM ET.",
+  "summary": "Stocks swung hard this week. After an 8.6% drop last week, the S&P 500 jumped 4.7% Monday to 7,237, its second biggest point gain ever, as Nvidia rose about 31% on news about its leadership and the Nasdaq gained 6.5%. Tuesday was mixed. Consumer confidence jumped to 103.3, far above forecasts, and the Dow closed above 50,000 for the first time, but the S&P 500 slipped 0.5% and the Nasdaq fell 1.5% as tech cooled. Dell crushed estimates after the bell and raised its outlook, and most big reports this week beat, though Deere missed Wednesday morning. Wednesday's data ran hot. Core PCE rose 3.3% from a year ago versus 3.2% expected, third quarter growth was revised up to 4.3%, claims fell to 189,000 and core capital goods orders jumped 1.2%. That backs a December 9 hike. Still ahead today are new home sales, a 7 year auction and the Beige Book. US markets are closed Thursday, and Friday stocks close at 1:00 PM ET and bonds at 2:00 PM ET.",
   "stats": [
     {
       "label": "Fed funds target",
@@ -9,24 +9,24 @@
     },
     {
       "label": "December hike odds",
-      "value": "About 92%",
-      "sub": "Quarter point, CME FedWatch at Friday's close. 8% hold, 0% for a half point"
+      "value": "Near fully priced",
+      "sub": "Quarter point, per CNBC before Wednesday data. Exact FedWatch figure not confirmed"
     },
     {
       "label": "Q3 GDP, second estimate",
-      "value": "3.4 to 3.5%",
-      "sub": "Consensus for Wednesday. First estimate 3.4%"
+      "value": "4.3%",
+      "sub": "Reported Wednesday vs 3.5% to 3.6% consensus. First estimate 3.4%"
     },
     {
       "label": "October core PCE",
-      "value": "3.2% y/y",
-      "sub": "Consensus for Wednesday. September 3.1%"
+      "value": "3.3% y/y",
+      "sub": "Reported Wednesday vs 3.2% consensus. 0.3% m/m in line"
     }
   ],
   "headline": {
     "kicker": "Biggest day of the week",
-    "title": "Wednesday Nov 25: PCE inflation, GDP, durable goods, claims and the Beige Book",
-    "body": "Six US releases land between 8:30 AM and 2:00 PM ET on the last full session before Thanksgiving. Core PCE is expected at 0.3% for the month and 3.2% for the year, up from 3.1%. With stocks in a correction and December hike odds slipping to about 92%, the question is whether inflation is firm enough to keep the Fed hiking into a falling market. Expect thinner holiday trading, which can exaggerate moves."
+    "title": "Wednesday Nov 25: core PCE 3.3%, GDP revised to 4.3%, claims 189,000",
+    "body": "The morning data came in hotter than expected. Core PCE rose 0.3% for the month as forecast but 3.3% for the year versus 3.2%, GDP was revised up sharply, claims fell and core capital goods orders beat. Together they support a December hike. New home sales at 10:00 AM, the 7 year auction at 1:00 PM and the Beige Book at 2:00 PM are still ahead, in thin pre holiday trading."
   },
   "spotlight": [
     {
@@ -35,7 +35,7 @@
       "when": "Tue Nov 24, after the close, call 4:30 PM ET",
       "eps": "6.55 to 6.60",
       "rev": "About $49.2B",
-      "watch": "AI server demand, how much of the record $95B AI backlog turns into sales, and margins. Dell guided to about $49B and 6.50. Options were pricing a swing of about 12.7%."
+      "watch": "Reported 9.45 versus 6.55 expected on revenue of about $54.9B, up 103% from a year ago. The AI backlog hit a record $132B and Dell raised its full year revenue outlook to $202B. Shares fell 11.8% in the regular session, then rose about 2% to 5% after hours."
     },
     {
       "ticker": "ADI",
@@ -43,7 +43,7 @@
       "when": "Tue Nov 24, before the open, release 7:00 AM ET",
       "eps": "3.88 to 3.89",
       "rev": "About $4.32B",
-      "watch": "Whether industrial, auto and data center demand is still strengthening after the worst week for chip stocks in years. Revenue is expected to rise about 40% from a year ago."
+      "watch": "Reported 4.06 versus 3.89 expected. The question was whether industrial, auto and data center demand is still strengthening after the worst week for chip stocks in years."
     },
     {
       "ticker": "DE",
@@ -51,7 +51,7 @@
       "when": "Wed Nov 25, before the open, call 10:00 AM ET",
       "eps": "4.01 to 4.06",
       "rev": "About $10.3B to $10.4B",
-      "watch": "The fiscal 2027 outlook. Deere has said 2026 marks the bottom of the farm equipment cycle, so a cautious guide would be the main risk."
+      "watch": "Reported 3.89 versus 4.06 expected, a miss. The fiscal 2027 outlook is the main focus, since Deere has said 2026 marks the bottom of the farm equipment cycle."
     }
   ],
   "days": [
@@ -76,8 +76,8 @@
           "imp": "med",
           "cons": "Manufacturing 54.5, services 55.6",
           "prior": "Manufacturing 56.0 flash, services 56.1 final",
-          "note": "The first broad look at November business activity. October factory activity was the best since 2022, but prices also jumped. Watch the price components.",
-          "react": "Strong activity with hot prices would lift yields and the dollar and could add to the pressure on tech. A moderate slowdown with softer prices would be the friendliest mix for stocks and bonds. A sharp drop could stir growth worries in a market that is already nervous."
+          "note": "Services came in at 54.7 versus 55.6 expected and manufacturing at 54.5, matching consensus. The composite fell to 54.6 from 55.9, the slowest growth since July, and price pressures cooled with lower fuel costs.",
+          "react": "The softer services reading was overshadowed by the Nvidia driven rally. S&P Global said the surveys still point to fourth quarter growth of about 3%."
         },
         {
           "time": "1:00 PM",
@@ -107,37 +107,56 @@
           "react": "Firm readings would support the euro and pound and lift European yields, which can spill into Treasuries. Weak readings would add to global growth worries before the US open."
         }
       ],
-      "am": [],
+      "am": [
+        {
+          "t": "CRWD",
+          "n": "CrowdStrike",
+          "eps": "0.31",
+          "actual": "0.34"
+        },
+        {
+          "t": "ZS",
+          "n": "Zscaler",
+          "eps": "0.95",
+          "actual": "1.23"
+        }
+      ],
       "pm": [
         {
           "t": "HPE",
           "n": "Hewlett Packard Enterprise",
-          "eps": "1.27"
+          "eps": "1.27",
+          "actual": "1.43"
         },
         {
           "t": "A",
           "n": "Agilent Technologies",
-          "eps": "1.73"
+          "eps": "1.73",
+          "actual": "1.86"
         },
         {
           "t": "ZM",
           "n": "Zoom Communications",
-          "eps": "1.39"
+          "eps": "1.39",
+          "actual": "1.59"
         },
         {
           "t": "J",
           "n": "Jacobs Solutions",
-          "eps": "2.12"
+          "eps": "2.12",
+          "actual": "2.20"
         },
         {
           "t": "SMTC",
           "n": "Semtech",
-          "eps": "1.09"
+          "eps": "1.09",
+          "actual": "1.17"
         },
         {
           "t": "SYM",
           "n": "Symbotic",
-          "eps": "0.14"
+          "eps": "0.14",
+          "actual": "0.17"
         }
       ]
     },
@@ -171,8 +190,8 @@
           "imp": "med",
           "cons": "92.1 to 92.5",
           "prior": "91.7",
-          "note": "How households feel about jobs and income heading into the holidays. Part of the survey window may miss the worst of the stock drop.",
-          "react": "A solid reading would support retailers before Black Friday but keep the hike on track. A large miss would hit consumer discretionary names and lift bonds, since stock losses could be starting to dent spending. The jobs questions matter most."
+          "note": "Confidence jumped to 103.3, far above the 92.2 consensus and up 11.4 points from October. Part of the survey window may have missed the worst of the stock drop.",
+          "react": "Money rotated into value and consumer names. The Dow rose 0.85% to a first ever close above 50,000, while the Nasdaq fell 1.48% as tech gave back some of Monday's gain."
         },
         {
           "time": "10:00 AM",
@@ -207,57 +226,68 @@
           "t": "ADI",
           "n": "Analog Devices",
           "eps": "3.88",
-          "star": true
+          "star": true,
+          "actual": "4.06"
         },
         {
           "t": "MDT",
           "n": "Medtronic",
-          "eps": "1.33"
+          "eps": "1.33",
+          "actual": "1.34"
         },
         {
           "t": "BBY",
           "n": "Best Buy",
-          "eps": "1.49"
+          "eps": "1.49",
+          "actual": "1.62"
         },
         {
           "t": "DLTR",
           "n": "Dollar Tree",
-          "eps": "0.89"
+          "eps": "0.89",
+          "actual": "1.16"
         },
         {
           "t": "BURL",
           "n": "Burlington Stores",
-          "eps": "1.67"
+          "eps": "1.67",
+          "actual": "1.73"
         },
         {
           "t": "DKS",
           "n": "Dick's Sporting Goods",
-          "eps": "1.38"
+          "eps": "1.38",
+          "actual": "1.94"
         },
         {
           "t": "ANF",
           "n": "Abercrombie and Fitch",
-          "eps": "3.11"
+          "eps": "3.10",
+          "actual": "3.42"
         },
         {
           "t": "KSS",
           "n": "Kohl's",
-          "eps": "(0.01)"
+          "eps": "(0.01)",
+          "actual": "1.76"
         },
         {
           "t": "SJM",
           "n": "J.M. Smucker",
-          "eps": "2.57"
+          "eps": "2.57",
+          "actual": "3.20"
         },
         {
           "t": "DY",
           "n": "Dycom Industries",
-          "eps": "4.49"
+          "eps": "4.52",
+          "actual": "5.23"
         },
         {
           "t": "BILI",
           "n": "Bilibili",
-          "eps": "0.22"
+          "eps": "0.22",
+          "actual": "0.28"
         }
       ],
       "pm": [
@@ -265,42 +295,50 @@
           "t": "DELL",
           "n": "Dell Technologies",
           "eps": "6.55",
-          "star": true
+          "star": true,
+          "actual": "9.45"
         },
         {
           "t": "ADSK",
           "n": "Autodesk",
-          "eps": "2.91"
+          "eps": "2.91",
+          "actual": "3.20"
         },
         {
           "t": "WDAY",
           "n": "Workday",
-          "eps": "2.45"
+          "eps": "2.45",
+          "actual": "2.82"
         },
         {
           "t": "HPQ",
           "n": "HP Inc",
-          "eps": "0.74"
+          "eps": "0.74",
+          "actual": "0.83"
         },
         {
           "t": "NTNX",
           "n": "Nutanix",
-          "eps": "0.54"
+          "eps": "0.54",
+          "actual": "0.73"
         },
         {
           "t": "AMBA",
           "n": "Ambarella",
-          "eps": "0.22"
+          "eps": "0.22",
+          "actual": "0.28"
         },
         {
           "t": "URBN",
           "n": "Urban Outfitters",
-          "eps": "1.53"
+          "eps": "1.53",
+          "actual": "1.54"
         },
         {
           "t": "CLSK",
           "n": "CleanSpark",
-          "eps": "(0.37)"
+          "eps": "(0.37)",
+          "actual": "(0.51)"
         }
       ]
     },
@@ -314,19 +352,19 @@
           "time": "8:30 AM",
           "name": "PCE inflation, personal income and spending (Oct)",
           "imp": "high",
-          "cons": "Core PCE 0.3% m/m, 3.2% y/y. Headline 0.3% m/m, 3.8% y/y. Income 0.4%, spending 0.4%",
-          "prior": "Core 0.3% m/m, 3.1% y/y. Headline 0.5% m/m, 3.6% y/y. Income 0.2%, spending 0.5%",
-          "note": "The Fed's preferred inflation gauge. Forecasts come from CPI and PPI, so most of the number is already known. The Cleveland Fed nowcast matches consensus.",
-          "react": "A core reading of 0.4% would push hike odds back toward 100%, revive talk of a half point and lift the 2 year yield and the dollar, with tech and small caps most exposed. A 0.2% would lower yields and help growth stocks, homebuilders and gold. An in line number is already priced and would likely shift attention back to the selloff itself."
+          "cons": "Core PCE 0.3% m/m, 3.2% y/y. Headline 0.3% m/m, 3.8% y/y",
+          "prior": "Core 0.3% m/m, 3.1% y/y. Headline 0.5% m/m, 3.6% y/y",
+          "note": "Core PCE rose 0.3% for the month as expected but 3.3% for the year versus 3.2% expected, the fastest pace since late 2023. Headline matched at 3.8%. Income and spending figures were not confirmed in time for this update.",
+          "react": "A firmer yearly core number supports a December hike that was already close to fully priced. Stock futures were lower before the data on renewed tech worries. The reaction after the release was not confirmed in time for this update."
         },
         {
           "time": "8:30 AM",
           "name": "GDP second estimate and corporate profits (Q3)",
           "imp": "med",
-          "cons": "3.4% to 3.5%",
+          "cons": "3.5% to 3.6%",
           "prior": "3.4% first estimate",
-          "note": "An update of third quarter growth plus the first look at profits. Second quarter growth was 2.2%. Watch consumer spending and the price measures.",
-          "react": "An upward revision with firm prices would support more hikes and lift yields. A downgrade to consumer spending would help bonds but worry cyclical stocks. Usually secondary to PCE at the same time."
+          "note": "Third quarter growth was revised up to 4.3% from 3.4%, well above the 3.5% to 3.6% consensus, on stronger investment, consumer and government spending.",
+          "react": "A much stronger economy plus firm core inflation backs the case for more hikes. Reaction not confirmed in time for this update."
         },
         {
           "time": "8:30 AM",
@@ -334,8 +372,8 @@
           "imp": "med",
           "cons": "200,000 to 201,000",
           "prior": "203,000",
-          "note": "Moved up a day for Thanksgiving. Continuing claims rose to 1.763 million, the highest since late August.",
-          "react": "Claims near 200,000 would confirm a tight job market and keep the hike on track. A jump above 215,000 or another rise in continuing claims would rally bonds and lower hike odds. Holiday weeks can be noisy."
+          "note": "Claims fell to 189,000 versus about 200,000 expected, a sign the job market is still tight.",
+          "react": "Low claims keep the December hike on track. Reaction not confirmed in time for this update."
         },
         {
           "time": "8:30 AM",
@@ -343,8 +381,8 @@
           "imp": "med",
           "cons": "0.4% to 0.5%, ex transportation 0.5%",
           "prior": "1.8%, ex transportation 0.5%",
-          "note": "Orders for long lasting goods. Core capital goods orders are a window into business and AI equipment spending.",
-          "react": "Strong core orders would calm fears that AI spending is cracking and help industrials and chip equipment. A weak reading would add to the AI worry and weigh on both. Aircraft orders can distort the headline."
+          "note": "Orders rose 0.2% versus 0.4% to 0.5% expected, but core capital goods orders jumped 1.2% versus 0.7% expected and are up 11.2% from a year ago, pointing to strong business and AI equipment spending.",
+          "react": "Strong core orders push back on fears that AI spending is cracking, which could help industrials and chip equipment names. Reaction not confirmed in time for this update."
         },
         {
           "time": "10:00 AM",
@@ -387,12 +425,14 @@
         {
           "t": "DE",
           "n": "Deere",
-          "eps": "4.06"
+          "eps": "4.06",
+          "actual": "3.89"
         },
         {
           "t": "LI",
           "n": "Li Auto",
-          "eps": "(0.08)"
+          "eps": "(0.08)",
+          "actual": "(0.02)"
         }
       ],
       "pm": []
@@ -473,7 +513,7 @@
     }
   ],
   "notes": [
-    "Earnings shows large market cap names and widely traded movers, not every report. EPS figures are consensus estimates from Robinhood data and can differ from other sources, since some providers use adjusted and others use reported figures. The gap is wide for Zoom, Autodesk, Workday, Bilibili and Li Auto. Spotlight ranges combine Robinhood with public previews.",
+    "Earnings shows large market cap names and widely traded movers, not every report. EPS figures are consensus estimates from Robinhood data and can differ from other sources, since some providers use adjusted and others use reported figures. The gap is wide for Zoom, Autodesk, Workday, Bilibili and Li Auto. Spotlight ranges combine Robinhood with public previews. Reported figures are from Robinhood data.",
     "Consensus figures come from public week ahead previews and can change. Where sources differ, a range is shown. Figures not confirmed are marked Not found. Reports scheduled for the following week, such as Marvell on December 1, are left out.",
     "Reaction notes are scenario thinking, not predictions."
   ]
