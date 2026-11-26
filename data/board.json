@@ -1,9 +1,9 @@
 {
- "as_of": "Tue Nov 24, 5:11 PM ET",
+ "as_of": "Thu Nov 26, 3:40 PM ET",
  "snapshot_date": "2026-11-24",
  "spy": {
-  "spy": 718.78,
-  "sma200": 730.62,
+  "spy": 716.7,
+  "sma200": 730.77,
   "above": false
  },
  "contracts_scanned": 1005,
